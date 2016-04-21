@@ -440,8 +440,8 @@ Default,標準
 "User Defined","ユーザー定義"
 Ordered,注文済
 Invoiced,請求済
-Shipped,荷送り人
-Refunded,返金
+Shipped,配送済
+Refunded,返金済
 Canceled,キャンセル済
 "As low as",同じかそれ以下
 "Regular Price","通常価格"
@@ -462,7 +462,7 @@ Subtotal,小計
 "Discount Amount",割引価格
 "Row Total",小計
 "Qty Invoiced",請求済個数
-"Qty Shipped",配送数
+"Qty Shipped",配送済数
 "Add Products to New Option","新しいオプションに商品追加"
 "Add Products to Option ""%1""","オプション ""%1""に商品追加"
 "Add Selected Products","選択した商品を追加"
@@ -751,9 +751,9 @@ Year,年
 "Delete Attribute",属性の削除
 "Edit Product Attribute ""%1""","製品属性 ""%1""　を編集"
 "New Product Attribute",新規商品属性
-"Advanced Attribute Properties","アドバンス属性プロパティ"
+"Advanced Attribute Properties","拡張属性プロパティ"
 "Attribute Code",属性コード
-"This is used internally. Make sure you don't use spaces or more than %1 symbols.","これは内部用です。スペースまたは%1シンボル以上を使わないようにしてください。"
+"This is used internally. Make sure you don't use spaces or more than %1 symbols.","これは内部用です。スペースまたは%1文字以上を使わないようにしてください。"
 "Default Value",標準の値
 "Unique Value",一意な値
 "Unique Value (not shared with other products)","一意な値 (他の商品と共有しない)"
@@ -813,9 +813,9 @@ Empty,空
 "Save & Close","保存 & 終了"
 Attributes,属性
 Change,変更
-"Advanced Inventory","Advanced インベントリ"
+"Advanced Inventory","拡張在庫設定"
 "Products Information",商品情報
-"Category Name","カテゴリー名"
+"Category Name","カテゴリ名"
 "Parent Category",親カテゴリ
 "If there are no custom parent categories, please use the default parent category. ' 'You can reassign the category at any time in ' '<a href=""%1"" target=""_blank"">Products > Categories</a>.","カスタム親カテゴリがない場合、デフォルトの親カテゴリを使用してください。 ' 'カテゴリを再度アサインすることは以下でいつでも可能です ' '<a href=""%1"" target=""_blank"">商品 > カテゴリ</a>."
 "We saved the price alert subscription.","価格通知登録を保存しました。"
@@ -876,7 +876,7 @@ PM,PM
 "Something went wrong while trying to delete the category.","カテゴリを削除しようとする間に問題が発生しました。"
 "Manage Catalog Categories",カタログカテゴリ管理
 "Manage Categories",カテゴリ管理
-"Category is not available for requested store.","要求されたストアにてカテゴリーは有効ではありません。"
+"Category is not available for requested store.","要求されたストアにてカテゴリは有効ではありません。"
 "There was a category move error.","カテゴリ移動エラーが発生しました。"
 "There was a category move error. %1","カテゴリ移動エラーが発生しました。 %1"
 "You moved the category","カテゴリを移動しました。"
@@ -930,8 +930,8 @@ List,リスト
 "Make sure the To Date is later than or the same as the From Date.","終了時期は開始時期より後か同じであることを確認してください"
 "Sorry, but we can\'t move the category because we can\'t find the new parent category you' ' selected.","申し訳ありません。選択された新しい親カテゴリが見つからないためカテゴリを移動することができません。"
 "Sorry, but we can't move the category because we can't find the new category you selected.","申し訳ありません。選択された新しいカテゴリが見つからないためカテゴリを移動することができません。"
-"We can\'t perform this category move operation because the parent category matches the child' 'category.","親カテゴリーが子カテゴリーにマッチするのでこのカテゴリ移動作業を実行できません。"
-"Can't delete root category.","ルートカテゴリーは削除できません。"
+"We can\'t perform this category move operation because the parent category matches the child' 'category.","親カテゴリが子カテゴリにマッチするのでこのカテゴリ移動作業を実行できません。"
+"Can't delete root category.","ルートカテゴリは削除できません。"
 "The value of attribute ""%1"" must be unique.","属性の値 ""%1"" は特殊でなければなりません。"
 "Default Product Listing Sort by does not exist in Available Product Listing Sort By.",標準の商品リスト表示順は利用できる候補に存在していません。
 "No layout updates",更新するレイアウトがありません
@@ -940,10 +940,10 @@ List,リスト
 "Static block and products",静的ブロックと商品
 "Please select a static block.","静的ブロックを選択してください。"
 frontend_label,frontend_label
-"Could not save product ""%1"" with position %2 to category %3","商品 ""%1"" を %2の位置で %3のカテゴリーに保存出来ませんでした。"
-"Category does not contain specified product","カテゴリーは指定された商品を含みません"
+"Could not save product ""%1"" with position %2 to category %3","商品 ""%1"" を %2の位置で %3のカテゴリに保存出来ませんでした。"
+"Category does not contain specified product","カテゴリは指定された商品を含みません"
 "Could not save product ""%1"" with position %position to category %2","Could not save product ""%1"" with position %position to category %2"
-"Operation do not allow to move a parent category to any of children category","オペレーションは親カテゴリーをどの子カテゴリーに移動させることを許可しません"
+"Operation do not allow to move a parent category to any of children category","オペレーションは親カテゴリをどの子カテゴリに移動させることを許可しません"
 "Could not move category","カテゴリを移動できませんでした"
 "Could not save category: %1","カテゴリは保存できませんでした: %1"
 "Cannot delete category with id %1","id %1 のカテゴリは削除できません"
@@ -967,13 +967,13 @@ Top/Right,上/右
 Bottom/Left,下部/左
 Bottom/Right,下部/右
 Center,中央
-"%1 doesn't extends \Magento\Framework\Model\AbstractModel","%1 は \Magento\Framework\Model\AbstractModel　拡張しません"
+"%1 doesn't extends \Magento\Framework\Model\AbstractModel","%1 は \Magento\Framework\Model\AbstractModel　を継承していません"
 "Unknown EAV indexer type ""%1"".","不明な EAV インデクサータイプ ""%1""."
 "Bad value was supplied.","不正な値です。"
 "The Flat Catalog module has a limit of %2$d filterable and/or sortable attributes.' 'Currently there are %1$d of them.' 'Please reduce the number of filterable/sortable attributes in order to use this module","フラットカタログモジュールは　%2$d フィルター可能　と/あるいは　ソート可能属性の限界があります。' '現在 %1$d あります。' 'このモジュールを使うためにフィルター可能　と/あるいは　ソート可能の属性の数を減らして下さい。"
 "Unsupported product type ""%1"".","サポートされていない商品タイプ ""%1""."
-"Please correct the category.","カテゴリーを修正してください。"
-"Must be category model instance or its id.","カテゴリーモデルインスタンスかそのidでなければなりません。"
+"Please correct the category.","カテゴリを修正してください。"
+"Must be category model instance or its id.","カテゴリモデルインスタンスかそのidでなければなりません。"
 "The attribute model is not defined.","属性モデルが定義されていません。"
 Category,カテゴリ
 "%1 - %2","%1 - %2"
@@ -998,7 +998,7 @@ Category,カテゴリ
 "Invalid option id %1","不正なオプション id %1"
 "Can not create attribute set based on non product attribute set.","商品属性セットでないものに基づく属性セットは作成できません。"
 "Can not create attribute set based on not existing attribute set","存在しない商品属性セットに基づく属性セットは作成できません。"
-"Provided Attribute set non product Attribute set.","Provided Attribute set non product Attribute set."
+"Provided Attribute set non product Attribute set.","与えられた商品属性セットは正しくありません。"
 "Use config",設定を使用する
 "Attribute set already exists.","属性セットは既に存在します。"
 "Requested product does not support images.","要求された商品は画像をサポートしてません。"
@@ -1077,7 +1077,7 @@ fl,fl
 123,123
 "Are you sure you want to delete this category?",このカテゴリを削除してもよろしいですか？
 "ID: %1","ID: %1"
-"Set root category for this store in the <a href=""%1"">configuration</a>.","<a href=""%1"">コンフィグ</a>にてこのストアのルートカテゴリーを設定してください。"
+"Set root category for this store in the <a href=""%1"">configuration</a>.","<a href=""%1"">コンフィグ</a>にてこのストアのルートカテゴリを設定してください。"
 "This operation can take a long time","このオペレーションは時間がかかります"
 "Please confirm site switching. All data that hasn't been saved will be lost.",サイトの切替を確認してください。保存されていないデータは失われます。
 "Manage Titles (Size, Color, etc.)","タイトル管理(サイズ,色, etc.)"
@@ -1185,8 +1185,8 @@ Ok,Ok
 "Select type of option.","オプションのタイプを選択してください。"
 "Please add rows to option.",オプションに行を加えてください。
 "Select Product","商品選択"
-"Choose existing category.","既存のカテゴリーを選択してください。"
-"Create Category","カテゴリー作成"
+"Choose existing category.","既存のカテゴリを選択してください。"
+"Create Category","カテゴリ作成"
 "unselect all",全て未選択にする
 "Search Engine Optimization","検索エンジンオプティマイゼーション"
 "Product Fields Auto-Generation","商品フィールド自動生成"
@@ -1232,7 +1232,7 @@ Comma-separated.,コンマ区切り
 Watermark,透かし
 "Watermark Position",透かし位置
 "Use Static URLs for Media Content in WYSIWYG for Catalog",WYSIWYGエディタカタログのメディアコンテンツで静的URLを使用する
-"This applies only to catalog products and categories. Media content will be inserted into the editor as a static URL. Media content is not updated if the system configuration base URL changes.","これはカタログ商品とカテゴリーにのみ適用されます。 メディアコンテンツは静的コンテンツとしてエディタに挿入されます。 もしシステムコンフィギュレーションベースURLが変わるとメディアコンテンツはアップデートされません。"
+"This applies only to catalog products and categories. Media content will be inserted into the editor as a static URL. Media content is not updated if the system configuration base URL changes.","これはカタログ商品とカテゴリにのみ適用されます。 メディアコンテンツは静的コンテンツとしてエディタに挿入されます。 もしシステムコンフィギュレーションベースURLが変わるとメディアコンテンツはアップデートされません。"
 "Top Level Category",カテゴリの最上位
 "Product Flat Data",商品フラットデータ
 "Reorganize EAV product structure to flat structure",EAV商品ストラクチャをフラットストラクチャに変換したインデックス
@@ -1240,7 +1240,7 @@ Watermark,透かし
 "Reorganize EAV category structure to flat structure",EAVカテゴリストラクチャをフラットストラクチャに変換したインデックス
 "Indexed category/products association",カテゴリ/商品の関連インデックス
 "Product Categories",商品カテゴリ
-"Indexed product/categories association","インデックスされた商品/カテゴリー提携"
+"Indexed product/categories association","インデックスされた商品/カテゴリ提携"
 "Product Price","商品価格"
 "Index product prices",商品価格インデックス
 "Product EAV","商品 EAV"
@@ -1422,7 +1422,7 @@ Fax,FAX番号
 "Order Review",ご注文の確認
 "Forgot an Item?",上記の注文でよろしいですか？
 "Edit Your Cart",カートの中身を編集
-"Your credit card will be charged for",クレジットカードでお支払いいただく金額
+"Your credit card will be charged for",クレジットカードでお支払いただく金額
 "Select a shipping address from your address book or enter a new address.",配送先をアドレスブックから選択するか、新しい住所を入力してください。
 "Use Billing Address",請求先の住所を使う
 "Sorry, no quotes are available for this order at this time.",申し訳ありません、現在この注文でお見積もりはご利用できません。
@@ -1432,8 +1432,8 @@ Fax,FAX番号
 "Thank you for your purchase!",ご購入ありがとうございました！
 "Please specify a shipping method.",配送方法を指定してください。
 "You can create an account or check out as a guest.","アカウントを作成するかゲスト購入が可能です。"
-"We can't complete your order because you don't have a payment method available.","支払い方法が有効でないので注文を完了できません。"
-"Please choose a payment method.","支払い方法を選択してください。"
+"We can't complete your order because you don't have a payment method available.","支払方法が有効でないので注文を完了できません。"
+"Please choose a payment method.","支払方法を選択してください。"
 "We can't ship to this address. Please enter another address or edit this one.","この住所に送付できません。別の住所を入力するか編集してください。"
 "New address","新規住所"
 "Checkout Options",購入オプション
@@ -1885,11 +1885,11 @@ ui/grid/filters/elements/select,ui/grid/filters/elements/select
 "Note: Experiment code should be added to the original page only.","注意: 試験用コードはオリジナルページのみに追加してください"
 "Category View Optimization",カテゴリ表示最適化
 "Enable Content Experiments",コンテント試験有効化
-"Edit URL Rewrite for a Category","カテゴリー用のURLリライト編集"
+"Edit URL Rewrite for a Category","カテゴリ用のURLリライト編集"
 "Add URL Rewrite for a Category",カテゴリのURL書換を追加
 Category:,カテゴリ:
 "We can't set up a URL rewrite because the product you chose is not associated with a website.","選ばれた商品はウェブサイトと関連していないのでURLリライトを設定できません。"
-"We can't set up a URL rewrite because the category you chose is not associated with a website.","選ばれたカテゴリーはウェブサイトと関連していないのでURLリライトを設定できません。"
+"We can't set up a URL rewrite because the category you chose is not associated with a website.","選ばれたカテゴリはウェブサイトと関連していないのでURLリライトを設定できません。"
 "Edit URL Rewrite for a Product","商品用のURLリライト編集"
 "Add URL Rewrite for a Product",商品のURL書換を追加
 Product:,商品:
@@ -1913,8 +1913,8 @@ Product:,商品:
 "The URL Rewrite has been deleted.",URL書換を削除しました。
 "We can't delete URL Rewrite right now.","URLリライトを現在削除できません。"
 "URL Rewrites","URLリライト"
-"Chosen product does not associated with the chosen store or category.","選択された商品は選択されたストアあるいはカテゴリーと関連していません。"
-"Chosen category does not associated with the chosen store.","選択されたカテゴリーは選択されたストアと関連していません。"
+"Chosen product does not associated with the chosen store or category.","選択された商品は選択されたストアあるいはカテゴリと関連していません。"
+"Chosen category does not associated with the chosen store.","選択されたカテゴリは選択されたストアと関連していません。"
 "The URL Rewrite has been saved.",URL書換を保存しました。
 "An error occurred while saving URL Rewrite.",URL書換の保存中にエラーが発生しました。
 "Do not use two or more consecutive slashes in the request path.","リクエストパス内で２つ以上連続でスラッシュを使用しないでください。"
@@ -2547,7 +2547,7 @@ Synchronize,同期
 "Custom attribute, no mapping",カスタム属性、マッピング不可
 "Attribute set mapping",属性セットマッピング
 "Target Country",対象国
-"Google Product Category",Google製品カテゴリー
+"Google Product Category",Google製品カテゴリ
 "Attributes Mapping",属性マッピング
 "Unable to select a Store View",ストアビューを選べませんでした
 "Captcha has been confirmed.",Captchaを確認しました。
@@ -2568,7 +2568,7 @@ Synchronize,同期
 "New Google Content Attribute Mapping",新規Googleコンテンツ属性マッピング
 "We can't create Attribute Set Mapping.",属性セットマッピングを作れません
 "The attribute mapping has been saved.",属性マッピングが保存されました
-"For information on Google's required attributes for different product categories, please see this link: %s","Googleの異なる商品カテゴリーのための必須属性についての情報は、こちらのリンクを御覧ください: %s"
+"For information on Google's required attributes for different product categories, please see this link: %s","Googleの異なる商品カテゴリのための必須属性についての情報は、こちらのリンクを御覧ください: %s"
 "See '\1'","御覧ください '\1'"
 "for product '%1' (in '%2' store)","の製品のために '%1' (ストア内では'%2')"
 "Please correct the attribute ""%1"" type for Google Shopping. The product with this attribute hasn't been updated in Google Content.","Google Shoppingのために属性""%1""を修正してください。この属性の商品はGoogleコンテンツではアップデートされていません"
@@ -2649,7 +2649,7 @@ Color,色
 "Manufacturer's Part Number (MPN)",製造者パート番号(MPN)
 "Online Only",オンライン用
 GTIN,GTIN
-"Product Type (Category)",商品タイプ(カテゴリー)
+"Product Type (Category)",商品タイプ(カテゴリ)
 "Product Review Average",商品レビュー平均
 "Product Review Count",商品レビューカウント
 "Shipping Weight",送付重量
@@ -2890,7 +2890,7 @@ Constant,不変
 "My Account",マイアカウント
 Error,エラー
 Order,注文
-"Customer View",顧客照会
+"Customer View",フロントエンドを表示
 "Log Out",ログアウト
 "Log In",ログイン
 "You subscribe to our newsletter.",ニュースレターを購読中です
@@ -3253,9 +3253,9 @@ Addresses,住所
 "Please check billing address information.",ご請求先住所を確認してください。
 "Please select shipping methods for all addresses.",すべての住所のための配送方法を選択してください
 "Payment method is not defined",支払方法が定義されていません
-"The requested Payment Method is not available for multishipping.",リクエストされた支払い方法はマルチショッピングでは可能ではありません
+"The requested Payment Method is not available for multishipping.",リクエストされた支払方法はマルチショッピングでは可能ではありません
 "Item not found or already ordered",商品が見つからないか、ご注文済みです
-"Please specify a payment method.",支払い方法を指定してください
+"Please specify a payment method.",支払方法を指定してください
 "Please check shipping addresses information.",お届先住所を確認してください。
 "Please specify shipping methods for all addresses.",すべての配送先に配送方法を指定してください。
 "Select Addresses",住所選択
@@ -3540,8 +3540,8 @@ Rollback,ロールバック
 "Cannot assign customer to the given cart. Customer already has active cart.",与えられたカートに顧客をアサインできません。顧客は既にアクティブなカートを持っています
 "This item price or quantity is not valid for checkout.",商品の価格か数量がチェックアウトには有効ではありません
 "Please check the shipping address information. %1","発送住所情報を確認してください %1"
-"Please check the billing address information. %1","支払い住所情報を確認してください %1"
-"Please select a valid payment method.",正しい支払い方法を選択してください。
+"Please check the billing address information. %1","支払住所情報を確認してください %1"
+"Please select a valid payment method.",正しい支払方法を選択してください。
 "Store Credit",店舗クレジット
 "Cart contains virtual product(s) only. Shipping address is not applicable.",カートには仮想商品しかありません。発送住所は適用できません。
 "Shipping address not set.",送付アドレスがセットされていません
@@ -3616,22 +3616,22 @@ error345,エラー345
 "Default ""What's This"" Text Message","標準の ""これは何ですか"" メッセージ"
 "What is this?",これは何ですか？
 "--Please Select--",--選択してください--
-"We cannot retrieve the payment method model object.",支払い方法モデルオブジェクトを引き出すことができません
-"We cannot retrieve the payment info model object.",支払い情報モデルオブジェクトを引き出すことができません
+"We cannot retrieve the payment method model object.",支払方法モデルオブジェクトを引き出すことができません
+"We cannot retrieve the payment info model object.",支払情報モデルオブジェクトを引き出すことができません
 "Credit Card Type",クレジットカード会社
 "Credit Card Number",クレジットカード番号
 "Switch/Solo/Maestro Issue Number",Switch/Solo/Maestro発行番号
 "Switch/Solo/Maestro Start Date",Switch/Solo/Maestro開始日
-"We cannot retrieve the transparent payment method model object.",不可視支払い方法モデルオブジェクトを引き出すことができません
+"We cannot retrieve the transparent payment method model object.",不可視支払方法モデルオブジェクトを引き出すことができません
 "Command %1 does not exist.","コマンド %1 は存在しません"
 "Validator for field %1 does not exist.",フィールド%1のバリデーターは存在しません
 "All Allowed Countries",全ての許可された国
 "Specific Countries",選択された国のみ
-"The payment method you requested is not available.",リクエストされた支払い方法は有効ではありません
-"The payment disallows storing objects.",支払いは保存オブジェクトを許可しません
-"We cannot retrieve the payment method code.",支払い方法コードを引き出すことことができませんでした
-"We cannot retrieve the payment information object instance.",支払い情報オブジェクトインスタンスは引き出せません
-"You can't use the payment type you selected to make payments to the billing country.",選ばれた支払い方法は請求される国では支払い可能ではありません
+"The payment method you requested is not available.",リクエストされた支払方法は有効ではありません
+"The payment disallows storing objects.",支払は保存オブジェクトを許可しません
+"We cannot retrieve the payment method code.",支払方法コードを引き出すことことができませんでした
+"We cannot retrieve the payment information object instance.",支払情報オブジェクトインスタンスは引き出せません
+"You can't use the payment type you selected to make payments to the billing country.",選ばれた支払方法は請求される国では支払可能ではありません
 "The order action is not available.",注文アクションは無効です
 "The authorize action is not available.",権限アクションは無効です
 "The capture action is not available.",キャプチャアクションは無効です
@@ -3650,17 +3650,17 @@ error345,エラー345
 "Issue Number",取引番号
 "Start Date",開始日
 "%1 is not available. You still can process offline actions.","%1 は有効ではありません。オフラインのアクションは進められます "
-"You'll be asked for your payment details before placing an order.",注文を入れる前に支払いの詳細を尋ねられます
+"You'll be asked for your payment details before placing an order.",注文を入れる前に支払の詳細を尋ねられます
 "Card Verification Number Visual Reference",カード確認番号の参考画像
 "Credit Card Information",クレジットカード番号
 "Payment Methods",支払方法
-"<label class=""label""><span>Make Check payable to:</span></label> %1","<label class=""label""><span>チェックを支払い可能に:</span></label> %1"
+"<label class=""label""><span>Make Check payable to:</span></label> %1","<label class=""label""><span>チェックを支払可能に:</span></label> %1"
 "Send Check to:",小切手の宛先を指定:
 "Purchase Order Number",配送番号
-"Make Check payable to: %1","チェックを支払い可能に: %1"
+"Make Check payable to: %1","チェックを支払可能に: %1"
 "Purchase Order Number: %1","購入注文番号: %1"
 "Make Check payable to:",小切手支払を可能にする:
-"Make Check payable to",チェックを支払い可能に
+"Make Check payable to",チェックを支払可能に
 "Send Check to",小切手の宛先
 "New Order Status",新規注文ステータス
 "Check / Money Order","小切手 / 現金支払"
@@ -3672,7 +3672,7 @@ error345,エラー345
 "Purchase Order",配送
 "Bank Transfer Payment",銀行振込
 Instructions,説明
-"Cash On Delivery Payment",代引き支払い
+"Cash On Delivery Payment",代引き支払
 "Zero Subtotal Checkout",ゼロ合計チェックアウト
 "Automatically Invoice All Items",自動ですべての商品を請求する。
 Pending,処理待ち
@@ -3929,9 +3929,9 @@ Hold,保留
 hold,保留
 Unhold,保留解除
 unhold,保留解除
-"Are you sure you want to accept this payment?",この支払い方法でよろしいですか？
+"Are you sure you want to accept this payment?",この支払方法でよろしいですか？
 "Accept Payment",支払受付
-"Are you sure you want to deny this payment?",この支払いを拒否してよろしいですか？
+"Are you sure you want to deny this payment?",この支払を拒否してよろしいですか？
 "Deny Payment",決済拒否
 "Get Payment Update",決済情報の更新を取得する
 "Invoice and Ship",請求と配送
@@ -3973,7 +3973,7 @@ Value,値
 "About Your Refund",あなたのご返金について
 "My Orders",ご注文
 "Subscribe to Order Status",注文状態を購読
-"About Your Invoice",あなたのお支払いについて
+"About Your Invoice",あなたのお支払について
 "Print Order # %1","注文印刷 # %1"
 "Grand Total to be Charged",お支払合計
 Unassign,未割り当て
@@ -4041,10 +4041,10 @@ Unassign,未割り当て
 "No order(s) were released from on hold status.",保留状態からリリースされた注文はありません
 "%1 order(s) have been released from on hold status.","%1 注文が保留状態からリリースされました"
 "There are no printable documents related to selected orders.",印刷可能な文書は選択した注文に関連付けられていません。
-"The payment has been accepted.",支払いを受け付けました。
-"The payment has been denied.",支払いが拒否されました。
-"The payment update has been made.",支払いアップデートが行われました
-"We couldn't update the payment.",支払いアップデートできませんでした
+"The payment has been accepted.",支払を受け付けました。
+"The payment has been denied.",支払が拒否されました。
+"The payment update has been made.",支払アップデートが行われました
+"We couldn't update the payment.",支払アップデートできませんでした
 "You have assigned the order status.",注文ステータスをアサインしました
 "An error occurred while assigning order status. Status has not been assigned.",注文ステータスの割当中にエラーが発生しました。ステータスは割り当てられていません。
 "We can't find this order status.",この注文ステータスがみつかりません
@@ -4059,8 +4059,8 @@ Unassign,未割り当て
 "Exception occurred during order load",注文読込中にエクセプションが発生しました
 "Something went wrong while saving the gift message.",ギフトメッセージ保存中に問題が発生しました
 "The gift message has been saved.",ギフトメッセージを保存しました。
-"The payment has been voided.",支払いを取消しました。
-"We couldn't void the payment.",支払いを無効化できませんでした
+"The payment has been voided.",支払を取消しました。
+"We couldn't void the payment.",支払を無効化できませんでした
 "Please correct the transaction ID and try again.",トランザクションIDを修正して再度試して下さい
 "The transaction details have been updated.",トランザクション詳細を更新しました。
 "You entered incorrect data. Please try again.",無効なデータが入力されました。再度お試しください
@@ -4071,8 +4071,8 @@ Unassign,未割り当て
 "Billing Address: ",配送先住所:
 "You need to specify order items.",注文する商品を指定してください。
 "You need to specify a shipping method.",発送方法を指定しなければなりません
-"A payment method must be specified.",支払い方法が指定しなければなりません
-"This payment method is not available.",この支払い方法は有効ではありません
+"A payment method must be specified.",支払方法が指定しなければなりません
+"This payment method is not available.",この支払方法は有効ではありません
 "Validation is failed.",認証に失敗しました
 "You did not email your customer. Please check your email settings.",顧客にメールしませんでした。メールの設定を確認してください
 "VAT Request Identifier",VATリクエスト識別番号
@@ -4091,7 +4091,7 @@ Backordered,バックオーダー中
 Returned,返品済
 Partial,一部
 Mixed,混じった
-"An amount of %1 will be captured after being approved at the payment gateway.",支払いゲートウェイにて認証された後に%1の数量がキャプチャーされます
+"An amount of %1 will be captured after being approved at the payment gateway.",決済ゲートウェイにて認証された後に%1の数量がキャプチャーされます
 "Captured amount of %1 online","オンラインにてキャプチャーされた %1 の数量"
 "The transaction ""%1"" cannot be captured yet.","トランザクション ""%1"" はまだキャプチャーできません"
 "Registered notification about captured amount of %1.",登録済みお知らせでキャプチャーの数量%1
@@ -4107,13 +4107,13 @@ Mixed,混じった
 "Canceled order offline",オフラインで注文をキャンセル
 "Approved the payment online.",オンラインで受け付けられました。
 "There is no need to approve this payment.",この決済方法はオーソリの必要がありません。
-"Denied the payment online",オンライン支払いを拒否
+"Denied the payment online",オンライン支払を拒否
 "Registered update about approved payment.",承認済みの支払情報に対する更新登録
 "Registered update about denied payment.",拒否済みの支払情報に対する更新登録
 "There is no update for the payment.",この決済方法の更新情報はありません。
-"The order amount of %1 is pending approval on the payment gateway.",支払いゲートウェイにて注文額%1は承認保留です
+"The order amount of %1 is pending approval on the payment gateway.",決済ゲートウェイにて注文額%1は承認保留です
 "Ordered amount of %1","注文額 %1"
-"We will authorize %1 after the payment is approved at the payment gateway.",支払いゲートウェイにて支払いが承認された後に%1を認可します
+"We will authorize %1 after the payment is approved at the payment gateway.",決済ゲートウェイにて支払が承認された後に%1を認可します
 "Order is suspended as its authorizing amount %1 is suspected to be fraudulent.",認可した額%1が詐欺行為の疑いがあるので注文を一時停止します
 "Authorized amount of %1","認可した額 %1"
 "Voided authorization.",オーソリ情報を無効にしました
@@ -4123,10 +4123,10 @@ Mixed,混じった
 "Payment transactions disallow storing objects.",支払トランザクションは許可されていません。
 "The transaction ""%1"" (%2) is already closed.","トランザクション ""%1"" (%2) はすでのクローズしています"
 "Set order for existing transactions not allowed",既に存在するトランザクションを使用して注文することは許可されていません。
-"At minimum, you need to set a payment ID.",最低限として支払いIDを設定する必要があります
+"At minimum, you need to set a payment ID.",最低限として支払IDを設定する必要があります
 Authorization,認証
 "We found an unsupported transaction type ""%1"".","サポート外のトランザクションタイプ ""%1""を見つけました"
-"Please set a proper payment object.",正しい支払いオブジェクトを設定してください
+"Please set a proper payment object.",正しい支払オブジェクトを設定してください
 "The Transaction ID field cannot be empty.","トランザクション ID フィールドは空白にはできません"
 "You can't do this without a transaction object.",トランザクションオブジェクトなしにこの操作は行えません
 "ID required","ID 必須"
@@ -4193,7 +4193,7 @@ Notified,通知済
 "Order Comments",注文コメント
 "Apply Coupon Code",クーポンコードを適用する
 "Remove Coupon Code",クーポンコードの削除
-"Payment &amp; Shipping Information","支払い &amp; 送付情報"
+"Payment &amp; Shipping Information","支払 &amp; 送付情報"
 "Order Currency:",注文通貨:
 "Same As Billing Address",請求先と同じ
 "Select from existing customer addresses:",登録済の顧客と住所から選択:
@@ -4216,7 +4216,7 @@ Subtotal:,小計:
 "No items",商品なし
 "Append Comments",コメントを追加
 "Email Order Confirmation",注文受付メールを送信する
-"Payment &amp; Shipping Method","支払い &amp; 発送方法"
+"Payment &amp; Shipping Method","支払 &amp; 発送方法"
 "The order was placed using %1.","注文は"" %1　を使用しておこなわれた"""
 "Items to Refund",払戻商品
 "Return to Stock",在庫へ戻す
@@ -4244,7 +4244,7 @@ Amount,金額
 "Capture Online",オンライン計上
 "Capture Offline",オフライン計上
 "Not Capture",取込無し
-"The invoice will be created offline without the payment gateway.",請求書は支払いゲートウェイなしでオフラインで作成されます
+"The invoice will be created offline without the payment gateway.",請求書は決済ゲートウェイなしでオフラインで作成されます
 "Email Copy of Invoice",領収済メールを送信する
 "Items Invoiced",請求済個数
 "Total Tax",合計税
@@ -4905,7 +4905,7 @@ Rebuild,再構築
 "Manage Stores",店舗管理
 "The database was backed up.",データベースはバックアップされました。
 "We couldn't create a backup right now. Please try again later.",バックアップが作成できませんでした。しばらくしてから再度試してください。
-"Deleting a %1 will not delete the information associated with the %1 (e.g. categories, products, etc.), but the %1 will not be able to be restored. It is suggested that you create a database backup before deleting the %1.","%1 を削除しても %1 (カテゴリー、商品等)に付随する情報は消去できません、しかし %1 は復元することができません。データベースのバックアップを %1 の削除前に作成することをお勧めします。"
+"Deleting a %1 will not delete the information associated with the %1 (e.g. categories, products, etc.), but the %1 will not be able to be restored. It is suggested that you create a database backup before deleting the %1.","%1 を削除しても %1 (カテゴリ、商品等)に付随する情報は消去できません、しかし %1 は復元することができません。データベースのバックアップを %1 の削除前に作成することをお勧めします。"
 "Unable to proceed. Please, try again.",続行できません、やり直してください。
 "This store cannot be deleted.",店舗を削除する事はできません。
 "The store has been deleted.",店舗を削除しました。
@@ -5767,16 +5767,16 @@ capture,取込
 refund,返金
 void,無効
 "Gateway error: %1","ゲートウェイエラー: %1"
-"Something went wrong in the payment gateway.","支払いゲートウェイで問題が発生しました。"
+"Something went wrong in the payment gateway.","決済ゲートウェイで問題が発生しました。"
 "Invalid amount for capture.","取込のための無効な額"
-"Payment capturing error.","支払い取込エラー"
+"Payment capturing error.","支払取込エラー"
 "Invalid transaction ID.","無効なトランザクション ID."
-"Payment voiding error.","支払い無効エラー"
+"Payment voiding error.","支払無効エラー"
 "Invalid amount for refund.","返金のための無効な額"
-"Payment refunding error.","支払い返金エラー"
+"Payment refunding error.","支払返金エラー"
 "The transaction was declined because the response hash validation failed.","レスポンスハッシュ認証が失敗したためトランザクションは拒否されました。"
-"This payment didn't work out because we can't find this order.","この注文が見つからなかったので支払いは実行されませんでした。"
-"There was a payment authorization error.","支払い認証エラーが起きました。"
+"This payment didn't work out because we can't find this order.","この注文が見つからなかったので支払は実行されませんでした。"
+"There was a payment authorization error.","支払認証エラーが起きました。"
 "Please enter a transaction ID to authorize this payment.","この支払を承認するためにトランザクションIDを入力してください。"
 "Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","問題が発生しました: 支払われた額は注文額にマッチしません。修正後に再度修正してください。"
 "Transaction %1 has been approved. Amount %2. Transaction status is ""%3""","トランザクション %1 承認されました。 額%2。 トランザクションステータスは ""%3"""
@@ -5856,16 +5856,16 @@ FTP,FTP
 "There was error during saving card data","カードデータ保存の間にエラーが発生しました。"
 "We can't initialize checkout.","チェックアウトを初期化できません。"
 "We can't place the order.","注文を行えません。"
-"Incorrect payment method.","無効な支払い方法。"
+"Incorrect payment method.","無効な支払方法。"
 "We can't initialize checkout review.","チェックアウトレビューを初期化できません。"
 "We can't update shipping method.","発送方法をアップデートできません。"
-"The processor declined your transaction, please re-enter your payment information","プロセッサーがトランザクションを却下しましたので、支払い情報を再度入力してください。"
+"The processor declined your transaction, please re-enter your payment information","プロセッサーがトランザクションを却下しましたので、支払情報を再度入力してください。"
 "Transaction declined by gateway: Check card details or try another card","ゲートウェイによってトランザクションが却下されました: カード詳細をチェックするか別のカードをお試しください"
 "Transaction declined: ","トランザクション却下: "
 "The processor responded with an unknown error","プロセッサーは不明なエラーを返しました"
 "Credit card type is not allowed for your country.","クレジットカードタイプはあなたの国では許可されていません"
-"Selected payment type is not allowed for billing country.","選ばれた支払いタイプは支払いを行う国にて許可されていません。"
-"Incomplete payment information.","未完の支払い情報"
+"Selected payment type is not allowed for billing country.","選ばれた支払タイプは支払を行う国にて許可されていません。"
+"Incomplete payment information.","未完の支払情報"
 "Please try again later","後で再度お試し下さい"
 "Can not find original authorization transaction for partial capture","一部取り置きの元の権限トランザクションが見つかりません"
 "There was an error capturing the transaction: %1.","トランザクションを確保するエラーが起きました: %1."
@@ -5952,7 +5952,7 @@ Relevance,関係性
 "Images and Videos","画像と動画"
 "Click here or drag and drop to add images.","ここをクリックするかドラッグ&ドロップで画像を追加してください。"
 "Does this have a weight?","重量がありますか?"
-"Something went wrong while saving the category.","カテゴリーの保存中に問題が発生しました。"
+"Something went wrong while saving the category.","カテゴリの保存中に問題が発生しました。"
 "We can't delete the attribute.","属性を削除できません。"
 "You deleted the product attribute.","商品属性を削除しました。"
 "An attribute set named '%1' already exists.","'%1'という名の属性セットは既に存在します。"
@@ -5967,7 +5967,7 @@ Relevance,関係性
 "Something went wrong  clearing the comparison list.","比較リストクリア中に問題が発生しました。"
 "Sorry, but we can't find the new parent category you selected.","申し訳ありません、しかし選択された新しい親カテゴリが見つかりませんでした。"
 "Sorry, but we can't find the new category you selected.","申し訳ありません、しかし選択された新しいカテゴリが見つかりませんでした。"
-"We can't move the category because the parent category name matches the child category name.","親カテゴリー名が子カテゴリーにマッチするためカテゴリーを移動できません。"
+"We can't move the category because the parent category name matches the child category name.","親カテゴリ名が子カテゴリにマッチするためカテゴリを移動できません。"
 "Could not save product ""%product"" with position %position to category %category","カテゴリ%categoryへのポジション%positionの商品""%product""は保存できませんでした"
 "The Flat Catalog module has a limit of %2$d filterable and/or sortable attributes.Currently there are %1$d of them.Please reduce the number of filterable/sortable attributes in order to use this module","フラットカタログモジュールは限界値%2$dのフィルター可能と/またはソート可能属性を持っています。 現在は %1$d あります。このモジュールを使うためにフィルター可能と/またはソート可能属性の数を減らして下さい。"
 "The filter must be an object. Please set the correct filter.","フィルターはオブジェクトでなければなりません。正しいフィルターをセットしてください。"
@@ -6318,15 +6318,15 @@ Partners,パートナーズ
 "Representing Magento's highest level of partner engagement, Magento Platinum Partners have established themselves as leaders and innovators of key products and services designed to help merchants and brands grow their business. Magento reserves the Platinum level for select trusted partners that are committed to offering integrations of commerce features, functions, and tools, as well as back-end systems and operations, to extend and enhance the power of the Magento commerce platform.","Magentoの最高位パートナー関与として、Magentoプラチナパートナーは小売業やブランドの事業が成長するように鍵となる製品とサービスを設計する先駆者であり革新者として名を馳せてきました。MagentoはプラチナレベルをMagentoコマースプラットホームを改善し拡張するためにコマースフィーチャー、機能、ツールまたバックエンドのシステムとオペレーションを統合することにコミットすることに信頼あるパートナーのために確保しています。"
 "Featured Platinum Partners","フィーチャーされたプラチナパートナー"
 "Partner search","パートナー検索"
-"Magento has a thriving ecosystem of technology partners to help merchants and brands deliver the best possible customer experiences. They are recognized as experts in eCommerce, search, email marketing, payments, tax, fraud, optimization and analytics, fulfillment, and more. Visit the Magento Partner Directory to see all of our trusted partners.","Magentoは小売業やブランドがベストな顧客体験を得られるようにするために急成長エコシステムの技術パートナーを持っています。彼らはeコマース、検索、eメールマーケティング、支払い、詐欺行為、適正化、分析、履行その他のエキスパートとして認知されています。 Magentoパートナーディレクトリーにて我々の信頼あるパートナーの一覧を御覧ください。"
+"Magento has a thriving ecosystem of technology partners to help merchants and brands deliver the best possible customer experiences. They are recognized as experts in eCommerce, search, email marketing, payments, tax, fraud, optimization and analytics, fulfillment, and more. Visit the Magento Partner Directory to see all of our trusted partners.","Magentoは小売業やブランドがベストな顧客体験を得られるようにするために急成長エコシステムの技術パートナーを持っています。彼らはeコマース、検索、eメールマーケティング、支払、詐欺行為、適正化、分析、履行その他のエキスパートとして認知されています。 Magentoパートナーディレクトリーにて我々の信頼あるパートナーの一覧を御覧ください。"
 "More Partners","更なるパートナー"
 "Extensions and Themes are an essential component of the Magento Ecosystem. Please visit the Magento Marketplace to see the latest innovations that developers have created to enhance your Magento Store.","拡張機能とテーマはMagentoエコシステムの基幹部分です。 Magentoマーケットプレイスにて開発者があなたのMagentoストアを向上するために作成した最新の技術の革新を御覧ください。"
 "Visit Magento Marketplaces","Magentoマーケットプレイスを見る"
 "Read More","もっと読む"
 "Partner Page","パートナーページ"
 "No partners were found","パートナーが見つかりません"
-"A payment method is not defined.","支払い方法が定義されていません。"
-"The requested payment method is not available for multishipping.","要求された支払い方法はマルチシッピングに対応していません。"
+"A payment method is not defined.","支払方法が定義されていません。"
+"The requested payment method is not available for multishipping.","要求された支払方法はマルチシッピングに対応していません。"
 "A shipping selection is not applicable.","発送方法は適用されません。"
 "Go to Shipping Information","送付情報に行く"
 "Go to Review Your Order","注文の確認に行く"
@@ -6349,15 +6349,15 @@ Partners,パートナーズ
 "Wrong gateway response format.","誤ったゲートウェイレスポンスフォーマット"
 "The void action is not available.","空のアクションはできません。"
 "The credit card number doesn't match the credit card type.","クレジットカード番号はクレジットカードタイプとマッチしません。"
-"This credit card type is not allowed for this payment method.","このクレジットカード・タイプはこの支払い方法では許可されていません。"
+"This credit card type is not allowed for this payment method.","このクレジットカード・タイプはこの支払方法では許可されていません。"
 "Please enter a valid credit card expiration date.","正しいクレジットカードの有効期限を入力してください。"
 " is not available. You still can process offline actions."," はできません。オフラインでの作業は処理することができます。"
 "We'll ask for your payment details before you place an order.","注文を確定する前に支払詳細について確認を行います。"
-"Billing Agreements","支払い契約"
+"Billing Agreements","支払契約"
 "Reference ID","参照ID"
-"Billing Agreement #%1","支払い契約 #%1"
+"Billing Agreement #%1","支払契約 #%1"
 "Related Orders","関連する注文"
-"Billing Agreement View","支払い契約一覧"
+"Billing Agreement View","支払契約一覧"
 "View Transaction Details","トランザクション詳細見る。"
 "Reference Information","リファレンス情報"
 "Transaction Information","トランザクション情報"
@@ -6373,20 +6373,20 @@ Help,ヘルプ
 "You will be redirected to the PayPal website.","PayPalウェブサイトに移動します。"
 "You will be redirected to the PayPal website when you place an order.","注文を行なった時PayPalウェブサイトに移動します。"
 "Would you like to sign a billing agreement to streamline further purchases with PayPal?","PayPalでの購入"
-"Please specify the correct billing agreement ID and try again.","正しい支払い契約IDを指定して再度お試しください。"
-"You canceled the billing agreement.","支払い契約をキャンセルしました。"
-"We can't cancel the billing agreement.","支払い契約をキャンセルできません。"
-"You deleted the billing agreement.","支払い契約は削除しました。"
-"We can't delete the billing agreement.","支払い契約は削除できませんでした。"
+"Please specify the correct billing agreement ID and try again.","正しい支払契約IDを指定して再度お試しください。"
+"You canceled the billing agreement.","支払契約をキャンセルしました。"
+"We can't cancel the billing agreement.","支払契約をキャンセルできません。"
+"You deleted the billing agreement.","支払契約は削除しました。"
+"We can't delete the billing agreement.","支払契約は削除できませんでした。"
 "View Transaction","トランザクション一覧"
 "We found nothing to fetch because of an empty configuration.","空の設定のためフェッチするものが見つかりませんでした。"
 "We fetched %1 report rows from ""%2@%3."""," ""%2@%3."" の%1レポート列をフェッチしました。"
 "We can't fetch reports from ""%1@%2."""," ""%1@%2."" のレポート列をフェッチしました。"
-"The billing agreement ""%1"" has been canceled.",","支払い契約 ""%1"" はキャンセルされました。"
-"The billing agreement ""%1"" has been created.","支払い契約 ""%1"" が作成されました。"
-"We couldn't finish the billing agreement wizard.","支払い契約ウィザードが完了できませんでした。"
-"We can't start the billing agreement wizard.","支払い契約ウィザードをスタートできませんでした。"
-"Billing Agreement # %1","支払い契約 # %1"
+"The billing agreement ""%1"" has been canceled.",","支払契約 ""%1"" はキャンセルされました。"
+"The billing agreement ""%1"" has been created.","支払契約 ""%1"" が作成されました。"
+"We couldn't finish the billing agreement wizard.","支払契約ウィザードが完了できませんでした。"
+"We can't start the billing agreement wizard.","支払契約ウィザードをスタートできませんでした。"
+"Billing Agreement # %1","支払契約 # %1"
 "We can't initialize Express Checkout.","エクスプレスチェックアウトを初期化できません。"
 "PayPal Express Checkout Token does not exist.","PayPalエクスプレスチェックアウトトークンは存在しません。"
 "A wrong PayPal Express Checkout Token is specified.","誤ったPayPalエクスプレスチェックアウトトークンが指摘されました。"
@@ -6397,26 +6397,26 @@ Help,ヘルプ
 "We can't initialize Express Checkout review.","エクスプレスチェックアウトリビューは初期化できません。"
 "To check out, please sign in with your email address.",チェックアウトするのは、Eメールアドレスでサインインしてください。"
 "We can't start Express Checkout.","エクスプレスチェックアウトをスタートできません。"
-"Your payment has been declined. Please try again.","支払いが拒否されました。再度お試しください。"
+"Your payment has been declined. Please try again.","支払が拒否されました。再度お試しください。"
 "We can't contact the PayPal gateway.","PayPalゲートウェイにコンタクトできません。"
 "PayPal response hasn't required fields.","PayPalレスポンスはフィールドが必須ではありません。"
 "Something went wrong while processing your order.","注文を処理中に問題が発生しました。"
 "PayPal gateway has rejected request. %1","PayPalゲートウェイが要求を拒否しました %1"
 "The PayPal gateway rejected the request. %1","PayPalゲートウェイが要求を拒否しました。 %1"
-"I'm sorry - but we were not able to process your payment. Please try another payment method or contact us so we can assist you.","申し訳ありません - しかし支払いを処理することができませんでした。別の支払方法を試すかサポート致しますので我々にご連絡ください。"
+"I'm sorry - but we were not able to process your payment. Please try another payment method or contact us so we can assist you.","申し訳ありません - しかし支払を処理することができませんでした。別の支払方法を試すかサポート致しますので我々にご連絡ください。"
 "I'm sorry - but we are not able to complete your transaction. Please contact us so we can assist you.","申し訳ありません - しかしトランザクションを完了できませんでした。サポート致しますので我々にご連絡ください。"
-"The payment method code is not set.","支払い方法コードが設定されていません。"
+"The payment method code is not set.","支払方法コードが設定されていません。"
 "The reference ID is not set.","リファレンスIDがセットされていません。"
-"Unable to save Billing Agreement:","支払い合意が保存できませんでした:"
+"Unable to save Billing Agreement:","支払合意が保存できませんでした:"
 "The customer ID is not set.","顧客IDが設定されていません。"
-"The Billing Agreement status is not set.","支払い合意が設定されていません。"
+"The Billing Agreement status is not set.","支払合意が設定されていません。"
 "The PayPal certificate does not exist.","PayPal認証が存在しません。"
 "We prefer PayPal (150 X 60)","PayPal希望 (150 X 60)"
 "We prefer PayPal (150 X 40)","PayPal希望 (150 X 40)"
 "Now accepting PayPal (150 X 60)","PayPal使えます (150 X 60)"
 "Now accepting PayPal (150 X 40)","PayPal使えます (150 X 40)"
-"Payments by PayPal (150 X 60)","PayPalでの支払い (150 X 60)"
-"Payments by PayPal (150 X 40)","PayPalでの支払い (150 X 40)"
+"Payments by PayPal (150 X 60)","PayPalでの支払 (150 X 60)"
+"Payments by PayPal (150 X 40)","PayPalでの支払 (150 X 40)"
 "Shop now using (150 X 60)","この店で使用可能 (150 X 60)"
 "Shop now using (150 X 40)","この店で使用可能 (150 X 40)"
 Shortcut,ショートカット
@@ -6427,8 +6427,8 @@ Sale,セール
 "IPN (Instant Payment Notification) Only","IPN (Instant Payment Notification) のみ"
 "API Signature","APIシグニチャア" 
 "API Certificate","API証明書"
-"The ordering amount of %1 is pending approval on the payment gateway.","注文額の1%は支払いゲートウェイで認証待ちです。"
-"We'll authorize the amount of %1 as soon as the payment gateway approves it.","支払いゲートウェイが承認し次第額の1%を許可します。"
+"The ordering amount of %1 is pending approval on the payment gateway.","注文額の1%は決済ゲートウェイで認証待ちです。"
+"We'll authorize the amount of %1 as soon as the payment gateway approves it.","決済ゲートウェイが承認し次第額の1%を許可します。"
 "The authorized amount is %1.","認証された額は%1です。"
 "The maximum number of child authorizations is reached.","子の権限最大数に達しました。"
 "PayPal can't process orders with a zero balance due. To finish your purchase, please go through the standard checkout process.","PayPalはゼロの残高では注文を処理できません。購入を完了するには通常のチェックアウト処理を行ってください。"
@@ -6436,14 +6436,14 @@ Sale,セール
 "Cannot get secure form URL from PayPal","PayPalから安全なフォームURLを得られませんでした"
 "Last Transaction ID","前回のトランザクション ID"
 "This customer didn't include a confirmed address.","この顧客は確認された住所を持っておりません。"
-"The payment is authorized but not settled.","支払いは認証されましたが決済しておりません。"
-"The payment eCheck is not cleared.","支払いeCheckはクリアされていません。"
+"The payment is authorized but not settled.","支払は認証されましたが決済しておりません。"
+"The payment eCheck is not cleared.","支払eCheckはクリアされていません。"
 "The merchant holds a non-U.S. account and doesn't have a withdrawal mechanism.","商品はUS外のアカウントを持っており引き落としの方法を持っておりません。"
-"The payment currency doesn't match any of the merchant's balances currency.","支払い通貨はどの商店の残高の通貨とマッチしません。"
-"The payment is pending while it is being reviewed by PayPal for risk.","PayPalに危険がないかリビューされている間支払いは保留されています。"
-"The payment is pending because it was made to an email address that is not yet registered or confirmed.","まだ登録されてないか確認されてないEメールアドレス宛てになっているので支払いは保留されています。"
+"The payment currency doesn't match any of the merchant's balances currency.","支払通貨はどの商店の残高の通貨とマッチしません。"
+"The payment is pending while it is being reviewed by PayPal for risk.","PayPalに危険がないかリビューされている間支払は保留されています。"
+"The payment is pending because it was made to an email address that is not yet registered or confirmed.","まだ登録されてないか確認されてないEメールアドレス宛てになっているので支払は保留されています。"
 "The merchant account is not yet verified.","商店アカウントは確認されておりません。"
-"The payment was made via credit card. In order to receive funds merchant must upgrade account to Business or Premier status.","支払いはクレジットカードでおこなわれました。"
+"The payment was made via credit card. In order to receive funds merchant must upgrade account to Business or Premier status.","支払はクレジットカードでおこなわれました。"
 "Sorry, but something went wrong. Please contact PayPal customer service.","申し訳ありません、しかし問題が発生しました。PayPalカスタマーサービスにご連絡してください。"
 "A reversal has occurred on this transaction due to a chargeback by your customer.","顧客による入金取り消しのためこのトランザクションで破棄が発生しました。"
 "A reversal has occurred on this transaction due to your customer triggering a money-back guarantee.","顧客がマネーバック保証を実行したのでこのトランザクションで破棄が発生しました。"
@@ -6459,14 +6459,14 @@ Sale,セール
 "Buyer claims that the goods or service received differ from merchant’s description of the goods or service.","購入者は受け取った商品あるいはサービスは商店の商品あるいはサーピスの詳細と異なると主張しています。"
 "Buyer claims that he/she did not authorize transaction.","購入者はトランザクションを承諾していないと主張しています。"
 "A case that has been resolved and close requires a reimbursement.","事案は解決され終了するには返金が必要です。"
-"Buyer claims that a possible duplicate payment was made to the merchant.","購入者は商店に数度被った支払いをおこなったと主張しています。"
+"Buyer claims that a possible duplicate payment was made to the merchant.","購入者は商店に数度被った支払をおこなったと主張しています。"
 "Buyer claims that the received merchandise is unsatisfactory, defective, or damaged.","購入者は受け取った商品は不満足か、不完全か、傷ついていると主張しています。"
 "Unknown reason. Please contact PayPal customer service.","理由が不明。PayPalのカスタマーサービスに連絡してください。"
-"Payer ID","支払い人ID"
-"Payer Email","支払い人Eメール"
-"Payer Status","支払い人ステータス"
-"Payer Address ID","支払い人住所ID"
-"Payer Address Status","支払い人住所ステータス"
+"Payer ID","支払人ID"
+"Payer Email","支払人Eメール"
+"Payer Status","支払人ステータス"
+"Payer Address ID","支払人住所ID"
+"Payer Address Status","支払人住所ステータス"
 "Merchant Protection Eligibility","商店保護適正
 "Triggered Fraud Filters","詐欺行為フィルターが発動"
 "Last Correlation ID","前回の相関ID"
@@ -6523,7 +6523,7 @@ CPF,CPF
 "Payflow PNREF: #%1.","ペイフロー PNREF: #%1."
 "Unable to fetch transaction details.","トランザクション詳細を取得できませんでした"
 "Transaction has been declined","トランザクションは却下されました"
-"Error processing payment, please try again later.","支払い処理エラー。後で再度お試しください。"
+"Error processing payment, please try again later.","支払処理エラー。後で再度お試しください。"
 "We cannot send the new order email.","新しい注文Eメールを送れません。"
 "You cannot void a verification transaction.","確認トランザクションを破棄することはできません。"
 "You need an authorization transaction to void.","破棄するには認証トランザクションが必要です。"
@@ -6549,13 +6549,13 @@ Debit,デビット
 "ACH Deposit (Reversal)","ACH振り込み(破棄)"
 "ACH Funding for Funds Recovery from Account Balance","ACHアカウント残高からのファンド回復のためのACHファンディング"
 "ACH Withdrawal","ACH引き落とし"
-"Account-to-Account Payment, initiated by PayPal","アカウント間の支払い, PayPal主導"
-"Auction Payment other than through eBay","eBay以外のオークション支払い"
+"Account-to-Account Payment, initiated by PayPal","アカウント間の支払, PayPal主導"
+"Auction Payment other than through eBay","eBay以外のオークション支払"
 AutoSweep,オートスイープ
 "Available Balance","残高"
 "Balance Manager Account Bonus","残高マネージャーアカウントボーナス"
 "Bonus for first ACH Use","ACHを初めて使用したボーナス"
-"Buyer Credit Payment","購入者クレジット支払い"
+"Buyer Credit Payment","購入者クレジット支払"
 Charge-off,処理費用
 "Coupon Redemption","クーポン償還"
 "Currency Conversion required to cover negative balance","通貨変換は残高マイナスをカバーすることが必須です"
@@ -6566,8 +6566,8 @@ Charge-off,処理費用
 "Express Checkout APIs","エクスプレスチェックアウトAPIs"
 "Fee Reversal","費用破棄"
 "Fee: Foreign ACH Withdrawal","料金: 海外ACH引き落とし"
-"Fee: Mass Pay Request","料金: 総合支払いリクエスト"
-"Fee: Web Site Payments Pro Account Monthly","料金: ウェブサイト支払い月額プロアカウント"
+"Fee: Mass Pay Request","料金: 総合支払リクエスト"
+"Fee: Web Site Payments Pro Account Monthly","料金: ウェブサイト支払月額プロアカウント"
 "Fee: WorldLink Check Withdrawal","料金: ワールドリンクチェック引き落とし"
 Funding,ファンディング
 "General (Authorization)","全般 (権限)"
@@ -6580,24 +6580,24 @@ Funding,ファンディング
 "General Redemption","全般償還"
 "General Withdrawal from PayPal Account","PayPalアカウントから全般引き落とし"
 "General. Product no longer supported","全般。 製品はもはやサポートされていません。"
-"General: Use of PayPal account for purchasing as well as receiving payments","全般: PayPalのアカウントを使用による購入だけでなく支払いの受け取り"
+"General: Use of PayPal account for purchasing as well as receiving payments","全般: PayPalのアカウントを使用による購入だけでなく支払の受け取り"
 "General: Withdrawal from PayPal Account","全般: PayPalアカウントから引き落とし"
 "General: Withdrawal to Non-Bank Entity","全般: 銀行以外に引き落とし"
-"General: adjustment of a type not belonging to the other T12xx categories","全般: T12xxカテゴリー以外の属さないタイプの調整"
-"General: bonus of a type not belonging to the other T08xx categories","全般: T08xxカテゴリー以外の属さないタイプのボーナス"
+"General: adjustment of a type not belonging to the other T12xx categories","全般: T12xxカテゴリ以外の属さないタイプの調整"
+"General: bonus of a type not belonging to the other T08xx categories","全般: T08xxカテゴリ以外の属さないタイプのボーナス"
 "General: event not yet categorized","全般: カテゴリされていないイベント"
-"General: non-payment fee of a type not belonging to the other T01xx categories","全般: T01xxカテゴリー以外の属さないタイプの支払いのない料金"
-"General: received payment of a type not belonging to the other T00xx categories","全般: T00xxカテゴリー以外の属さないタイプの支払いの受け取った支払い"
-"General: reversal of a type not belonging to the other T11xx categories","全般: T11xxカテゴリー以外の属さないタイプの破棄"
+"General: non-payment fee of a type not belonging to the other T01xx categories","全般: T01xxカテゴリ以外の属さないタイプの支払のない料金"
+"General: received payment of a type not belonging to the other T00xx categories","全般: T00xxカテゴリ以外の属さないタイプの支払の受け取った支払"
+"General: reversal of a type not belonging to the other T11xx categories","全般: T11xxカテゴリ以外の属さないタイプの破棄"
 "General: temporary hold of a type not belonging to the other T15xx categories","全般: temporary hold of a type not belonging to the other T15xx categories"
-"Gift Certificate Payment: purchase of Gift Certificate","ギフト券支払い: ギフト券の購入"
+"Gift Certificate Payment: purchase of Gift Certificate","ギフト券支払: ギフト券の購入"
 "Gift Certificate Redemption","ギフト券償還"
 "Hidden Virtual PayPal Debit Card Transaction","隠し仮想PayPalデビットカードトランザクション"
 "Hold for Dispute Investigation","異議申し立て調査のために保留"
 Incentive,インセンティブ
-"Mass Pay Payment","総合Pay支払い"
+"Mass Pay Payment","総合Pay支払"
 "Merchant Referral Bonus","商店関連付けボーナス"
-"Mobile Payment (made via a mobile phone)","携帯支払い (携帯からの支払い)"
+"Mobile Payment (made via a mobile phone)","携帯支払 (携帯からの支払)"
 "Negative Balance","マイナス残高"
 "Open Authorization","オープン権限"
 "PayPal Balance Manager function of PayPal account","PayPalアカウントのPayPal残高管理機能"
@@ -6605,10 +6605,10 @@ Incentive,インセンティブ
 "PayPal Debit Card Cash Advance","PayPalデビットカードキャッシュアドバンス"
 "PayPal Debit Card Withdrawal from ATM","PayPalのATMからのデビットカード引き落とし"
 "PayPal Protection Bonus","PayPal保護ボーナス"
-"Payment Refund initiated by merchant","商店による支払い返金実行"
+"Payment Refund initiated by merchant","商店による支払返金実行"
 "Points Incentive Redemption","ポイントインセンティブ償還"
 "Postage Payment to either USPS or UPS","Postage Payment to either USPS or UPS"
-"Preapproved Payment (BillUser API, either sent or received","事前承認された支払い (BillUser API, 送ったか受け取りのどちらか"
+"Preapproved Payment (BillUser API, either sent or received","事前承認された支払 (BillUser API, 送ったか受け取りのどちらか"
 Reauthorization,再権限設定
 "Reimbursement of Chargeback","入金取り消しの返済"
 Reversal,破棄
@@ -6617,12 +6617,12 @@ Reversal,破棄
 "Reversal of hold for Dispute Investigation","異議申し立ての調査のための保留の破棄"
 "Reward Voucher Redemption","報酬バウチャー破棄"
 "Settlement Consolidation","一括決済"
-"Subscription Payment, either payment sent or payment received","購読支払い、支払いが送れれたか受け取られたか"
+"Subscription Payment, either payment sent or payment received","購読支払、支払が送れれたか受け取られたか"
 "User-initiated Currency Conversion","ユーザー主導の通貨変換"
 "Virtual PayPal Debit Card Transaction","仮想PayPalデビットカードトランザクション"
-"Virtual Terminal Payment","仮想ターミナル支払い"
+"Virtual Terminal Payment","仮想ターミナル支払"
 "WorldLink Withdrawal","ワールドリンク引き落とし"
-"eBay Auction Payment","eBayオークション支払い"
+"eBay Auction Payment","eBayオークション支払"
 "The PayPal certificate file is empty.","The PayPal認証ファイルは空です。"
 "Header (center)","ヘッダー (真ん中)"
 "Sidebar (right)","サイドバー (右)"
@@ -6635,14 +6635,14 @@ Reversal,破棄
 "Every 40 days","毎40日"
 "No Logo","ロゴなし"
 "Yes (PayPal recommends this option)","はい (PayPalはこのオプションを推奨します)"
-"Created billing agreement #%1.","支払い契約を作成 #%1."
-"We can't create a billing agreement for this order.","この注文のための支払い契約を作成できません。"
+"Created billing agreement #%1.","支払契約を作成 #%1."
+"We can't create a billing agreement for this order.","この注文のための支払契約を作成できません。"
 "Pending PayPal","PayPal保留"
 "PayPal Reversed","PayPal予約"
 "PayPal Canceled Reversal","PayPalは破棄をキャンセルしました"
-"Billing Agreement","支払い合意"
+"Billing Agreement","支払合意"
 "Updated At","アップデート日"
-"Not sure what PayPal payment method to use? Click ","どのPayPal支払い手段を使うかわかりません？ クリック"
+"Not sure what PayPal payment method to use? Click ","どのPayPal支払手段を使うかわかりません？ クリック"
 here,ここ
 " to learn more."," 詳細は。"
 "Important: ","重要: "
@@ -6650,29 +6650,29 @@ here,ここ
 "Once you log into your PayPal Advanced account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","PayPal Advanced アカウントにログインすると, サービス設定に移動 - 所持するチェックアウトページ - メニューの設定と下で説明されたオプションの設定"
 "To use PayPal Payflow Link, you must configure your PayPal Payflow Link account on the PayPal website.","PayPal Payflowリンクを使うには、PayPal PayflowリンクアカウントをPayPalウェブサイトにて設定しなければなりません。"
 "Once you log into your PayPal Payflow Link account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","PayPal Payflowリンクアカウントにログインすると, サービス設定に移動 - 所持するチェックアウトページ - メニューの設定と下で説明されたオプションの設定"
-"Billing Agreement # ","支払い合意 # "
+"Billing Agreement # ","支払合意 # "
 "Agreement Information","合意情報"
 "Reference ID:","リファレンスID:"
 Created:,作成日:
 Updated:,アップデート日:
-"Back to Billing Agreements","支払い合意に戻る"
-"There are no billing agreements yet.","まだ支払い合意がありません。"
-"New Billing Agreement","新しい支払い合意"
-"You will be redirected to the payment system website.","支払いシステムのウェブサイトに転送されます。"
+"Back to Billing Agreements","支払合意に戻る"
+"There are no billing agreements yet.","まだ支払合意がありません。"
+"New Billing Agreement","新しい支払合意"
+"You will be redirected to the payment system website.","支払システムのウェブサイトに転送されます。"
 Create...,作成...
-"Your billing agreement # is: ","あなたの支払い合意番号は: "
+"Your billing agreement # is: ","あなたの支払合意番号は: "
 "Please select a shipping method...","送付方法を選んで下さい..."
 "Update Shipping Method","配送方法をアップデート"
 "Buy now with PayPal","PayPalで購入しましょう"
-"Edit Payment Information","支払い情報編集"
+"Edit Payment Information","支払情報編集"
 "Items in Your Shopping Cart","ショッピングカートにある商品"
 "Edit Shopping Cart",","ショッピングカート編集"
 "Please update order data to get shipping methods and rates","配送方法とレートを得るには注文データをアップデートしてください"
 "Checkout with PayPal","PayPalでチェックアウト"
-"Please do not refresh the page until you complete payment.","支払いを完了するまでページをリフレッシュしないでください。"
-"You will be required to enter your payment details after you place an order.","注文を行なった後で支払い詳細を入力することが求められます。"
+"Please do not refresh the page until you complete payment.","支払を完了するまでページをリフレッシュしないでください。"
+"You will be required to enter your payment details after you place an order.","注文を行なった後で支払詳細を入力することが求められます。"
 "Additional Options","追加オプション"
-"-- Please Select Billing Agreement--","-- 支払い合意を選択してください--"
+"-- Please Select Billing Agreement--","-- 支払合意を選択してください--"
 "Acceptance Mark","許可マーク"
 "What is PayPal?","PayPalとは？"
 "Sign a billing agreement to streamline further purchases  with PayPal.","請求合意にサインして今後のPayPalでの購入を円滑にしましょう。"
@@ -6758,7 +6758,7 @@ Author,作者
 "Transaction has been approved.","トランザクションは承認されました。"
 "Transaction has been voided/declined.","トランザクションは破棄された/却下されました。"
 "There is no update for the transaction.","このトランザクションのためのアップデートはありません。"
-"We can't update the payment right now.","現在支払いをアップデートできません。"
+"We can't update the payment right now.","現在支払をアップデートできません。"
 "You assigned the order status.","注文ステータスをアサインしました。"
 "Something went wrong while assigning the order status.","注文ステータスをアサイン中に問題が発生しました。"
 "You saved the order status.","注文ステータスを保存しました。"
@@ -6766,7 +6766,7 @@ Author,作者
 "Something went wrong while unassigning the order.","注文をアサインから外している間に問題が発生しました。"
 "Can't unhold order.","注文を放棄できません。"
 "You saved the gift card message.","ギフトカードメッセージを保存しました。"
-"We can't void the payment right now.","現在支払いを破棄できません。"
+"We can't void the payment right now.","現在支払を破棄できません。"
 "We can't update the transaction details.","トランザクション詳細をアップデートできません。"
 "We can't find this wish list.","このお気に入りリストが見つかりません。"
 "Please specify order items.","注文商品を指定してください。"
@@ -6778,7 +6778,7 @@ Author,作者
 "Could not delete credit memo","クレジットメモを削除出来ませんでした"
 "Could not save credit memo","クレジットメモを保存できませんでした"
 "This order already has associated customer account","この注文は既に顧客アカウントと紐付いています"
-"Please set a proper payment and order id.","正しい支払いと注文idを設定してください。"
+"Please set a proper payment and order id.","正しい支払と注文idを設定してください。"
 "Please enter a Transaction ID.","トランザクションIDを入力してください。"
 "We found an invalid quantity to ship for item ""%1"".","商品 ""%1""に対して不正な数量の発送を検知しました。"
 "Could not delete shipment","配送を削除できませんでした"
@@ -6797,7 +6797,7 @@ Author,作者
 "Find Order By","注文検索"
 "Your search query can't be longer than %1, so we shortened your query.","検索クエリは%1より長くできませんのでクエリを短くしました。"
 "No Product Exception.","製品例外なし。"
-"No Category Exception.","カテゴリー例外なし。"
+"No Category Exception.","カテゴリ例外なし。"
 "Some error","何らかのエラー"
 "Localized Exception.","ローカライズ例外"
 Exception.,例外。
@@ -6851,11 +6851,11 @@ testMessage,テストメッセージ
 "'New ' .","'新 ' ."
 "Unsupported bookmark action.","サポートされていないブックマークアクション"
 "Initialization error component, check the spelling of the name or the correctness of the call.","初期化エラーコンポーネント、 名前のスペルをチェックするか呼び出しが正しいか確認してください。"
-"Please assign a website to the selected category.","選択したカテゴリーをウェブサイトにアサインしてください。"
+"Please assign a website to the selected category.","選択したカテゴリをウェブサイトにアサインしてください。"
 "Please assign a website to the selected CMS page.","選択したCMSページをウェブサイトにアサインしてください。"
 "You deleted the URL rewrite.","URLリライトを削除しました。"
-"The product you chose is not associated with the selected store or category.","あなたが選んだ商品は選ばれたストアやカテゴリーに紐付いていません。"
-"The category you chose is not associated with the selected store.","あなたが選んだカテゴリーは選んだストアに紐付いていません。"
+"The product you chose is not associated with the selected store or category.","あなたが選んだ商品は選ばれたストアやカテゴリに紐付いていません。"
+"The category you chose is not associated with the selected store.","あなたが選んだカテゴリは選んだストアに紐付いていません。"
 "Something went wrong while saving URL Rewrite.","URLリライトを保存中に問題が発生しました。"
 "Are you sure you want to revoke the user\'s tokens?","本当にユーザーのトークンを破棄しますか？"
 "We'll email you a link to reset your password.","パスワードをリセットするためのリンクをメールします。"
@@ -6882,7 +6882,7 @@ Widgets,ウィジェット
 "Move to Wishlist","お気に入りリストに移動"
 "Phrase 1","フェーズ 1"
 "Phrase 2 with %a_lot of extra info for the brilliant %customer_name.","フェーズ2 と%customer_nameのための %a_lot 追加情報"
-"Payment Transaction Failed","支払いトランザクション失敗"
+"Payment Transaction Failed","支払トランザクション失敗"
 Reason,理由
 "Checkout Type","チェックアウトタイプ"
 Customer:,顧客:
@@ -6989,7 +6989,7 @@ Attention,注目
 "Please choose image(s)","画像を選択してください"
 "Please, select attribute(s)","属性を選択してください"
 "Generate Products","製品作成"
-"We can't complete your order because you don't have a payment method set up.","支払い方法設定がされていないので注文を完了できません。"
+"We can't complete your order because you don't have a payment method set up.","支払方法設定がされていないので注文を完了できません。"
 "Video Error","ビデオエラー"
 "Unknown video type","不明なビデオタイプ"
 "Invalid video url","無効なビデオ url"
@@ -7009,20 +7009,20 @@ Attention,注目
 "
                     PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>
                 ","
-                    PayPalオールインワンペイメントソリューション &nbsp;&nbsp;<i>クレジットカードとPayPalの支払いを受け付けて処理する</i>
+                    PayPalオールインワンペイメントソリューション &nbsp;&nbsp;<i>クレジットカードとPayPalの支払を受け付けて処理する</i>
                 "
-"Choose a secure bundled payment solution for your business.","あなたのビジネス用の安全なバンドル支払い方法を選択してください。"
-"Payments Pro and Express Checkout","支払いプロとエクスプレスチェックアウト"
+"Choose a secure bundled payment solution for your business.","あなたのビジネス用の安全なバンドル支払方法を選択してください。"
+"Payments Pro and Express Checkout","支払プロとエクスプレスチェックアウト"
 "Basic Settings - PayPal Payments Pro","基本設定 - PayPalペイメントプロ"
-"PayPal Payment Gateways","PayPal支払いゲートウェイ"
-"Process payments using your own internet merchant account.","自身のインターネット商店アカウントを使って支払いを処理する。"
+"PayPal Payment Gateways","PayPal決済ゲートウェイ"
+"Process payments using your own internet merchant account.","自身のインターネット商店アカウントを使って支払を処理する。"
 "PayPal Express Checkout","PayPalエクスプレスチェックアウト"
-"Add another payment method to your existing solution or as a stand-alone option.","既に存在する処理法に別の支払い方法を追加するかスタンドアローンオプションとしてください。"
+"Add another payment method to your existing solution or as a stand-alone option.","既に存在する処理法に別の支払方法を追加するかスタンドアローンオプションとしてください。"
 1,1
-"Accept payments with a completely customizable checkout page.","完全にカスタマイズできるチェックアウトページの支払いを受付"
-"PayPal Payment Solutions","PayPal支払いソリューション"
+"Accept payments with a completely customizable checkout page.","完全にカスタマイズできるチェックアウトページの支払を受付"
+"PayPal Payment Solutions","PayPal支払ソリューション"
 "Payflow Pro","Payflowプロ"
-"Connect your merchant account with a fully customizable gateway that lets customers pay without leaving your site.","あなたの商店アカウントをサイトから離れずに顧客に支払いを可能にさせる完全カスタマイズされたゲートウェイと接続してください。"
+"Connect your merchant account with a fully customizable gateway that lets customers pay without leaving your site.","あなたの商店アカウントをサイトから離れずに顧客に支払を可能にさせる完全カスタマイズされたゲートウェイと接続してください。"
 "Required PayPal Settings","必須PayPal設定"
 Partner,パートナー
 User,ユーザー
@@ -7034,15 +7034,15 @@ Vendor,ベンダー
 "Enable this Solution","このSolutionを有効にする"
 "Basic Settings - PayPal Payflow Pro","基本設定 - PayPal Payflow Pro"
 "It is recommended to set this value to ""Debit or Credit Card"" per store views.","この値をストアビュー毎""デビットかクレジットカード""にセットすることをおすすめします。"
-"Payment Action","支払いアクション"
+"Payment Action","支払アクション"
 "Credit Card Settings","クレジットカード設定"
 "
                             Supporting of American Express cards require additional agreement. Learn more at <a href=""http://www.paypal.com/amexupdate"">http://www.paypal.com/amexupdate</a>.
                         ","
                             アメリカンエクスプレスカードをサポートするには追加の合意が必須です。 ここで <a href=""http://www.paypal.com/amexupdate"">http://www.paypal.com/amexupdate</a>ご確認ください。
                         "
-"Payment Applicable From","支払い申し込みフォーム"
-"Countries Payment Applicable From","国支払い申し込みフォーム"
+"Payment Applicable From","支払申し込みフォーム"
+"Countries Payment Applicable From","国支払申し込みフォーム"
 "Debug Mode","ディバクモード"
 "Enable SSL verification","SSL証明書有効化"
 "Require CVV Entry","CVVエントリー必須"
@@ -7054,7 +7054,7 @@ Vendor,ベンダー
 "Card Security Code Does Not Match","カードセキュリティコードはマッチしません"
 "Settlement Report Settings","決済レポート設定"
 "Payflow Link (Includes Express Checkout)","Payflowリンク(エクスプレスチェックアウトを含む)"
-"Connect your merchant account with a PCI-compliant gateway that lets customers pay without leaving your site.","あなたの商店アカウントをサイトから離れずに顧客に支払いを可能にさせるPCI准許ゲートウェイと接続してください"
+"Connect your merchant account with a PCI-compliant gateway that lets customers pay without leaving your site.","あなたの商店アカウントをサイトから離れずに顧客に支払を可能にさせるPCI准許ゲートウェイと接続してください"
 "Payflow Link and Express Checkout","Payflowリンクとエクスプレスチェックアウト"
 "Email Associated with PayPal Merchant Account (Optional)","PayPal商店アカウントに紐付けられたEメール(オプション)"
 "If you do not have multiple users set up on your account, please re-enter your Vendor/Merchant Login here.","もし複数ユーザーがアカウントにて設定されてなければ、ベンダー/商店ログインを再入力してください。"
@@ -7071,8 +7071,8 @@ Vendor,ベンダー
                         ","
                             <a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">ファイナンシングをなぜ宣伝するのか？</a><br/>
                         <strong>ファイナンシングをを広告する時は売上を向上させましょう。</strong><br/>PayPalはPayPalクレジットからのファイナンシングによって見るだけ客を購買者に変えることができます。
-                        &#174;. 追加料金なしで、あなたが直で支払いを受ける一方あなたの顧客は支払いに時間がかけれます。
-                        PayPalの無料バナー広告を使用してPayPalクレジットを宣伝できます&#174;あなたの顧客がPayPalで支払うとき支払いとしてのファイナンシング
+                        &#174;. 追加料金なしで、あなたが直で支払を受ける一方あなたの顧客は支払に時間がかけれます。
+                        PayPalの無料バナー広告を使用してPayPalクレジットを宣伝できます&#174;あなたの顧客がPayPalで支払うとき支払としてのファイナンシング
                         PayPal広告プログラムは更なる購入をさせるためと顧客の購入量を15%かそれ以上に増やします。
                         <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">詳細を御覧ください。</a>.
                         "
@@ -7087,12 +7087,12 @@ Vendor,ベンダー
 "Frontend Experience Settings","フロントエンド体験設定"
 "Basic Settings - PayPal Express Checkout","基本設定 - PayPalエクスプレスチェックアウト"
 "Express Checkout","エクスプレスチェックアウト"
-"Add PayPal as an additional payment method to your checkout page.","PayPalを追加支払い手段をチェックアウトページに追加"
+"Add PayPal as an additional payment method to your checkout page.","PayPalを追加支払手段をチェックアウトページに追加"
 "Email Associated with PayPal Merchant Account","EメールをPayPal商店アカウントと紐付ける"
 "
                                 <a href=""http://www.magentocommerce.com/paypal"">Start accepting payments via PayPal!</a>
                             ","
-                                <a href=""http://www.magentocommerce.com/paypal"">PayPalを通しての支払いの受付開始</a>
+                                <a href=""http://www.magentocommerce.com/paypal"">PayPalを通しての支払の受付開始</a>
                             "
 "Don't have a PayPal account? Simply enter your email address.","PayPalアカウントをお持ちではないですか？ Eメールアドレスを入力してください"
 "API Authentication Methods","API 権限メソッド"
@@ -7106,7 +7106,7 @@ Vendor,ベンダー
                         You get paid up front, even though customers have more time to pay. A pre-integrated payment button lets customers pay quickly with PayPal Credit&#174;.
                         <a href=""https:/www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">Learn More</a>
                         ","PayPalエクスプレスチェックアウトはPayPalクレジットを通して決済できる手段を顧客が可能にできます。&#174; - 追加料金なしで。
-                        あなたが直で支払いを受ける一方あなたの顧客は支払いに時間がかけれます。事前組み込み支払いボタンは顧客にPayPalクレジットでの支払いを手早く行わせます。&#174;.
+                        あなたが直で支払を受ける一方あなたの顧客は支払に時間がかけれます。事前組み込み支払ボタンは顧客にPayPalクレジットでの支払を手早く行わせます。&#174;.
                         <a href=""https:/www.paypal.com/webapps/mpp/promotional-financing"" target=""_blank"">詳細</a>
                         "
 "Publisher ID","パブリッシャーID"
@@ -7129,23 +7129,23 @@ Vendor,ベンダー
 "Shortcut Buttons Flavor","ショートカットボタン風"
 "Enable PayPal Guest Checkout","PayPalゲスト購入を有効化"
 "Ability for buyer to purchase without PayPal account.","PayPalアカウントなしで購入者に購入を行わせる"
-"Require Customer's Billing Address","顧客の支払い住所必須"
+"Require Customer's Billing Address","顧客の支払住所必須"
 "This feature needs be enabled first for the merchant account through PayPal technical support.","この機能はPayPalのテクニカルサポートを通して商店のアカウントのために有効化されなければなりません。"
-"Billing Agreement Signup","支払い契約サインアップ"
+"Billing Agreement Signup","支払契約サインアップ"
 "Whether to create a billing agreement, if there are no active billing agreements available.","Whether to create a billing agreement, if there are no active billing agreements available."
 "
                                 Merchants need to apply to PayPal for enabling billing agreements feature. Do not enable this until PayPal confirms that billing agreements are enabled for your merchant account.
                             ","
-                                商店は支払い契約機能を有効化するためにPayPalに申し込みする必要があります。PayPalがあなたの商店アカウントの支払い契約が有効化されたことを確認するまでこのオプションを有効化しないでください。
+                                商店は支払契約機能を有効化するためにPayPalに申し込みする必要があります。PayPalがあなたの商店アカウントの支払契約が有効化されたことを確認するまでこのオプションを有効化しないでください。
                             "
 "Skip Order Review Step","注文リビューステップをとばす"
-"PayPal Billing Agreement Settings","PayPal支払い契約設定"
+"PayPal Billing Agreement Settings","PayPal支払契約設定"
 "
                                     Will appear as a payment option only for customers who have at least one active billing agreement.
                                 ","
-                                   少なくとも1つの有効な支払い契約をお持ちの顧客にのみ支払いオプションは表示されます。 
+                                   少なくとも1つの有効な支払契約をお持ちの顧客にのみ支払オプションは表示されます。 
                                 "
-"Allow in Billing Agreement Wizard","支払い契約ウィザード内で許可"
+"Allow in Billing Agreement Wizard","支払契約ウィザード内で許可"
 "SFTP Credentials","SFTP証明書"
 "Custom Endpoint Hostname or IP-Address","カスタムエンドポイントホスト名かIPアドレス"
 "By default it is ""reports.paypal.com"".","デフォルトは ""reports.paypal.com""."
@@ -7183,7 +7183,7 @@ Schedule,スケジュール
 "
                                     The background color for the checkout page around the header and payment form.
                                 ","
-                                   チェックアウトページのヘッダーと支払いフォームの周りのバックグラウンドカラー 
+                                   チェックアウトページのヘッダーと支払フォームの周りのバックグラウンドカラー 
                                 "
 "Website Payments Pro Hosted Solution","Websites Hosted Solution"
 "Accept payments with a PCI compliant checkout that keeps customers on your site.","顧客をサイトに留めるためのPCI准許チェックアウトを受け入れる"
@@ -7269,7 +7269,7 @@ Schedule,スケジュール
 "Invalid field dataType attribute value","不正なフィールドデータ・タイプ属性値"
 "Test Indexer Declaration 1","テストインデクサー宣言1"
 "If empty, we'll use the product name here.","空であれば、ここで商品名を使います。"
-"If empty, we'll use the category name here.","空であれば、ここでカテゴリー名を使います。"
+"If empty, we'll use the category name here.","空であれば、ここでカテゴリ名を使います。"
 "Phrase 2","フレーズ2"
 "Phrase 3","フレーズ3"
 "Cache Description","Cache説明"
@@ -7334,12 +7334,12 @@ Main,メイン
 "Custom image","カスタム画像"
 Storefront,ストア
 "Select Product...","商品選択..."
-"Select Category...","カテゴリー選択..."
+"Select Category...","カテゴリ選択..."
 "Delete items","商品削除"
 "Update attributes","属性アップデート"
 "We'll send your order confirmation here.","ここに注文確認を送ります。"
 "For delivery questions.","配送についての質問"
-Payment,支払い
+Payment,支払
 "Cart Subtotal","小計"
 "Not yet calculated","未確定"
 "We received your order!","ご注文を受け付けいたしました！"
@@ -7380,7 +7380,7 @@ Payment,支払い
 "Account Created in","アカウント作成日"
 "Tax VAT Number","税VAT番号"
 "Billing Firstname","支払人の名"
-"Billing Lastname","支払い人の姓"
+"Billing Lastname","支払人の姓"
 "If your Magento site has multiple views, you can set the scope to apply to a specific view.","もしあなたのMagentoサイトが複数のビューをもっているのであれば、 特定のビューを適用できるようにスコープを設定できます。"
 "Send Welcome Email From","ようこそメールの送り元"
 "Account Dashboard","アカウントダッシュボード"
@@ -7535,7 +7535,7 @@ Cron,Cron
 "Are you sure you want to refresh lifetime statistics right now? This operation may slow down your customers' shopping experience.","本当に今保存期間統計を更新しますか？このオペレーションは顧客の買い物体感時間を遅くさせるかもしれません。"
 "Are you sure you want to refresh statistics for the last day?","本当に前日の統計を更新したいですか？"
 "Orders Cron Settings","注文Cron設定"
-"Pending Payment Order Lifetime (minutes)","支払い注文保留期間 (分)"
+"Pending Payment Order Lifetime (minutes)","支払注文保留期間 (分)"
 "Customer Email","カスタムEメール"
 "Shipping and Handling","配送料"
 "PDF Shipments","PDF配送"
