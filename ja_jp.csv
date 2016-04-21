@@ -677,7 +677,7 @@ to,終了
 "Browser Capabilities Detection",ブラウザ互換性検出
 "Redirect to CMS-page if Cookies are Disabled",Cookieが無効の場合はCMSページにリダイレクトさせる。
 "Show Notice if JavaScript is Disabled",JavaScriptが無効の場合に警告を表示する。
-"Show Notice if Local Storage is Disabled","ローカルストーレジが無効の場合に警告を表示する。"
+"Show Notice if Local Storage is Disabled","ローカルストレージが無効の場合に警告を表示する。"
 "Content Management",コンテンツ管理
 "WYSIWYG Options",WYSIWYGオプション
 "Enable WYSIWYG Editor",WYSIWYGエディタを有効にする
@@ -3291,8 +3291,8 @@ Options,オプション
 "Maximum Qty Allowed for Shipping to Multiple Addresses",複数配送で許可する最大個数
 "Review Order",注文の確認
 "Select Shipping Method",配送方法を選択
-"Client side less compilation",クライアント側less完了
-"Server side less compilation",サーバー側less完了
+"Client side less compilation",クライアントサイドlessコンパイル
+"Server side less compilation",サーバーサイドlessコンパイル
 "Front-end development workflow",フロントエンド開発ワークフロー
 "Workflow type",ワークフロータイプ
 "Not available in production mode",プロダクションモードでは無効
@@ -3552,7 +3552,7 @@ Rollback,ロールバック
 error123,エラー123
 error345,エラー345
 "Gift Messages is not applicable for empty cart",ギフトメッセージは空のカートには適用できません
-"Gift Messages is not applicable for virtual products",ギフトメッセージはヴァーチュアル商品には適用できません
+"Gift Messages is not applicable for virtual products",ギフトメッセージはバーチャル商品には適用できません
 "Gift Message is not available",ギフトメッセージは使えません
 "Could not add gift message to shopping cart",ショッピングカートにギフトメッセージを追加できません
 "There is no item with provided id in the cart",指定されたIDの商品がカートにありません
@@ -4882,7 +4882,7 @@ Rebuild,再構築
 "Specified cache type(s) don't exist: %1","指定されたcacheタイプは存在しません： %1"
 "The image cache was cleaned.",画像キャッシュをクリアしました。
 "The JavaScript/CSS cache has been cleaned.",JavaScript/CSSキャッシュをクリアしました。
-"You flushed the cache storage.",cacheストーレジをフラッシュしました。
+"You flushed the cache storage.",cacheストレージをフラッシュしました。
 "The Magento cache storage has been flushed.",Magentoのキャッシュストレージを更新しました。
 "Cache Management",キャッシュ管理
 "%1 cache type(s) disabled.","%1 cacheタイプが無効"
@@ -5681,7 +5681,7 @@ msg,msg
 "Cycle found. Filter %1 already used in request hierarchy","サイクルが見つかりました。 フィルター %1 は要求ヒエラルキーにて既に使われています"
 "Invalid bucket type","不正なバケットタイプ"
 "Write DB connection is not available","Write DB connection は有効ではありません"
-"DB storage table does not exist","DB ストーレジは存在しません"
+"DB storage table does not exist","DB ストレージは存在しません"
 "Area code not set: Area code must be set before starting a session.","郵便番号がセットされていません:郵便番号はセッションが始まる前に設定されてなければなりません"
 "Invalid session %1 value.","不正なセッション %1 の値です。"
 "Invalid rollback file.","不正なロールバックファイルです。"
