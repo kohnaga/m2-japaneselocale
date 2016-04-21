@@ -4386,7 +4386,7 @@ Shipment,配送
 "Invoice Date",請求日
 "ZIP/Post Code",郵便番号
 "Signed-up Point",登録元
-order-header,注文ヘッダー
+order-header,order-header
 "Print Invoices",請求書印刷
 "Print Packing Slips",包装スリップを印刷
 "Print Credit Memos",クレジットメモ印刷
