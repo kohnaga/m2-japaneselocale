@@ -6,17 +6,17 @@
     "translation"
   ],
   "type": "magento2-language",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": [
     "OSL-3.0",
     "AFL-3.0"
   ],
   "authors":[
     {
-      "name":"Hirokazu Nishi",
-      "email":"nishi@veriteworks.co.jp",
-      "homepage":"http://veriteworks.co.jp/",
-      "role":"developer"
+      "name": "Hirokazu Nishi",
+      "email": "nishi@veriteworks.co.jp",
+      "homepage": "http://veriteworks.co.jp/",
+      "role": "developer"
     }
   ],
   "support": {
