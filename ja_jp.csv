@@ -2122,7 +2122,8 @@ Rate,レート
 "Abandoned carts",無効になったショッピングカート
 "Applied Coupon",適用されたクーポン
 "IP Address",IPアドレス
-"Items in Cart",カートの中の商品
+"Item in Cart","点の商品"
+"Items in Cart","点の商品"
 "Products in carts",カート内の商品
 Carts,カート
 "Wish Lists",欲しい物リスト
@@ -3645,7 +3646,7 @@ error345,エラー345
 "We found an incorrect credit card expiration date.",誤ったクレジットカードの期限切れ日が見つかりました
 "%1 class doesn't implement \Magento\Payment\Model\MethodInterface","%1 クラスは \Magento\Payment\Model\MethodInterface　を設定できません"
 "Expiration Date",有効期限
-"Card Verification Number",カード確認番号
+"Card Verification Number",セキュリティコード
 "Switch/Solo/Maestro Only",Switch/Solo/Maestroのみ
 "Issue Number",取引番号
 "Start Date",開始日
@@ -3828,7 +3829,7 @@ GLOBAL,グローバル
 "Failed to load template. See error log for details.",",テンプレートのロードに失敗しました。詳細はエラーログを御覧ください。"
 "Email Preview","Email プレビュー"
 "No Templates Found",テンプレートが見つかりませんでした
-Added,追加日
+Added,追加しました
 "Template Type",テンプレートタイプ
 Any,すべて
 " [deleted]"," [削除済]"
@@ -6425,7 +6426,7 @@ Sale,セール
 "For Virtual Quotes Only","仮想見積もりのみ"
 "Ask Customer","顧客に相談"
 "IPN (Instant Payment Notification) Only","IPN (Instant Payment Notification) のみ"
-"API Signature","APIシグニチャア"
+"API Signature","API署名"
 "API Certificate","API証明書"
 "The ordering amount of %1 is pending approval on the payment gateway.","注文額の1%は決済ゲートウェイで認証待ちです。"
 "We'll authorize the amount of %1 as soon as the payment gateway approves it.","決済ゲートウェイが承認し次第額の1%を許可します。"
@@ -6449,7 +6450,7 @@ Sale,セール
 "A reversal has occurred on this transaction due to your customer triggering a money-back guarantee.","顧客がマネーバック保証を実行したのでこのトランザクションで破棄が発生しました。"
 "A reversal has occurred on this transaction due to a complaint about the transaction from your customer.","顧客からのトランザクションに対する不満のためこのトランザクションで破棄が発生しました。"
 "A reversal has occurred on this transaction because you have given the customer a refund.","顧客に返金を行なったためにこのトランザクションで破棄が発生しました。"
-"Reversal of an adjustment.","調節の破棄"
+"Reversal of an adjustment.","調整費の破棄"
 "Transaction reversal due to fraud detected by PayPal administrators.","PayPal管理者によって詐欺行為が検知されたためトランザクション破棄"
 "Transaction reversal by PayPal administrators.","PayPal管理者によってトランザクション破棄"
 "Reimbursement for a chargeback.","入金取り消しのための返金"
@@ -6509,8 +6510,8 @@ Dispute,意義申し立て
 "N/A. Service not available","N/A. サービス無効"
 "N/A. No response","N/A. 反応なし"
 "Matched (CVV2)","合致 (CVV2)"
-"N/A. The merchant has not implemented CVV2 code handling","N/A. 商店はCVV2コード処理を実装していません"
-"N/A. Merchant has indicated that CVV2 is not present on card","N/A. 商店はCVV2がカードのプレゼントか指定してません"
+"N/A. The merchant has not implemented CVV2 code handling","N/A. マーチャントはCVV2コード処理を実装していません"
+"N/A. Merchant has indicated that CVV2 is not present on card","N/A. マーチャントはCVV2がカードのプレゼントか指定してません"
 CNPJ,CNPJ
 CPF,CPF
 "Note: %1","注意: %1"
@@ -6530,7 +6531,7 @@ CPF,CPF
 "We can't issue a refund transaction because there is no capture transaction.","取り置きトランザクションがないため返金トランザクションを発行できません。"
 "We cannot create a target file for reading reports.","レポート確認のためのターゲットファイルが作成できません。"
 "Report Date","報告日"
-"Merchant Account","商店アカウント"
+"Merchant Account","マーチャントアカウント"
 "Invoice ID","請求書ID"
 "PayPal Reference ID","PayPalリファレンスID"
 "PayPal Reference ID Type","PayPalリファレンスIDタイプ"
@@ -6596,7 +6597,7 @@ Funding,ファンディング
 "Hold for Dispute Investigation","異議申し立て調査のために保留"
 Incentive,インセンティブ
 "Mass Pay Payment","総合Pay支払"
-"Merchant Referral Bonus","商店関連付けボーナス"
+"Merchant Referral Bonus","マーチャント関連付けボーナス"
 "Mobile Payment (made via a mobile phone)","携帯支払 (携帯からの支払)"
 "Negative Balance","マイナス残高"
 "Open Authorization","オープン権限"
@@ -6605,7 +6606,7 @@ Incentive,インセンティブ
 "PayPal Debit Card Cash Advance","PayPalデビットカードキャッシュアドバンス"
 "PayPal Debit Card Withdrawal from ATM","PayPalのATMからのデビットカード引き落とし"
 "PayPal Protection Bonus","PayPal保護ボーナス"
-"Payment Refund initiated by merchant","商店による支払返金実行"
+"Payment Refund initiated by merchant","マーチャントによる支払返金実行"
 "Points Incentive Redemption","ポイントインセンティブ償還"
 "Postage Payment to either USPS or UPS","Postage Payment to either USPS or UPS"
 "Preapproved Payment (BillUser API, either sent or received","事前承認された支払 (BillUser API, 送ったか受け取りのどちらか"
@@ -7003,8 +7004,8 @@ Attention,注目
 "Test Section",",テストセクション"
 "Test Group","テストグループ"
 "Test Field","テストフィールド"
-"Merchant Location","商店の場所"
-"Merchant Country","商店の国"
+"Merchant Location","マーチャントの場所"
+"Merchant Country","マーチャントの国"
 "If not specified, Default Country from General Config will be used","指定されてなければ、一般設定のデフォルトの国が使われます"
 "
                     PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>
@@ -7015,14 +7016,14 @@ Attention,注目
 "Payments Pro and Express Checkout","支払プロとエクスプレスチェックアウト"
 "Basic Settings - PayPal Payments Pro","基本設定 - PayPalペイメントプロ"
 "PayPal Payment Gateways","PayPal決済ゲートウェイ"
-"Process payments using your own internet merchant account.","自身のインターネット商店アカウントを使って支払を処理する。"
+"Process payments using your own internet merchant account.","自身のインターネットマーチャントアカウントを使って支払を処理する。"
 "PayPal Express Checkout","PayPalエクスプレスチェックアウト"
 "Add another payment method to your existing solution or as a stand-alone option.","既に存在する処理法に別の支払方法を追加するかスタンドアローンオプションとしてください。"
 1,1
 "Accept payments with a completely customizable checkout page.","完全にカスタマイズできるチェックアウトページの支払を受付"
 "PayPal Payment Solutions","PayPal支払ソリューション"
 "Payflow Pro","Payflowプロ"
-"Connect your merchant account with a fully customizable gateway that lets customers pay without leaving your site.","あなたの商店アカウントをサイトから離れずに顧客に支払を可能にさせる完全カスタマイズされたゲートウェイと接続してください。"
+"Connect your merchant account with a fully customizable gateway that lets customers pay without leaving your site.","あなたのマーチャントアカウントをサイトから離れずに顧客に支払を可能にさせる完全カスタマイズされたゲートウェイと接続してください。"
 "Required PayPal Settings","必須PayPal設定"
 Partner,パートナー
 User,ユーザー
@@ -7031,7 +7032,7 @@ Vendor,ベンダー
 "Use Proxy","プロキシー使用"
 "Proxy Host","プロキシーホスト"
 "Proxy Port","プロキシーポート"
-"Enable this Solution","このSolutionを有効にする"
+"Enable this Solution","この決済方法を有効にする"
 "Basic Settings - PayPal Payflow Pro","基本設定 - PayPal Payflow Pro"
 "It is recommended to set this value to ""Debit or Credit Card"" per store views.","この値をストアビュー毎""デビットかクレジットカード""にセットすることをおすすめします。"
 "Payment Action","支払アクション"
@@ -7054,10 +7055,10 @@ Vendor,ベンダー
 "Card Security Code Does Not Match","カードセキュリティコードはマッチしません"
 "Settlement Report Settings","決済レポート設定"
 "Payflow Link (Includes Express Checkout)","Payflowリンク(エクスプレスチェックアウトを含む)"
-"Connect your merchant account with a PCI-compliant gateway that lets customers pay without leaving your site.","あなたの商店アカウントをサイトから離れずに顧客に支払を可能にさせるPCI准許ゲートウェイと接続してください"
+"Connect your merchant account with a PCI-compliant gateway that lets customers pay without leaving your site.","あなたのマーチャントアカウントをサイトから離れずに顧客に支払を可能にさせるPCI准許ゲートウェイと接続してください"
 "Payflow Link and Express Checkout","Payflowリンクとエクスプレスチェックアウト"
-"Email Associated with PayPal Merchant Account (Optional)","PayPal商店アカウントに紐付けられたEメール(オプション)"
-"If you do not have multiple users set up on your account, please re-enter your Vendor/Merchant Login here.","もし複数ユーザーがアカウントにて設定されてなければ、ベンダー/商店ログインを再入力してください。"
+"Email Associated with PayPal Merchant Account (Optional)","PayPalマーチャントアカウントに紐付けられたEメール(オプション)"
+"If you do not have multiple users set up on your account, please re-enter your Vendor/Merchant Login here.","もし複数ユーザーがアカウントにて設定されてなければ、ベンダー/マーチャントログインを再入力してください。"
 "Enable Payflow Link","Payflowリンクを有効化"
 "Enable Express Checkout","エクスプレスチェックアウトを有効化"
 "Advertise PayPal Credit","PayPalクレジットを広告化"
@@ -7088,7 +7089,7 @@ Vendor,ベンダー
 "Basic Settings - PayPal Express Checkout","基本設定 - PayPalエクスプレスチェックアウト"
 "Express Checkout","エクスプレスチェックアウト"
 "Add PayPal as an additional payment method to your checkout page.","PayPalを追加支払手段をチェックアウトページに追加"
-"Email Associated with PayPal Merchant Account","EメールをPayPal商店アカウントと紐付ける"
+"Email Associated with PayPal Merchant Account","EメールをPayPalマーチャントアカウントと紐付ける"
 "
                                 <a href=""http://www.magentocommerce.com/paypal"">Start accepting payments via PayPal!</a>
                             ","
@@ -7115,9 +7116,9 @@ Vendor,ベンダー
 "It is recommended to set this value to ""Magento_Paypal"" per store views.","ストアビューごとにこの値を""Magento_Paypal""に設定することをお勧めします。"
 "Display on Product Details Page","商品詳細ページに表示"
 "Authorization Honor Period (days)","認証オナー期間 (日)"
-"Specifies what the Authorization Honor Period is on the merchant’s PayPal account. It must mirror the setting in PayPal.","商店のPayPalアカウントにて認証オナー期間が何かを指定。PayPalの設定を反映させてなければなりません。"
+"Specifies what the Authorization Honor Period is on the merchant’s PayPal account. It must mirror the setting in PayPal.","マーチャントのPayPalアカウントにて認証オナー期間が何かを指定。PayPalの設定を反映させてなければなりません。"
 "Order Valid Period (days)","注文有効期間 (日)"
-"Specifies what the Order Valid Period is on the merchant’s PayPal account. It must mirror the setting in PayPal.","商店のPayPalアカウントでの注文有効期間がなんであるか指定します。PayPalでの設定と同じでなければなりません。"
+"Specifies what the Order Valid Period is on the merchant’s PayPal account. It must mirror the setting in PayPal.","マーチャントのPayPalアカウントでの注文有効期間がなんであるか指定します。PayPalでの設定と同じでなければなりません。"
 "Number of Child Authorizations","子の認証の数"
 "The default number of child authorizations in your PayPal account is 1. To do multiple authorizations please contact PayPal to request an increase.","あなたのPayPalアカウントの子の認証のデフォルト値は1です。複数認証をおこなうにはPayPalに増やすように要求する連絡をしてください。"
 "Display on Shopping Cart","ショッピングカートに表示"
@@ -7130,13 +7131,13 @@ Vendor,ベンダー
 "Enable PayPal Guest Checkout","PayPalゲスト購入を有効化"
 "Ability for buyer to purchase without PayPal account.","PayPalアカウントなしで購入者に購入を行わせる"
 "Require Customer's Billing Address","顧客の支払住所必須"
-"This feature needs be enabled first for the merchant account through PayPal technical support.","この機能はPayPalのテクニカルサポートを通して商店のアカウントのために有効化されなければなりません。"
+"This feature needs be enabled first for the merchant account through PayPal technical support.","この機能はPayPalのテクニカルサポートを通してマーチャントのアカウントのために有効化されなければなりません。"
 "Billing Agreement Signup","支払契約サインアップ"
 "Whether to create a billing agreement, if there are no active billing agreements available.","Whether to create a billing agreement, if there are no active billing agreements available."
 "
                                 Merchants need to apply to PayPal for enabling billing agreements feature. Do not enable this until PayPal confirms that billing agreements are enabled for your merchant account.
                             ","
-                                商店は支払契約機能を有効化するためにPayPalに申し込みする必要があります。PayPalがあなたの商店アカウントの支払契約が有効化されたことを確認するまでこのオプションを有効化しないでください。
+                                マーチャントは支払契約機能を有効化するためにPayPalに申し込みする必要があります。PayPalがあなたのマーチャントアカウントの支払契約が有効化されたことを確認するまでこのオプションを有効化しないでください。
                             "
 "Skip Order Review Step","注文リビューステップをとばす"
 "PayPal Billing Agreement Settings","PayPal支払契約設定"
@@ -7158,12 +7159,12 @@ Schedule,スケジュール
 "Time of Day","日の時間"
 "PayPal Product Logo","PayPal製品ロゴ"
 "Displays on catalog pages and homepage.","カタログページとホームページに表示"
-"PayPal Merchant Pages Style","PayPal商店ページスタイル"
+"PayPal Merchant Pages Style","PayPalマーチャントページスタイル"
 "Page Style","ページスタイル"
 "
                                     Allowable values: ""paypal"", ""primary"" (default), your_custom_value (a custom payment page style from your merchant account profile).
                                 ","
-                                    許可される値: ""paypal"", ""primary"" (デフォルト), your_custom_value (あなたの商店アカウントプロフィールのカスタムペイメントページスタイル).
+                                    許可される値: ""paypal"", ""primary"" (デフォルト), your_custom_value (あなたのマーチャントアカウントプロフィールのカスタムペイメントページスタイル).
                                 "
 "Header Image URL","ヘッダー画像URL"
 "
@@ -7322,7 +7323,7 @@ Environment,環境
 "Country Specific Settings","国別特定設定"
 "Country Specific Credit Card Types","国別特定クレジットカードタイプ"
 "PayPal through Braintree","ブレインツリーを通した"
-"Override Merchant Name","商店名を上書き"
+"Override Merchant Name","マーチャント名を上書き"
 "Allow to Edit Shipping Address Entered During Checkout on PayPal Side","チェックアウト中にPayPal側で入力された配送住所を編集することを許可する"
 "3D Secure Verification Settings","3Dセキュア認証設定"
 "3D Secure Verification","3Dセキュア認証"
@@ -7590,7 +7591,25 @@ Elements,構成
 "You can create an account after checkout.","ご購入後にアカウントを作成できます。"
 "Email Address","メールアドレス"
 "Order Summary","ご注文内容"
-"Item in Cart","点の商品"
-"Items in Cart","点の商品"
 "Shipping","お届け方法"
 "Review & Payments","お支払い方法とご注文の確認"
+"Adding...","追加しています..."
+"View and edit cart","カートを見る"
+"Close","閉じる"
+"Are you sure you want to remove this item from your Compare Products list?","この商品を比較リストから削除してもよろしいですか?"
+"Are you sure you want to remove all items from your Compare Products list?","全ての商品を比較リストから削除してもよろしいですか?"
+"Are you sure you would like to remove this item from the shopping cart?","この商品をカートから削除してもよろしいですか?"
+"or","または"
+"Checkout out as a new customer","会員登録して購入する"
+"Creating an account has many benefits:","アカウントを作成いただくと、以下のメリットがあります:"
+"Creating an account has many benefits:","アカウントを作成いただくと、多くのメリットがあります:"
+"See order and shipping status","ご注文と配送の状況を見る"
+"Track order history","ご注文履歴の確認"
+"Check out faster","より早くご購入"
+"Create Account","アカウントを作成"
+"Checkout out using your account","ご登録済みのアカウントでご購入"
+"Go to Checkout","ご購入に進む"
+"Recently added item(s)","最近カートに入れた商品"
+"Edit item","商品を編集"
+"Translate","翻訳"
+"Submit","送信"
