@@ -504,7 +504,7 @@ Promotions,プロモーション
 "We can't delete this rule right now. Please review the log and try again.","現在このルールを削除できません。 ログを再度確認して試して下さい。"
 "Unable to find a rule to delete.",削除するクーポンが見つかりません。
 "This rule no longer exists.",このルールは存在していません。
-"New Catalog Price Rule","新しいカタログ値ルール"
+"New Catalog Price Rule","新しいカタログ価格ルール"
 "Edit Rule",ルールの編集
 "Wrong rule specified.",不正なクーポンが指定されました
 "The rule has been saved.",クーポンを保存しました。
@@ -537,7 +537,7 @@ Website,ウェブサイト
 "Add Tax",税を追加
 "Delete Tax","税削除"
 FPT,FPT
-"$attributes must be an array","$attributes はアレイでなくてはなりません"
+"$attributes must be an array","$attributes は配列でなくてはなりません"
 "We found a duplicate of website, country and state fields for a fixed product tax","ウェブサイト、国、都道府県の固定商品税のフィールド重複を見つけました。"
 "Including FPT only",FPT込価格のみ
 "Including FPT and FPT description",FPT込とFPT概要
