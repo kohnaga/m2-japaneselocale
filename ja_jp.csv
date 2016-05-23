@@ -7723,6 +7723,7 @@ Elements,構成
 "Forgot Admin Password","管理画面パスワード忘れ"
 "Send Product Link to Friend","友達に商品の情報を送る"
 "Store Design Schedule","ストアデザインスケジュール"
+
 "I.e. redirect from http://example.com/store/ to http://www.example.com/store/","例： http://example.com/store/ から http://www.example.com/store/ にリダイレクトします"
 "If no value is specified, the system default will be used. The system default may be modified by third party extensions.","値がない場合は、デフォルトが利用されます。"
 "Enter https protocol to use Secure URLs on Storefront.","ストアフロントでセキュアURLを利用する場合、HTTPSプロトコルを入力してください"
