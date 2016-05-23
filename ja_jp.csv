@@ -2263,7 +2263,7 @@ Path,パス
 "We can't find a sitemap to delete.",削除するサイトマップが見つかりません
 "This sitemap no longer exists.",サイトマップは存在していません。
 "Site Map",サイトマップ
-"New Site Map","新しいサイトマップ"
+"New Site Map","New Site Map"
 "The sitemap ""%1"" has been generated.","サイトマップ ""%1"" が生成されました"
 "We can't generate the sitemap right now.",現在サイトマップを作成できません
 "We can't find a sitemap to generate.",作成するサイトマップが見つかりません
@@ -5914,7 +5914,7 @@ Quantity:,数量:
 "Apply as fixed amount","固定価格として適用"
 "Adjust final price to this percentage","このパーセンテージに最終価格を調整"
 "Adjust final price to discount value","ディスカウント値に最終価格を調整"
-"Subproduct discounts","子商品への値引きを許可する"
+"Subproduct discounts","Subproduct discounts"
 "Discard subsequent rules","このルールより優先度の低いルールの適用を行わない"
 "Conditions (don't add conditions if rule is applied to all products)","条件 (ルールが全ての商品に適用される場合条件を追加しないでください)"
 "We found updated rules that are not applied. Please click ""Apply Rules"" to update your catalog.","適用されていないアップデートされたルールを見つけました。 ""ルール適用""を押してカタログをアップデートしてください。"
@@ -7675,6 +7675,7 @@ Elements,構成
 "Associate to Website","登録ウェブサイト"
 "Add New 住所","住所追加"
 "New 住所","新しい住所"
+<<<<<<< HEAD
 "Forgot Password","パスワード忘れ"
 "New Account","新しいアカウント"
 "New Account (Magento/luma)","新しいアカウント (Magento/luma)"
@@ -7747,20 +7748,3 @@ Elements,構成
 "Allow Anonymous Guest Access","匿名ゲストのアクセスを許可する"
 "This feature applies only to CMS, Catalog and Store APIs. Please consult your developers for details on potential security risks.","CMS、カタログ、ストアAPIsのみ適用されます。セキュリティリスクについてデベロッパーと相談してください。"
 "By default it is ""/ppreports/outgoing"".","デフォルトは ""/ppreports/outgoing""."
-"",""
-"",""
-"",""
-"",""
-"",""
-"",""
-"",""
-"",""
-"",""
-"",""
-"",""
-"",""
-"",""
-"",""
-"",""
-
-
