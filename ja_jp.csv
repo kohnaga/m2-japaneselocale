@@ -3099,8 +3099,8 @@ Visitor,訪問者
 "Customer Group already exists.",カスタマーグループは既に存在します
 "Cannot delete group.",グループを削除できない
 "PHP SOAP extension is required.","PHP SOAPエクステンションが必要です。"
-Male,男性
-Female,女性
+"Male",男性
+"Female",女性
 "VAT Number is Invalid",VAT番号が不正です
 "VAT Number is Valid",VAT番号を確認しました
 "Customer Addresses",顧客住所
@@ -7383,7 +7383,7 @@ Payment,支払
 "Billing Firstname","支払人の名"
 "Billing Lastname","支払人の姓"
 "If your Magento site has multiple views, you can set the scope to apply to a specific view.","もしあなたのMagentoサイトが複数のビューをもっているのであれば、 特定のビューを適用できるようにスコープを設定できます。"
-"Send Welcome Email From","ようこそメールの送り元"
+"Send Welcome Email From","ウェルカムメールの送信元"
 "Account Dashboard","アカウントダッシュボード"
 "You are signed out.","サインアウトしました"
 "Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds 70 kg.","Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds 70 kg."
@@ -7677,9 +7677,9 @@ Elements,構成
 "Checkbox","チェックボックス"
 "Use Parent Category Settings","親カテゴリの設定を利用"
 "Apply To Products","商品に適用"
-"",""
-"",""
-"",""
+"Associate to Website","登録ウェブサイト"
+"Add New 住所","住所追加"
+"New 住所","新しい住所"
 "",""
 "",""
 "",""
