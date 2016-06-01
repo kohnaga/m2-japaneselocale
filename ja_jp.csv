@@ -3271,7 +3271,7 @@ Addresses,住所
 "Enter a New Address",新しい住所を入力
 "Back to Shopping Cart",ショッピングカートに戻る
 "Continue to Review Your Order",ご注文内容の確認へ
-"Back to Shipping Information",発送情報に戻る
+"Back to Shipping Information",配送方法の選択に戻る
 "Other items in your order",あなたの注文に他のアイテム
 "Edit Items",アイテムを編集
 "Shipping is not applicable.",送付は可能ではありません
@@ -6322,8 +6322,8 @@ Partners,パートナーズ
 "A payment method is not defined.","支払方法が定義されていません。"
 "The requested payment method is not available for multishipping.","要求された支払方法はマルチシッピングに対応していません。"
 "A shipping selection is not applicable.","発送方法は適用されません。"
-"Go to Shipping Information","送付情報に行く"
-"Go to Review Your Order","注文の確認に行く"
+"Go to Shipping Information","配送方法の選択に進む"
+"Go to Review Your Order","ご注文内容の確認"
 "Check Out with Multiple Addresses","複数の住所でチェックアウト"
 "Sorry, no quotes are available for this order right now.","申し訳ありません、現在この注文の見積もりはできません。"
 "Thanks for your order. We'll email you order details and tracking information.","ご注文ありがとうございます。Eメールにて注文詳細と配送情報を送ります。"
@@ -7750,5 +7750,5 @@ Elements,構成
 "Privacy and Cookie Policy","プライバシーポリシー"
 "My billing and shipping address are the same","請求先住所と配送先住所は同じです"
 "Try Demo Customer Access","デモ用"
-"",""
-"",""
+"It's a default billing address.","標準の請求先"
+"It's a default shipping address.","標準の配送先"
