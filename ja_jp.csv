@@ -56,7 +56,6 @@ Widget,ウィジェット
 "New Frontend App Instance","新しいフロントエンドアプリインスタンス"
 "Frontend Apps","フロントエンドアプリ"
 "The widget instance has been saved.",ウィジェットを保存しました。
-description,詳細
 "We cannot create the widget instance because it is missing required information.","必須情報が不明なのでウィジェットインスタンスを作成できません。"
 Container,梱包
 "Specific %1","詳細 %1"
@@ -449,7 +448,7 @@ Canceled,キャンセル済
 "Go back to product details","商品詳細に戻る"
 "Customize and Add to Cart","カスタマイズしてカートに追加"
 "Your Customization","あなたのカスタマイズ"
-Summary,サマリ
+Summary,レビュータイトル
 "%1 x %2","%1 x %2"
 Availability:,在庫状況:
 "Customize %1","%1 をカスタマイズ"
@@ -4136,7 +4135,6 @@ Authorization,認証
 "Sold to:",販売先:
 "Ship to:",配送先:
 "Payment Method:",支払方法:
-"Shipping Method:",配送方法:
 "Total Shipping Charges",配送料合計
 Number,数
 "We found an invalid renderer model.",無効なレンダラーモデルを見つけました
@@ -7634,7 +7632,7 @@ Elements,構成
 "Bundle Product","セット商品"
 "Downloadable Product","ダウンロード商品"
 "Cost","コスト"
-"Short Description","説明欄"
+"Short Description","短い概要"
 "Product Details","商品詳細"
 "Taxable Goods","課税品"
 "Default Category","デフォルトカテゴリー"
@@ -7749,3 +7747,8 @@ Elements,構成
 "The generated key will be displayed after changing.","変更後に生成キーは表示されます"
 "Stop on Error","エラーでストップする"
 "Skip error entries ","エラー箇所をスキップする"
+"Privacy and Cookie Policy","プライバシーポリシー"
+"My billing and shipping address are the same","請求先住所と配送先住所は同じです"
+"Try Demo Customer Access","デモ用"
+"",""
+"",""
