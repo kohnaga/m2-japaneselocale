@@ -4883,12 +4883,12 @@ Rebuild,再構築
 "You flushed the cache storage.",cacheストレージをフラッシュしました。
 "The Magento cache storage has been flushed.",Magentoのキャッシュストレージを更新しました。
 "Cache Management",キャッシュ管理
-"%1 cache type(s) disabled.","%1 cacheタイプが無効"
-"%1 cache type(s) enabled.","%1 cacheタイプが有効"
-"%1 cache type(s) refreshed.","%1 cacheタイプが更新"
+"%1 cache type(s) disabled.","%1 件のcacheが無効になりました。"
+"%1 cache type(s) enabled.","%1 件のcacheが有効になりました。"
+"%1 cache type(s) refreshed.","%1 件のcacheを更新しました。"
 "We updated lifetime statistic.",ライフタイムスタティックを更新しました
 "invalid request",無効なリクエスト
-"see error log for details",詳細はエラーを御覧ください
+"see error log for details",詳細はエラーをご覧ください
 "Service unavailable: %1","サービス無効: %1"
 "Access Denied.",アクセス拒否
 "You need more permissions to do this.",この作業には更に認証が必要です。
@@ -6091,7 +6091,7 @@ You need to create a simple product for each configuration (Ex: a product for ea
 "Create Product Configurations","商品設定をしてください"
 "'Invalid domain name: ' .","'無効なドメイン名: ' ."
 "'Invalid cookie lifetime: ' .","'無効なcookie保存期間: ' ."
-"Click ""Save"" to apply the rates we found.","""保存""をクリックして発見した評価を適用する"
+"Click ""Save"" to apply the rates we found.","""保存""をクリックして取得した為替レートを適用してください。"
 "You applied the custom currency symbols.","カスタム通貨シンボルを適用しました。"
 "Please specify a website.","ウェブサイトをしてください。"
 "Please specify an email.","Eメールを指定してください。"
