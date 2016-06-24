@@ -6,7 +6,7 @@
     "translation"
   ],
   "type": "magento2-language",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": [
     "OSL-3.0",
     "AFL-3.0"
@@ -24,7 +24,7 @@
     "source": "https://github.com/HirokazuNishi/m2-japaneselocale"
   },
   "require": {
-    "magento/framework": "100.0.*"
+    "magento/framework": "100.*"
   },
   "autoload": {
     "files": [
