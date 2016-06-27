@@ -1343,7 +1343,8 @@ State/Province,都道府県
 "Billing Information",請求先情報
 "Payment Information",お支払情報
 "Shipping Information",配送情報
-"Shipping Method",発送方法
+"Shipping Method","配送方法"
+"Shipping Method:","配送方法:"
 "We cannot add this item to your shopping cart","この商品をショッピングカートに追加できません"
 "We can't find the quote item.","見積もり商品が見つかりません。"
 "The coupon code ""%1"" was applied.","クーポンコード ""%1"" が適用されました。"
@@ -4286,6 +4287,7 @@ Sku,商品番号
 "Refund #",払戻番号
 "Print Refund",返金済を印刷
 "Ship To",配送先
+"Ship To:","配送先:"
 "You have placed no orders.",注文はありません
 "No shipping information available",有効な配送方法がありません。
 "Print Order",注文印刷
