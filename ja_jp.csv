@@ -4150,7 +4150,7 @@ Number,数
 "An item object is not specified.",商品オブジェクトが指定されていません
 "A PDF object is not specified.",PDFオブジェクトが指定されていません
 "A PDF page object is not specified.",PDFページオブジェクトが指定されていません
-"Packing Slip # ","包装スリップ # "
+"Packing Slip # ","配送伝票 # "
 "The PDF total model %1 must be or extend \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.","PDF トータルモデル %1 でなければならないか \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal　の展開でなければならない"
 "We cannot register an existing shipment",既存の送付は登録できません
 "We found an invalid qty to ship for item ""%1"".","商品 ""%1""の発送には無効な数量を見つけました"
@@ -4388,7 +4388,7 @@ Shipment,配送
 "Signed-up Point",登録元
 order-header,order-header
 "Print Invoices",請求書印刷
-"Print Packing Slips",包装スリップを印刷
+"Print Packing Slips",配送伝票を印刷
 "Print Credit Memos",クレジットメモ印刷
 "Print All",すべて印刷
 "Print Shipping Labels",配送ラベルを印刷
@@ -4398,7 +4398,7 @@ order-header,order-header
 "Total Quantity",総数量
 "Default Status",標準ステータス
 "State Code and Title",ステータスコードとタイトル
-"PDF Packing Slips",PDF包装スリップ
+"PDF Packing Slips",PDF配送伝票
 "Synchronizing %1 to %2",%1と%2を同期
 Synchronizing...,同期中...
 "The timeout limit for response from synchronize process was reached.",同期プロセスのレスポンスのタイムアウト限界に達しました
