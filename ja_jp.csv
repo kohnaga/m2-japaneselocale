@@ -40,7 +40,7 @@ Widget,ウィジェット
 "Assign to Store Views",ストアビューにアサインする
 "Sort Order of widget instances in the same container","同じコンテナ内のウィジェットのインスタンスの順を並べ替える"
 "Layout Updates",レイアウト更新
-"Anchor Categories",カテゴリのアンカー
+"Anchor Categories",アンカーカテゴリ
 "Non-Anchor Categories",アンカーではないカテゴリ
 "All Product Types",全ての商品種別
 "Generic Pages",一般ページ
@@ -57,7 +57,7 @@ Widget,ウィジェット
 "Frontend Apps","フロントエンドアプリ"
 "The widget instance has been saved.",ウィジェットを保存しました。
 "We cannot create the widget instance because it is missing required information.","必須情報が不明なのでウィジェットインスタンスを作成できません。"
-Container,梱包
+Container,コンテナ
 "Specific %1","詳細 %1"
 "Anchor Custom Title",アンカーカスタムタイトル
 "CMS Page Link Block Template",CMSページリンクブロックテンプレート
@@ -1259,7 +1259,7 @@ Watermark,透かし
 "New Products Names Only Template","新着商品名のみテンプレート"
 "New Products Images Only Template","新着商品画像のみテンプレート"
 "Cache Lifetime (Seconds)","キャッシュ有効期間 (秒)"
-"86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","設定されて居ない場合86400がデフォルトです。今すぐ更新するには、ブロックHTMLアウトプットキャッシュをクリアしてください。"
+"86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","設定されていない場合86400がデフォルトです。今すぐ更新するには、ブロックHTMLアウトプットキャッシュをクリアしてください。"
 "Catalog Product Link",商品リンク
 "Link to a Specified Product",指定商品にリンク
 "If empty, the Product Name will be used",空白の場合は商品名が使用されます
