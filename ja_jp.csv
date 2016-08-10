@@ -2956,7 +2956,7 @@ Download,ダウンロード
 "Save Customer Group",保存
 "Delete Customer Group",顧客グループの削除
 "New Customer Group",新規顧客グループ
-"Edit Customer Group ""%1""","カスタマーグループ """"%1""""""編集"
+"Edit Customer Group ""%1""","顧客グループ """"%1""""""編集"
 "Group Information",グループ情報
 "Group Name",グループ名
 "Maximum length must be less then %1 symbols","最長は %1 シンボル以下です"""
@@ -2966,18 +2966,18 @@ Download,ダウンロード
 "The VAT ID is valid.","VAT ID番号が無効です"
 "The VAT ID entered (%s) is not a valid VAT ID.","VAT番号 (%s) が不正です。"
 "The VAT ID is valid. The current Customer Group will be used.","正しいVAT番号です。 現在のグループが使用されます。"
-"The VAT ID is valid but no Customer Group is assigned for it.","VAT IDは有効ですがカスタマーグループがアサインされていません"
+"The VAT ID is valid but no Customer Group is assigned for it.","VAT IDは有効ですが顧客グループがアサインされていません"
 "Based on the VAT ID, the customer would belong to the Customer Group %s.","VAT IDに基づいて、顧客はグループ %s に割り当てられます。"
 "There was an error validating the VAT ID. "," VAT IDの認証エラーが起きました"
-"The customer would belong to Customer Group %s.","顧客はカスタマーグループ %sに所属します"
-"There was an error detecting Customer Group.",カスタマーグループ削除エラーが起きました。
+"The customer would belong to Customer Group %s.","顧客は顧客グループ %sに所属します"
+"There was an error detecting Customer Group.",顧客グループ削除エラーが起きました。
 "Validate VAT Number",VAT番号検証
 "Customer Login",ログイン
 "Create New Customer Account",新規顧客アカウントを作成
 "Date of Birth",生年月日
 "Bad request.",不正なリクエスト。
-"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter you shipping address for proper VAT calculation","登録済みのVATカスタマーであれば、<a href=""""%1"""">ここ</a>をクリックして正しいVAT計算のために送付先住所を入力してください"
-"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter you billing address for proper VAT calculation","登録済みのVATカスタマーであれば、<a href=""""%1"""">ここ</a>をクリックして正しいVAT計算のために請求先住所を入力してください"
+"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter you shipping address for proper VAT calculation","登録済みのVAT顧客であれば、<a href=""""%1"""">ここ</a>をクリックして正しいVAT計算のために送付先住所を入力してください"
+"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter you billing address for proper VAT calculation","登録済みのVAT顧客であれば、<a href=""""%1"""">ここ</a>をクリックして正しいVAT計算のために請求先住所を入力してください"
 "Thank you for registering with %1."," %1　を登録していただきありがとうございます"
 "Please, check your email for confirmation key.",メールの確認キーを入力してください。
 "This email does not require confirmation.",このメールアドレスは確認を必要としません。
@@ -3004,12 +3004,12 @@ Download,ダウンロード
 "We can't delete the address right now.",住所を現在削除できません
 "The address has been saved.",住所を保存しました。
 "Cannot save address.",住所を保存できません。
-"No customer ID defined.",カスタマーIDが定義されていません
+"No customer ID defined.",顧客IDが定義されていません
 "Please correct the quote items and try again.",クオート商品を修正して再度試して下さい。
-"You have revoked the customer's tokens.",カスタマートークンを剥奪しました。
+"You have revoked the customer's tokens.",顧客トークンを剥奪しました。
 "We can't find a customer to revoke.",排除する顧客を見つけれませんでした
 "The customer group has been deleted.",顧客グループを削除しました。
-"The customer group no longer exists.",このカスタマーグループは存在しません
+"The customer group no longer exists.",この顧客グループは存在しません
 "New Group",新規グループ
 "New Customer Groups",新規顧客グループ
 "Edit Group",グループの編集
@@ -3021,8 +3021,8 @@ Download,ダウンロード
 "Manage Customers",顧客管理
 "A total of %1 record(s) were deleted.","合計 %1のレコードが削除されました"
 "Customer will receive an email with a link to reset password.",パスワードをリセットするためにリンク付きのEメールが顧客に届きます
-"An error occurred while resetting customer password.",カスタマーパスワードをリセット中にエラーが発生しました
-"You saved the customer.",カスタマーを保存しました
+"An error occurred while resetting customer password.",顧客パスワードをリセット中にエラーが発生しました
+"You saved the customer.",顧客を保存しました
 "An error occurred while saving the customer.",顧客を保存中にエラーが発生しました。
 "Please define Wish List item ID.",欲しい物リストのアイテムIDを定義してください
 "Please load Wish List item.",欲しい物リストアイテムをロードしてください
@@ -3095,7 +3095,7 @@ Download,ダウンロード
 "Customer website ID must be specified when using the website scope",ウェブサイトごとに顧客管理をする場合には顧客データにウェブサイトIDが必要です。
 Visitor,訪問者
 "The group ""%1"" cannot be deleted","グループ """"%1"""" は削除できません。"
-"Customer Group already exists.",カスタマーグループは既に存在します
+"Customer Group already exists.",顧客グループは既に存在します
 "Cannot delete group.",グループを削除できない
 "PHP SOAP extension is required.","PHP SOAPエクステンションが必要です。"
 "Male",男性
@@ -3720,7 +3720,7 @@ Administrator,管理者
 "Pending Reviews RSS",承認待ちレビューRSS
 "Reviews %1","レビュー %1"
 "The review has been deleted.",レビューは削除されました
-"Customer Reviews",カスタマーレビュー
+"Customer Reviews",顧客レビュー
 "Edit Review",レビュー編集
 "We can't get the product ID.",商品IDを入手できません
 "Please select review(s).",レビューを選択してください。
@@ -4264,7 +4264,7 @@ Amount,金額
 "Item Status",商品状況
 "Original Price",原価
 "Tax Percent",税率
-"Notes for this Order",この注文の注意点
+"Notes for this Order","コメント履歴"
 "Comment added",コメント追加済み
 "Transaction Data",トランザクションデータ
 "Transaction ID",トランザクションID
@@ -4304,7 +4304,7 @@ Sku,商品番号
 "Gift Options for ","ギフトオプション "
 "Add Products",商品を追加
 "Hide Customer IP",顧客のIPを隠す
-"Choose whether a customer IP is shown in orders, invoices, shipments, and credit memos.",カスタマーIPが注文、請求書、送料、クレジットメモに記されているか選んで下さい
+"Choose whether a customer IP is shown in orders, invoices, shipments, and credit memos.",顧客IPが注文、請求書、送料、クレジットメモに記されているか選んで下さい
 "Checkout Totals Sort Order",合計表示順
 "Allow Reorder",再注文を許可
 "Invoice and Packing Slip Design",請求書と納品書のデザイン
@@ -4773,7 +4773,7 @@ Dropoff,収荷場所
 "Worldwide Expedited",ワールドワイドエクスペディティッド
 "Customer Packaging",顧客自身による梱包
 "UPS Letter Envelope","UPS レターエンベロープ"
-"Customer Supplied Package",カスタマーサプライドパッケージ
+"Customer Supplied Package",顧客サプライドパッケージ
 "UPS Tube","UPS チューブ"
 PAK,PAK
 "UPS Express Box","UPS エクスプレスボックス"
@@ -5272,7 +5272,7 @@ Webservicex,WebserviceX
 "Scheduled Import Settings",インポートスケジュール設定
 Service,サービス
 "Installed Currencies",インストール済み通貨
-"Zip/Postal Code is Optional for",郵便番号はオプションです
+"Zip/Postal Code is Optional for",郵便番号が任意の国
 "State Options",ステートオプション
 "State is Required for",ステートは必須です
 "Allow to Choose State if It is Optional for Country",もし国のオプションであるなら州を選択可能にしてください
@@ -5419,7 +5419,7 @@ Others,その他
 "Same day",同日
 "Express 12:00","エクスプレス 12:00"
 "Express envelope",エクスプレス封筒
-"Customer services",カスタマーサービス
+"Customer services",顧客サービス
 Jetline,ジェットライン
 "Freight worldwide",フレイトワールドワイド
 "Jumbo box",ジャンボボックス
@@ -6111,8 +6111,8 @@ You need to create a simple product for each configuration (Ex: a product for ea
 "Are you sure you want to revoke the customer\'s tokens?","顧客のトークンを本当に破棄しますか？"
 Purchased,購入済み
 "There are no items in customer's shopping cart.","顧客のショッピングカートに商品はありません。"
-"The customer is now assigned to Customer Group %s.","顧客は現在カスタマーグループ %sにアサインされています。"
-"Based on the VAT ID, the customer belongs to the Customer Group %s.","VAT IDに元づいて、顧客はカスタマーグループ%sに属します。"
+"The customer is now assigned to Customer Group %s.","顧客は現在顧客グループ %sにアサインされています。"
+"Based on the VAT ID, the customer belongs to the Customer Group %s.","VAT IDに元づいて、顧客は顧客グループ%sに属します。"
 "Something went wrong while validating the VAT ID.","VAT ID認証中に問題が発生しました。"
 "This confirmation key is invalid or has expired.","確認キーが無効か期限切れです。"
 "There was an error confirming the account","アカウントを確認エラーが発生しました。"
@@ -6136,8 +6136,8 @@ Purchased,購入済み
 "You deleted the address.","住所を削除しました。"
 "You saved the address.","住所を保存しました。"
 "We can't save the address.","住所を保存できませんでした。"
-"You deleted the customer group.","カスタマーグループを削除しました。"
-"You saved the customer group.","カスタマーグループを保存しました。"
+"You deleted the customer group.","顧客グループを削除しました。"
+"You saved the customer group.","顧客グループを保存しました。"
 "Customer could not be deleted.","顧客は削除できませんでした。"
 "Something went wrong while editing the customer.","顧客の編集中に問題が発生しました。"
 "The customer will receive an email with a link to reset password.","顧客にはパスワードをリセットするリンク付きのEメールが送られます。"
@@ -6440,7 +6440,7 @@ Sale,セール
 "The payment is pending because it was made to an email address that is not yet registered or confirmed.","まだ登録されてないか確認されてないEメールアドレス宛てになっているので支払は保留されています。"
 "The merchant account is not yet verified.","商店アカウントは確認されておりません。"
 "The payment was made via credit card. In order to receive funds merchant must upgrade account to Business or Premier status.","支払はクレジットカードでおこなわれました。"
-"Sorry, but something went wrong. Please contact PayPal customer service.","申し訳ありません、しかし問題が発生しました。PayPalカスタマーサービスにご連絡してください。"
+"Sorry, but something went wrong. Please contact PayPal customer service.","申し訳ありません、しかし問題が発生しました。PayPal顧客サービスにご連絡してください。"
 "A reversal has occurred on this transaction due to a chargeback by your customer.","顧客による入金取り消しのためこのトランザクションで破棄が発生しました。"
 "A reversal has occurred on this transaction due to your customer triggering a money-back guarantee.","顧客がマネーバック保証を実行したのでこのトランザクションで破棄が発生しました。"
 "A reversal has occurred on this transaction due to a complaint about the transaction from your customer.","顧客からのトランザクションに対する不満のためこのトランザクションで破棄が発生しました。"
@@ -6457,7 +6457,7 @@ Sale,セール
 "A case that has been resolved and close requires a reimbursement.","事案は解決され終了するには返金が必要です。"
 "Buyer claims that a possible duplicate payment was made to the merchant.","購入者は商店に数度被った支払をおこなったと主張しています。"
 "Buyer claims that the received merchandise is unsatisfactory, defective, or damaged.","購入者は受け取った商品は不満足か、不完全か、傷ついていると主張しています。"
-"Unknown reason. Please contact PayPal customer service.","理由が不明。PayPalのカスタマーサービスに連絡してください。"
+"Unknown reason. Please contact PayPal customer service.","理由が不明。PayPalの顧客サービスに連絡してください。"
 "Payer ID","支払人ID"
 "Payer Email","支払人Eメール"
 "Payer Status","支払人ステータス"
@@ -6715,7 +6715,7 @@ Author,作者
 "See Details","詳細を御覧ください"
 "Only registered users can write reviews. Please, <a href=""%1"">Sign in</a> or <a href=""%2"">create an account</a>","登録済みユーザーのみリビューを書くことができます。 <a href=""%1"">サインイン</a> か <a href=""%2"">アカウントを作成</a>してください。"
 "Please choose a valid discount amount.","有効なディスカウント額を選択してください。"
-"Please specify Customer Groups.","カスタマーグループを指定してください。"
+"Please specify Customer Groups.","顧客グループを指定してください。"
 "Apply the rule only to cart items matching the following conditions (leave blank for all items).","ルールは以下の条件にマッチするカートアイテムに適用して下さい (全ての商品のためには空白のままで)。"
 "Cart Price Rule","カート価格ルール"
 "Specified rule does not allow coupons","指定のルールはクーポンを許可しません"
@@ -6947,7 +6947,7 @@ Password:,パスワード:
 "Store alternative addresses","別住所を保管"
 "For shipping to multiple family members and friends","複数の家族メンバーと友達のために"
 "About Us","我々について"
-"Customer Service","カスタマーサービス"
+"Customer Service","顧客サービス"
 "<a href=""tel:%store_phone"">%store_phone</a>","<a href=""tel:%store_phone"">%store_phone</a>"
 "Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","営業時間:<br /><span class=""no-link"">%store_hours</span>."
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","注文について質問がある場合は、 <a href=""mailto:%store_email"">%store_email</a>にEメールをお送りください。"
@@ -7756,3 +7756,40 @@ Elements,構成
 "It's a default shipping address.","標準の配送先"
 "Design Configuration","デザイン設定"
 "Theme Name","テーマ名"
+"Change Email","メールアドレスを変更する"
+"Suffix","敬称"
+"Prefix","尊称"
+"Recently Ordered","最近ご注文いただいた商品"
+"Minimum Password Length","最短パスワード文字数"
+"Use 0 to disable account locking.","0を指定するとアカウントロックを無効化します。"
+"Account will be unlocked after provided time.","指定した時間経過後にアカウントロックを解除します。"
+"Use system value","システム設定値を使用"
+"Number of Required Character Classes","必須にする文字種の数"
+"Number of different character classes required in password: Lowercase, Uppercase, Digits, Special Characters.","パスワードに要求する文字種の種類: 大文字,小文字, 数字, 記号"
+"Recovery Link Expiration Period (hours)","パスワード再設定リンクの有効期限(時間)"
+"Min Time Between Password Reset Requests","パスワードリセットリクエストの最短間隔"
+"Delay in minutes between password reset requests. Use 0 to disable.","パスワードリセットリクエストを再実行できる間隔を指定します。0の場合は無効です。"
+"Max Number of Password Reset Requests","パスワードリセットリクエストの送信回数"
+"Limit the number of password reset request per hour. Use 0 to disable.","1時間あたりに実行できるパスワードリセットの回数です。0の場合は無効です。"
+"Password Reset Protection Type","パスワードリセットの制御方法"
+"By IP and Email","IPアドレスとメールアドレス"
+"By IP","IPアドレス"
+"By Email","メールアドレス"
+"Ship Here","この住所にお届け"
+"Default Theme","標準テーマ"
+"Applied Theme","適用済テーマ"
+"Save and Continue","保存して続ける"
+"Save Configuration","設定を保存する"
+"You already have an account with us. Sign in or continue as guest.","すでにアカウントをお持ちのようです。ログインされますか?"
+"optional","任意"
+"All other open sessions for this account were terminated.","このアカウントの他のすべてのログインセッションは期限切れになりました。"
+"Disable Automatic Group Change Based on VAT ID","VAT IDによる顧客グループの自動変更を無効にする"
+"Date Of Birth","誕生日"
+"Tax/VAT number","納税者番号"
+"Save View As...","名前をつけて保存"
+"Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","パスワードには最低でも %1種類の文字を含めてください。文字の種類は次のとおりです: 大文字,小文字, 数字, 記号"
+"Password Strength","パスワードの強度"
+"No Password","パスワード無し"
+"Weak","弱い"
+"Strong","強い"
+"Very Strong","とても強い"
