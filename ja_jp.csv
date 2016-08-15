@@ -762,12 +762,12 @@ Global,グローバル
 Scope,スコープ
 "Declare attribute value saving scope",属性値の保存スコープを定義
 "Use in Search","検索で使用"
-"Visible in Advanced Search","高度検索で目視可能"
+"Visible in Advanced Search","詳細検索で表示する"
 "Comparable on Frontend","フロントエンドで互換可能"
 "Use for Promo Rule Conditions",プロモーションルールの条件で使用する
 "Enable WYSIWYG",WYSIWYGエディタを有効にする
 "Allow HTML Tags on Frontend",フロントエンドでHTMLタグを許可する
-"Visible on Catalog Pages on Frontend","フロントエンドのカタログページで目視可能"
+"Visible on Catalog Pages on Frontend","フロントエンドのカタログページで表示する"
 "Used in Product Listing",商品リスト表示で使用する
 "Depends on design theme",デザインテーマ依存
 "Used for Sorting in Product Listing",商品リスト表示の並べ替え順で使用する
@@ -3348,7 +3348,7 @@ Import/Export,インポート/エクスポート
 "Cannot determine attribute filter type",属性フィルタータイプが決定できません
 "Entity is unknown",エンティティが不明です
 "File format is unknown",ファイル形式が不明です
-"Please correct the value for '%1' column",コラム'%1'の値を修正してください
+"Please correct the value for '%1' column",カラム'%1'の値を修正してください
 "Please specify writer.",ライターを指定してください
 "Destination file path must be a string",保存先ファイルパスは文字列でなければなりません
 "Destination directory is not writable",保存先ディレクトリに書き込み権限がありません
@@ -5935,7 +5935,7 @@ Relevance,関係性
 "Use in Filter Options","フィルターオプション内で使用"
 "Select ""Yes"" to add this attribute to the list of filter options in the product grid.","""Yes"" を選択してこの属性を製品グリッド内のフィルターオプションのリストに追加。"
 "Storefront Properties","ストアフロントプロパティ"
-"Comparable on Storefront","ストアフロントにて互換性"
+"Comparable on Storefront","比較リストで使用"
 "Allow HTML Tags on Storefront","HTMLタグをストアフロントにて許可"
 "Visible on Catalog Pages on Storefront","ストアフロントのカタログページにて確認可"
 "You are about to delete all products in this attribute set. Are you sure you want to do that?","この属性セットの全ての商品を削除しようとしています。本当に実行しますか？"
@@ -6306,7 +6306,7 @@ Replace,置き換え
 "Cannot create request token because consumer token is not a verifier token","コンシューマートークンは認証トークンではないため要求トークンを作成できません"
 "Request token is not associated with the specified consumer","要求トークンは指定された顧客と関連付けされていません"
 "Token is already being used","トークンはすでに使われている"
-"Use in Search Results Layered Navigation","検索結果レイヤーされたナビゲーションにて使われる"
+"Use in Search Results Layered Navigation","検索結果の絞込条件で使用"
 "Now Shopping by","現在買い物をしている人"
 Partners,パートナーズ
 "Magento Marketplace","Magentoマーケットプレイス"
@@ -7759,7 +7759,7 @@ Elements,構成
 "Change Email","メールアドレスを変更する"
 "Suffix","敬称"
 "Prefix","尊称"
-"Recently Ordered","最近ご注文いただいた商品"
+"Recently Ordered","最近注文いただいた商品"
 "Minimum Password Length","最短パスワード文字数"
 "Use 0 to disable account locking.","0を指定するとアカウントロックを無効化します。"
 "Account will be unlocked after provided time.","指定した時間経過後にアカウントロックを解除します。"
@@ -7793,3 +7793,13 @@ Elements,構成
 "Weak","弱い"
 "Strong","強い"
 "Very Strong","とても強い"
+"Provided Zip/Postal Code seems to be invalid.","ご入力された郵便番号は正しくないようです。"
+" Example: "," 正しい郵便番号の例: "
+"If you believe it is the right one you can ignore this notice.","ご入力された内容が正しい場合は、このメッセージを無視してください。"
+"Sorry, no quotes are available for this order at this time","申し訳ございません、お届け先が指定されていないため送料のお見積りをお出しすることができません。"
+"Invalid UI Component element name: '%1'","不正なUI Component要素名: '%1'"
+"Your current session has been expired.","セッションが期限切れになりました。"
+"Depends on design theme.","デザインテーマに依存"
+"Position of attribute in layered navigation block.","絞込検索のブロック上での表示順。"
+"Can be used only with catalog input type Dropdown, Multiple Select and Price.","ドロップダウンと複数選択、価格の時のみ使用できます。"
+"Manage Options (Values of Your Attribute)","オプション管理 (属性の値)"
