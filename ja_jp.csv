@@ -474,12 +474,12 @@ Websites,ウェブサイト
 "Could not rebuild index for undefined product","未定義製品があるため、インデックスを再構築できませんでした"
 "Could not rebuild index for empty products array","空の製品配列があるため、インデックスを再構築できませんでした"
 "Catalog Price Rules",カタログ価格ルール
-"Add New Rule",新規クーポンの追加
+"Add New Rule",新規作成
 "Apply Rules",ルールの反映
 "Save and Apply",保存と適用
 "Edit Rule '%1'","ルール編集 '%1'"
 "New Rule",新しいルール
-"Rule Information",クーポン情報
+"Rule Information",ルール情報
 "Update Prices Using the Following Information",以下の情報に基づいて価格を更新する
 "By Percentage of the Original Price",元の価格に指定した割引率を値引き
 "By Fixed Amount",指定額を割引
@@ -489,7 +489,7 @@ Websites,ウェブサイト
 "Stop Further Rules Processing",他のクーポンの適用を行わない
 "Conditions (leave blank for all products)",状態(すべての商品では空白に)
 "General Information",総合情報
-"Rule Name",クーポン名
+"Rule Name",名称
 Description,概要
 Active,アクティブ
 Inactive,非アクティブ
@@ -521,7 +521,7 @@ Promo,プロモーション
 "Updated rules applied.","更新したルールが適用されました。"
 "%1 Catalog Price Rules based on ""%2"" attribute have been disabled."," ""%2"" 属性に基づく%1のカタログ価格ルールは無効になりました。"
 Start,開始
-Rule,クーポン名
+Rule,ルール
 End,終了
 "Catalog Rule Product","カタログルール商品"
 "Indexed rule/product association","インデックス化された　ルール/商品 アソシエイション"
@@ -837,9 +837,11 @@ Import,インポート
 "ALL GROUPS",全てのグループ
 "Add Tier",階層の追加
 "Default Values",標準の値
-"Related Products",関連する商品
+"Related Products",関連商品
 Up-sells,アップセル商品
 Cross-sells,クロスセル商品
+"Add Up-Sell Products","アップセル商品を追加"
+"Up-Sell Products","アップセル商品"
 "Size for %1","%1 のサイズ"
 "Watermark File for %1","%1 の透かしファイル"
 "Position of Watermark for %1","%1 の透かしファイルの位置"
@@ -1187,7 +1189,7 @@ Ok,Ok
 "Choose existing category.","既存のカテゴリを選択してください。"
 "Create Category","カテゴリ作成"
 "unselect all",全て未選択にする
-"Search Engine Optimization","検索エンジンオプティマイゼーション"
+"Search Engine Optimization","検索エンジン最適化（SEO）"
 "Product Fields Auto-Generation","商品フィールド自動生成"
 "Mask for SKU","SKUのマスク"
 "Use {{name}} as Product Name placeholder","{{name}} を商品名プレイスホルダーとして使用する"
@@ -1548,8 +1550,8 @@ Results,結果
 "Catalog Search",カタログ検索
 "Minimal Query Length",最少クエリ文字数
 "Maximum Query Length",最大クエリ文字数
-"Apply Layered Navigation if Search Results are Less Than",検索結果が少ない場合に階層ナビゲーションを適用する検索結果件数
-"Enter ""0"" to enable layered navigation for any number of results.","""0""を指定すると件数にかかわらず階層ナビゲーションが有効になります。"
+"Apply Layered Navigation if Search Results are Less Than",検索結果が少ない場合に絞込検索を適用する検索結果件数
+"Enter ""0"" to enable layered navigation for any number of results.","""0""を指定すると件数にかかわらず絞込検索が有効になります。"
 "Rebuild Catalog product fulltext search index",商品全文検索インデックス
 "Account Number",アカウント番号
 "Google API","Google API"
@@ -1785,8 +1787,8 @@ notice,お知らせ
 "Wrong message type",不正なメッセージ種別
 "Wrong notification ID specified.",間違ったお知らせIDが指定されました
 "{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure ' 'URL / Base Secure URL. It is highly recommended to change this value in your Magento ' '<a href=""%1"">configuration</a>.","{{base_url}}はBase unsecureを開発環境にて宣言するために使用することはお勧めできません' 'URL / Base Secure URL. をMagentoでこの値を変更する場合に使用することを強くお勧めします' '<a href=""%1"">configuration</a>."
-"One or more of the Cache Types are invalidated: %1. ","1つ以上のCacheタイプ無効でした： %1"
-"Please go to <a href=""%1"">Cache Management</a> and refresh cache types."," <a href=""""%1"""">Cache Management</a>にてcacheタイプを更新してください"
+"One or more of the Cache Types are invalidated: %1. ","1つ以上のキャッシュが最新ではありません： %1"
+"Please go to <a href=""%1"">Cache Management</a> and refresh cache types."," <a href=""""%1"""">キャッシュ管理</a>にてキャッシュを更新してください"
 "One or more media files failed to be synchronized during the media storages synchronization process. ' 'Refer to the log file for details.",1つ以上のメディアファイルがメディア保管同期プロセス中に同期に失敗しました。詳細はログファイルをご覧ください。
 "Synchronization of media storages has been completed.",メディア保管場所の同期が終了しました。
 "Your web server is configured incorrectly. As a result, configuration files ' ' with sensitive information are accessible from the outside. Please contact your hosting provider.","ウェブサーバーが誤った設定になっています。結果機密情報を含むコンフィグファイル' 'が外部からアクセス可能です。ホストプロバイダーに連絡してください。"
@@ -2242,7 +2244,7 @@ ALL,全て
 ANY,いずれか
 TRUE,TRUE
 FALSE,FALSE
-"If %1 of these conditions are %2:","もし %1 の条件が %2:"
+"If %1 of these conditions are %2:","もし以下の %1 の条件が %2 であるなら:"
 "Unknown condition operator",不明な条件の使用者
 "There is no information about associated entity type ""%1"".","関連するエンティティタイプ ""%1""に関する情報はありません"
 "Please wait, loading...",読み込み中です
@@ -2484,7 +2486,12 @@ Coupon,クーポン
 "If you select and save the rule you will be able to generate multiple coupon codes.",このルールを保存すると複数のクーポンコードを作成できます。
 "Uses per Coupon",クーポンごとの使用可能数
 "Uses per Customer",顧客ごとの使用可能数
-"Usage limit enforced for logged in customers only.",使用をログイン顧客のみに制限する
+"
+                        Usage limit enforced for logged in customers only.
+                    ","
+                        使用可能数はログインしている顧客にのみ適用されます。
+                    "
+"Usage limit enforced for logged in customers only.","使用可能数はログインしている顧客にのみ適用されます。"
 "Public In RSS Feed",RSSフィードに公開
 "%1 - Discounts and Coupons","%1 - ディスカウントとクーポン"
 Coupons/Discounts,クーポン/ディスカウント
@@ -2521,9 +2528,9 @@ Auto,自動
 "Price in cart",カートの中の価格
 "Row total in cart",カートの中の行数
 "Cart Item Attribute",カートアイテム属性
-FOUND,見つかりました。
-"NOT FOUND",見つかりませんでした
-"If an item is %1 in the cart with %2 of these conditions true:",もしカートの商品%1が%2のこれらの条件がトゥルーの時:
+FOUND,存在する
+"NOT FOUND",存在しない
+"If an item is %1 in the cart with %2 of these conditions true:",もしカートの中に以下の商品が %2 %1 という条件が成立する時:
 "total quantity",合計数量
 "total amount",合計額
 "If %1 %2 %3 for a subselection of items in cart matching %4 of these conditions:","%1 %2 %3 のサブセレクションのカート内商品でこれらの条件の%4にマッチする時:"
@@ -2861,7 +2868,7 @@ State/Region,都道府県
 "Subtotal Only",小計のみ
 "Website is not specified",ウェブサイトが指定されていません。
 "E-mail is not specified",Eメールが指定されていません。
-"Invalid value in website column",ウェブサイトコラムに不正な値
+"Invalid value in website column",ウェブサイトカラムに不正な値
 "E-mail is invalid",Eメールが無効です。
 "Required attribute '%s' has an empty value",必須の属性'%s'の値は空です。
 "Customer with such email and website code doesn't exist",指定のメールとウェブサイトコードの顧客は存在しません。
@@ -3367,8 +3374,8 @@ Import/Export,インポート/エクスポート
 "Invalid behavior token for %1",%1のための無効な挙動トークン
 "Source is not set",元ファイルが未指定です
 "Cannot find required columns: %1","必須の列がみつかりません: %1"
-"Columns number: ""%1"" have empty headers","コラム名: ""%1"" は空のヘッダーです"
-"Column names: ""%1"" are invalid","コラム名: ""%1"" は無効です"
+"Columns number: ""%1"" have empty headers","カラム名: ""%1"" は空のヘッダーです"
+"Column names: ""%1"" are invalid","カラム名: ""%1"" は無効です"
 "The adapter type must be a non empty string.",アダプタータイプは空の文字列ではいけません
 "'%1' file extension is not supported",'%1'ファイル拡張子はサポートされていません
 "Adapter must be an instance of \Magento\ImportExport\Model\Import\AbstractSource","アダプターは \Magento\ImportExport\Model\Import\AbstractSource　のインスタンスでなければなりません"
@@ -5100,18 +5107,18 @@ Auto-redirect to Base URL""",ベースURLに自動リダイレクトする
 Tags,タグ
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading"">404 エラー</h1><p>ページが見つかりません。</p>"
 "Community Edition",コミュニティエディション
-"Use In Layered Navigation",階層ナビゲーションで使用する
+"Use In Layered Navigation",絞込検索で使用する
 "Can be used only with catalog input type Dropdown, Multiple Select and Price",ドロップダウンリストは複数選択または価格でのみ利用可能です
 "Filterable (with results)","フィルタ可能 (結果あり)"
 "Filterable (no results)","フィルタ可能 (結果なし)"
 "Use In Search Results Layered Navigation",検索結果ナビゲーションで使用
-"Position in Layered Navigation",階層ナビゲーション内の位置
+"Position in Layered Navigation",絞込検索内の位置
 "Position of attribute in layered navigation block",レイアウトナビゲーションブロックの位置属性
-"Use in Layered Navigation",階層ナビゲーションで使用する
+"Use in Layered Navigation",絞込検索で使用する
 item,商品
 items,商品
 "Currently Shopping by",現在買い物中の人は
-"Layered Navigation",階層ナビゲーション
+"Layered Navigation",絞込検索
 "Display Product Count",商品点数を表示
 "Price Navigation Step Calculation",価格ナビゲーション計算区切り
 "Default Price Navigation Step",標準の価格ナビゲーション区切り
@@ -5910,10 +5917,10 @@ Quantity:,数量:
 "You can buy this product only in quantities of %1 at a time.","この商品は数量%1づつのみ一度に買うことができます。"
 "%1 is available to buy in increments of %2","%1は%2の数量づつ購入が可能です"
 "Pricing Structure Rules","値付け構造ルール"
-"Apply as percentage of original","オリジナルのパーセンテージとして適用"
+"Apply as percentage of original","割引前価格からの割引率として適用"
 "Apply as fixed amount","固定価格として適用"
-"Adjust final price to this percentage","このパーセンテージに最終価格を調整"
-"Adjust final price to discount value","ディスカウント値に最終価格を調整"
+"Adjust final price to this percentage","この割引率に最終価格を調整"
+"Adjust final price to discount value","値引額に最終価格を調整"
 "Subproduct discounts","Subproduct discounts"
 "Discard subsequent rules","このルールより優先度の低いルールの適用を行わない"
 "Conditions (don't add conditions if rule is applied to all products)","条件 (ルールが全ての商品に適用される場合条件を追加しないでください)"
@@ -5922,7 +5929,7 @@ Quantity:,数量:
 "You deleted the rule.","ルールを削除しました。"
 "You saved the rule.","ルールを保存しました。"
 "Something went wrong while saving the rule data. Please review the error log.","ルールデータを保存中に問題が発生しました。 エラーログを確認してください。"
-"Percentage discount should be between 0 and 100.","パーセンテージディスカウントは0から100の間でなければなりません。"
+"Percentage discount should be between 0 and 100.","割引率の値は0から100の間でなければなりません。"
 "Discount value should be 0 or greater.","ディスカウント値は0かそれ以上でなければなりません。"
 "Unknown action.","不明なアクション。"
 "You disabled %1 Catalog Price Rules based on ""%2"" attribute.","""%2""属性が元のカタログプライスルール%1が無効化されました。"
@@ -5930,14 +5937,14 @@ Relevance,関係性
 "Bucket do not exists","バケットは存在しません"
 "We can't find any items matching these search criteria.","これらの検索クライテリアにマッチするアイテムが見つかりません"
 "Your search returned no results.","検索に一致する商品はありませんでした。"
-"Add to Column Options","コラムオプションに追加"
-"Select ""Yes"" to add this attribute to the list of column options in the product grid.","""Yes"" を選択してこの属性を製品グリッド内のコラムオプションのリストに追加。"
+"Add to Column Options","カラムオプションに追加"
+"Select ""Yes"" to add this attribute to the list of column options in the product grid.","""Yes"" を選択してこの属性を製品グリッド内のカラムオプションのリストに追加。"
 "Use in Filter Options","フィルターオプション内で使用"
 "Select ""Yes"" to add this attribute to the list of filter options in the product grid.","""Yes"" を選択してこの属性を製品グリッド内のフィルターオプションのリストに追加。"
 "Storefront Properties","ストアフロントプロパティ"
 "Comparable on Storefront","比較リストで使用"
 "Allow HTML Tags on Storefront","HTMLタグをストアフロントにて許可"
-"Visible on Catalog Pages on Storefront","ストアフロントのカタログページにて確認可"
+"Visible on Catalog Pages on Storefront","ストアフロントのカタログページで表示"
 "You are about to delete all products in this attribute set. Are you sure you want to do that?","この属性セットの全ての商品を削除しようとしています。本当に実行しますか？"
 "Edit Attribute Set Name","属性セット名を編集"
 "Add Attribute Set","属性セット追加"
@@ -5981,7 +5988,7 @@ Relevance,関係性
 "Could not assign product ""%1"" to websites ""%2""","ウェブサイト%2にて製品 ""%1""をアサインできませんでした"
 "Could not save product ""%1"" with websites %2","ウェブサイト%2にて製品 ""%1""を保存できませんでした"
 "%1 doesn't extend \Magento\Catalog\Model\ResourceModel\Product\Indexer\Price\DefaultPrice","%1 は \Magento\Catalog\Model\ResourceModel\Product\Indexer\Price\DefaultPrice　を拡張できません。"
-"Double click on a group to rename it.","名前変更のためにグループをダブルクリックしてください。"
+"Double click on a group to rename it.","名前変更する場合はグループをダブルクリックしてください。"
 "Sorry, we're unable to complete this request.","申し訳ありません、このリクエストを完了できませんでした。"
 "You can't remove attributes from this attribute set.","属性をこの属性セットから削除できません。"
 "The field isn't complete.","フィールドが全て埋まっていません。"
@@ -6097,7 +6104,7 @@ You need to create a simple product for each configuration (Ex: a product for ea
 "You applied the custom currency symbols.","カスタム通貨シンボルを適用しました。"
 "Please specify a website.","ウェブサイトをしてください。"
 "Please specify an email.","Eメールを指定してください。"
-"We found an invalid value in a website column.","ウェブサイトコラム内で不正な値を見つけました。"
+"We found an invalid value in a website column.","ウェブサイトカラム内で不正な値を見つけました。"
 "Please make sure attribute ""%s"" is not empty.","属性 ""%s""は空でないことを確認してください"
 "We can't find a customer who matches this email and website code.","このEメールとウェブサイトコードにマッチする顧客が見つかりませんでした。"
 "We can't find that customer address.","その顧客の住所が見つかりません。"
@@ -6271,11 +6278,11 @@ History,履歴
 "The export is finished.","エクスポートは終了しました。"
 "We can't determine the attribute filter type.","属性フィルタータイプを判別できません。"
 "We can't identify this file format.","ファイルフォーマットを特定できません。"
-"Please correct the value for ""%1"" column.","""%1""コラムの値を修正してください。"
+"Please correct the value for ""%1"" column.","""%1""カラムの値を修正してください。"
 "Please specify the writer.","ライターを指定してください。"
 "The destination file path must be a string.","デスティネーションファイルパスはstringでなければなりません。"
 "The destination directory is not writable.","デスティネーションディレクトリは書き込み可能ではありません。"
-"The header column names are already set.","ヘッダーコラム名は既にセットされています。"
+"The header column names are already set.","ヘッダーカラム名は既にセットされています。"
 "Data validation is failed. Please fix errors and re-upload the file.","データ認証失敗。 エラーを修正してファイルを再度アップロードしてください。"
 "The validation is complete.","認証が完了しました。"
 "This file does not contain any data.","このファイルにはデータがありません。"
@@ -6682,7 +6689,7 @@ Url,Url
 "Preview Image","プレビュー画像"
 "Get Video Information","ビデオ情報取得"
 "YouTube and Vimeo supported.","YouTubeとビデオはサポートされます"
-"Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","Vimeo サポートされています。<br />YouTube ビデオを追加するには, まず <a href=""%1"">YouTube API キー入力</a> してください。"
+"Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","Vimeoがサポートされています。<br />YouTube ビデオを追加するには, まず <a href=""%1"">YouTube API キー入力</a> してください。"
 "Could not get preview image information. Please check your connection and try again.","プレビュー画像情報を得られませんでした。 接続を確認して再度お試し下さい。"
 "Click here to add videos.","ここをクリックしてビデオを追加してください。"
 "New Video","新規ビデオ"
@@ -6820,13 +6827,14 @@ Invitee,送信先
 "Admin is a required field in the each row","管理者は各行は必須フィールドです"
 "Update Product Preview Image","製品プレビュー画像を更新"
 "Filtering by this attribute will update the product image on catalog page","この属性でのフィルタリングはカタログページの製品画像を更新します。"
-"Use Product Image for Swatch if Possible","可能であれば製品画像を見本のために使用してください"
-"Allows use fallback logic for replacing swatch image with product swatch or base image","見本画像を商品見本かベース画像と交換するためにフォールバックロジックの使用を許可"
-"Visual Swatch","映像見本"
-"Text Swatch","テキスト見本"
-"Manage Swatch (values of your attribute)","見本管理 (あなたの属性の値)"
-"Add Swatch","見本追加"
-Swatch,見本
+"Use Product Image for Swatch if Possible","利用できる場合は商品画像をスワッチ画像として使う"
+"Allows use fallback logic for replacing swatch image with product swatch or base image","スワッチ画像を商品画像に置き換えるためにフォールバック機構の使用を許可"
+"Visual Swatch","ビジュアルスワッチ"
+"Text Swatch","テキストスワッチ"
+"Manage Swatch (values of your attribute)","スワッチ管理 (属性の値)"
+"Manage Swatch (Values of Your Attribute)","スワッチ管理 (属性の値)"
+"Add Swatch","スワッチ追加"
+Swatch,スワッチ
 "Something went wrong deleting this rate.","このレートを削除中に問題が発生しました。"
 "Something went wrong deleting this tax rule.","この税ルールを削除中に問題が発生しました。"
 "You cannot delete this tax class because it is used in Tax Rules. You have to delete the rules it is used in first.","税ルールで使用中なのでこの税クラスを削除できません。使用されているルールをまず削除しなければなりません。"
@@ -6974,7 +6982,7 @@ Translate,翻訳
 Attention,注目
 "Phrase 2 %1","フェーズ2 %1"
 "Image Detail","画像詳細"
-"Select Associated Product","関連する商品を選択"
+"Select Associated Product","関連付ける商品を選択"
 "For better results, add attributes and attribute values to your products.","更なる効果のために、商品に属性と属性値を追加しましょう。"
 "An attribute has been removed. This attribute will no longer appear in your configurations.","属性は削除されました。この属性が設定には今後現れません。"
 "Select options for all attributes or remove unused attributes.","全ての属性のオプションを選択するか使われてない属性を削除してください。"
@@ -7246,7 +7254,7 @@ Schedule,スケジュール
 "Module layout title","モジュールレイアウトタイトル"
 "Theme layout label","テーマレイアウトラベル"
 "Theme layout title","テーマレイアウトタイトル"
-"1 column modified","1コラム変更"
+"1 column modified","1カラム変更"
 "86400 by default, if not set. To refresh instantly, clear the Blocks HTML
                     Output cache.
                 ","設定されていなければデフォルトで86400。 すぐに更新するには、ブロックHTMLアウトプットcacheをクリアしてください。
@@ -7288,7 +7296,7 @@ Two,ツー
 "Enabled Template Path Hints for Storefront","ストアのためのテンプレートパスヒントを有効化"
 "Enabled Template Path Hints for Admin","管理者のためのテンプレートパスヒントを有効化"
 "Enabled for Storefront","ストアのために有効化"
-"Translate, blocks and other output caches should be disabled for both Storefront and Admin inline translations.","翻訳、ブロック、その他の茶ッシュはストアと管理画面の両方の翻訳から無効化されるべきです。"
+"Translate, blocks and other output caches should be disabled for both Storefront and Admin inline translations.","インライン翻訳を有効にしている間は、翻訳、ブロック、その他のキャッシュはフロントエンドと管理画面の両方で無効化することをおすすめします。"
 "CSS Settings","CSS設定"
 "Top destinations","最もアクセスされる箇所"
 "Store Hours of Operation","営業時間"
@@ -7645,7 +7653,7 @@ Elements,構成
 "Autosettings","自動設定"
 "Special Price From Date","特別価格適用開始日"
 "Special Price To Date","特別価格適用終了日"
-"Tier Price","階層価格"
+"Tier Price","ボリュームディスカウント"
 "Field","フィールド"
 "Area","エリア"
 "Radio Buttons","ラジオボタン"
@@ -7803,3 +7811,60 @@ Elements,構成
 "Position of attribute in layered navigation block.","絞込検索のブロック上での表示順。"
 "Can be used only with catalog input type Dropdown, Multiple Select and Price.","ドロップダウンと複数選択、価格の時のみ使用できます。"
 "Manage Options (Values of Your Attribute)","オプション管理 (属性の値)"
+"Configuration","設定"
+"Layouts","レイアウト"
+"Blocks HTML output","ブロックHTML出力"
+"Collections Data","コレクションデータ"
+"Reflection Data","クラス定義データ"
+"Database DDL operations","データベースDDLキャッシュ"
+"EAV types and attributes","EAVタイプと属性"
+"Customer Notification","顧客通知"
+"Page Cache","ページキャッシュ"
+"Integrations Configuration","外部連携設定"
+"Integrations API Configuration","外部API連携設定"
+"Translations","翻訳"
+"Web Services Configuration","Webサービス設定"
+"Themes JavaScript and CSS files combined to one file","テーマのJavaScriptとCSSファイルを1つのファイルにまとめたファイルです"
+"Search Synonyms","検索キーワード"
+"Declare attribute value saving scope.","属性の値を保存するスコープを定義します。"
+"Not shared with other products.","他の属性と共有しない。"
+"Products in Category","カテゴリの商品"
+"Schedule Design Update","デザインアップデートスケジュール"
+"Schedule Update From","アップデート対象期間"
+"Enable Category","有効"
+"Include in Menu","メニューに表示"
+"Category Image","見出し画像"
+"Description","概要"
+"Add CMS Block","CMSブロックを追加"
+"Display Mode","表示モード"
+"Anchor","アンカーカテゴリ"
+"Available Product Listing Sort By","利用可能なソート方法"
+"Default Product Listing Sort By","標準のソート方法"
+"Layered Navigation Price Step","絞込検索での価格区切り"
+"Apply Design to Products","商品ページにも適用する"
+"Use All","全て使用"
+"An unspecified error occurred. Please contact us for assistance.","エラーが発生しました。管理者にお問い合わせください。"
+"Upload","アップロード"
+"Choose a color","色を選択"
+"Upload a file","ファイルを選択"
+"Configurable products allow customers to choose options (Ex: shirt color).
+             You need to create a simple product for each configuration (Ex: a product for each color).","コンフィグ商品は顧客が商品のオプションを選択できます (例: シャツの色)。
+            コンフィグ商品を販売するためにはオプションに対応するシンプル商品を作成する必要があります (例: 色別の商品)。"
+"Related products are shown to customers in addition to the item the customer is looking at.","関連商品は、顧客が閲覧中の商品に追加で表示されます。"
+"An up-sell item is offered to the customer as a pricier or higher-quality alternative to the product the customer is looking at.","アップセル商品は、顧客が閲覧中の商品よりも高価格・高付加価値な商品として表示されます。"
+"Cross-Sell Products","クロスセル商品"
+"Add Cross-Sell Products","クロスセル商品を追加"
+"Add Related Products","関連商品を追加"
+"These ""impulse-buy"" products appear next to the shopping cart as cross-sells to the items already in the shopping cart.","これらの商品は衝動買いを誘発する目的で、ショッピングカートに入っている商品に基づいて、カート画面に表示されます。"
+"Customizable Options","カスタムオプション"
+"Custom options let customers choose the product variations they want.","カスタムオプションは商品に対するバリエーションを提案できます。"
+"Enable Product","有効"
+"Related Products, Up-Sells, and Cross-Sells","関連商品, アップセル, クロスセル"
+"Search Engine Optimization","検索エンジン最適化"
+"Images And Videos","画像とビデオ"
+"This item has weight","重量あり"
+"This item has no weight","重量なし"
+"Option Type","オプションタイプ"
+"To enable the option set the weight to no","このオプションを有効にするには、重量をなしにしてください"
+"When you remove or add an attribute, we automatically update all configurations and you will need to recreate current configurations manually.","属性を追加削除すると、自動的にすべての設定が更新されます。現在の設定を手動で再作成する必要があるのでご注意ください。"
+"Discount amount is applied to subtotal only","値引額は小計にのみ適用されます"
