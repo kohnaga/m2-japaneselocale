@@ -7305,16 +7305,16 @@ Two,ツー
 "Auto-redirect to Base URL","ベースURLに自動リダイレクト"
 "Use Secure URLs on Storefront","ストアにてセキュアURLを使用"
 "Use SID on Storefront","ストアにてSIDを使用"
-Braintree,ブレインツリー
+Braintree,Braintree
 &nbsp;,&nbsp;
-"Enable PayPal through Braintree","ブレインツリーを通してPayPalを有効化"
-"Basic Braintree Settings","基本ブレインツリー設定"
+"Enable PayPal through Braintree","Braintreeを通してPayPalを有効化"
+"Basic Braintree Settings","基本Braintree設定"
 Environment,環境
 "Merchant Account ID","マーチャントアカウントID"
 "Merchant ID","マーチャントID"
 "Public Key","パブリックキー"
 "Private Key","プライベートキー"
-"Advanced Braintree Settings","高度ブラインツリー設定"
+"Advanced Braintree Settings","拡張Braintree設定"
 "Capture action","取り置きアクション"
 "Use Vault","金庫を使う"
 "Allow Duplicate Cards","カードの複製を許可する"
@@ -7325,7 +7325,7 @@ Environment,環境
 "Use Cache","Cache使用"
 "Country Specific Settings","国別特定設定"
 "Country Specific Credit Card Types","国別特定クレジットカードタイプ"
-"PayPal through Braintree","ブレインツリーを通した"
+"PayPal through Braintree","Braintree経由のPayPal決済"
 "Override Merchant Name","マーチャント名を上書き"
 "Allow to Edit Shipping Address Entered During Checkout on PayPal Side","チェックアウト中にPayPal側で入力された配送住所を編集することを許可する"
 "3D Secure Verification Settings","3Dセキュア認証設定"
@@ -7868,3 +7868,4 @@ Elements,構成
 "To enable the option set the weight to no","このオプションを有効にするには、重量をなしにしてください"
 "When you remove or add an attribute, we automatically update all configurations and you will need to recreate current configurations manually.","属性を追加削除すると、自動的にすべての設定が更新されます。現在の設定を手動で再作成する必要があるのでご注意ください。"
 "Discount amount is applied to subtotal only","値引額は小計にのみ適用されます"
+"Unable to place order. Please try again later.","ご注文を確定できません。ご入力内容をご確認の上、やり直してください。"
