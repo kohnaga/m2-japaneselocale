@@ -86,10 +86,10 @@ Edit,編集
 message,メッセージ
 Action,アクション
 "Add to Cart",カートに入れる
-"Add to Wish List","欲しいものリストに追加"
+"Add to Wish List","ほしい物リストに追加"
 "Remove This Item",この商品を削除する
 "Add to Compare",比較リストに追加
-"You added %1 to your shopping cart.","%1 をカートに追加しました"
+"You added %1 to your shopping cart.","""%1"" をカートに追加しました。"
 "Page not found.","ページが見つかりません。"
 "The product does not exist.",商品が見つかりません。
 "Display item quantities",商品の見積もりを表示
@@ -98,73 +98,73 @@ Message,メッセージ
 Configure,構成
 "Add Locale","ロケール追加"
 "Add Date","日付追加"
-"Days in Wish List","欲しい物リスト内日付"
+"Days in Wish List","ほしい物リスト内の日付"
 "Are you sure you want to remove this item?",このアイテムを削除してもよろしいですか？
 "Test Phrase","テストフェーズ"
 "Remove Item",商品を削除
 "An item option with code %1 already exists.","商品オプションのコード %1 はすでに存在します。"
 "View Details",詳細を表示
-"Wish List","欲しい物リスト"
+"Wish List","ほしい物リスト"
 Comment,コメント
 "Please enter an email address.","eメールアドレスを入力してください"
 "Wish List Sharing","ほしい物リストの共有"
 "My Wish List","ほしい物リスト"
-"%1's Wish List","%1 の欲しい物リスト"
+"%1's Wish List","%1 のほしい物リスト"
 "We can't specify a product.","製品を特定できません"
-"%1 has been added to your Wish List. Click <a href=""%2"">here</a> to continue shopping.","%1 は欲しい物リストに追加されました。 <a href=""%2"">ここ</a>をクリックしてお買い物を続けてください。"
+"%1 has been added to your Wish List. Click <a href=""%2"">here</a> to continue shopping.","""%1"" はほしい物リストに追加されました。 <a href=""%2"">こちら</a>をクリックしてお買い物を続けてください。"
 "We can't add the item to Wish List right now: %1.","このアイテムをほしい物リストに現在追加できません: %1."
 "We can't add the item to Wish List right now.","このアイテムをほしい物リストに現在追加できません。"
 "This product(s) is out of stock.","この商品は在庫切れです。"
 "We can't add the item to the cart right now.","このアイテムをカートに追加することは現在できません。"
-"We can't load the Wish List item right now.","欲しい物リストのアイテムを現在読み込むことができません。"
+"We can't load the Wish List item right now.","ほしい物リストのアイテムを現在読み込むことができません。"
 "We can't configure the product right now.","この製品の設定を現在することができません。"
 "The requested cart item doesn't exist.","要求されたカートの商品は存在しません。"
-"%1 has been moved to wish list %2","%1 は欲しい物リスト %2　に移動されました。"
-"We can't delete the item from Wish List right now because of an error: %1.","エラー: %1　のために現在欲しい物リストからこのアイテムを削除できません。"
-"We can't delete the item from the Wish List right now.","このアイテムを欲しい物リストから現在削除できません。"
+"%1 has been moved to wish list %2","%1 はほしい物リスト %2　に移動されました。"
+"We can't delete the item from Wish List right now because of an error: %1.","エラー: %1　のために現在ほしい物リストからこのアイテムを削除できません。"
+"We can't delete the item from the Wish List right now.","このアイテムをほしい物リストから現在削除できません。"
 "Message length must not exceed %1 symbols","メッセージの長さは %1 文字以上でなければなりません。"
-"This wish list can be shared %1 more times.","この欲しい物リストは %1 回以上共有できます。"
+"This wish list can be shared %1 more times.","このほしい物リストは %1 回以上共有できます。"
 "Please input a valid email address.",正しいメールアドレスを入力してください。
-"Your wish list has been shared.","あなたの欲しい物リストは共有されました。"
-"We can't delete item from Wish List right now.","アイテムを欲しい物リストから現在削除できません。"
+"Your wish list has been shared.","ほしい物リストが共有されました。"
+"We can't delete item from Wish List right now.","アイテムをほしい物リストから現在削除できません。"
 "Can't save description %1","詳細を保存できません %1"
-"Can't update wish list","欲しい物リストをアップデートできません"
-"%1 has been updated in your Wish List.","%1 はあなたの欲しい物リストでアップデートされました。"
-"We can't update your Wish List right now.","現在あなたの欲しい物リストはアップデートできません。"
-"The requested Wish List doesn't exist.","要求された欲しい物リストは存在しません。"
-"We can't create the Wish List right now.","現在欲しい物リストを作成できません。"
-"Display number of items in wish list","欲しい物リストのアイテム数を表示"
-"We can't specify a wish list.","欲しい物リストを指定できません。"
+"Can't update wish list","ほしい物リストをアップデートできません"
+"%1 has been updated in your Wish List.","ほしい物リスト内の ""%1"" がアップデートされました。"
+"We can't update your Wish List right now.","現在、ほしい物リストをアップデートできません。"
+"The requested Wish List doesn't exist.","要求されたほしい物リストは存在しません。"
+"We can't create the Wish List right now.","現在、ほしい物リストを作成できません。"
+"Display number of items in wish list","ほしい物リストのアイテム数を表示"
+"We can't specify a wish list.","ほしい物リストを指定できません。"
 "Cannot specify product.",商品を特定できません。
 "Product is not salable.","製品は販売されていません。"
 "Invalid item option format.",不正なオプションの形式です。
 "%1 for ""%2"".","""%2"" のための %1"
 "We couldn't add the following product(s) to the shopping cart: %1.","以下の商品をショッピングカートに追加できませんでした: %1."
 "Product(s) %1 have required options. Each product can only be added individually.","%1 の製品は必須のオプションがあります。 各製品は個別に追加されます。"
-"We can't update the Wish List right now.","現在欲しい物リストを更新できません。"
-"%1 product(s) have been added to shopping cart: %2.","%1 個のアイテムがショッピングカートに追加されました: %2."
+"We can't update the Wish List right now.","現在ほしい物リストを更新できません。"
+"%1 product(s) have been added to shopping cart: %2.","%1 個のアイテムがショッピングカートに追加されました: %2。"
 Comment:,コメント:
-"We cannot retrieve the Wish List.","欲しい物リストは読み込みできませんでした。"
-"%1's Wishlist","%1 の欲しい物リスト"
-"We can't specify a wish list item.","欲しい物リストのアイテムを特定できません。"
+"We cannot retrieve the Wish List.","ほしい物リストを読み込めませんでした。"
+"%1's Wishlist","%1 のほしい物リスト"
+"We can't specify a wish list item.","ほしい物リストのアイテムを特定できません。"
 error-message,error-message
 LocalizedException,LocalizedException
 "Share Wish List","ほしい物リストを共有"
 "Add All to Cart",全てカートに入れる
 "Update Wish List","ほしい物リストを更新"
 "View Product",商品を表示
-"This Wish List has no Items","この欲しい物リストにはアイテムはありません。"
+"This Wish List has no Items","ほしい物リストに登録されている商品がありません。"
 "Options Details",オプションの概要
-"RSS link to %1's wishlist","%1 の欲しい物リストへのRSSリンク"
+"RSS link to %1's wishlist","%1 のほしい物リストへのRSSリンク"
 "RSS Feed","RSS フィード"
-"Wish List is empty now.","欲しい物リストは現在空です。"
+"Wish List is empty now.","ほしい物リストは現在空です。"
 "Sharing Information",共有先の情報
 "Email addresses, separated by commas","メールアドレスは「,」で区切る必要があります"
-"Check here to link an RSS feed to your Wish List.","RSSフィードとあなたの欲しい物リストをリンクするにはここをチェックしてください。"
+"Check here to link an RSS feed to your Wish List.","RSSフィードとほしい物リストをリンクするにはこちらをチェックしてください。"
 "Last Added Items",最後に追加した商品
-"Go to Wish List","欲しい物リストに行く"
+"Go to Wish List","ほしい物リストへ"
 "You have no items in your wish list.","ほしい物リストは空です。"
-"Are you sure you want to remove this product from your Wish List?","この商品をあなたの欲しい物リストから削除しますか？"
+"Are you sure you want to remove this product from your Wish List?","この商品をほしい物リストから削除しますか？"
 "Email Sender",メール送信者
 "Email Template",メールテンプレート
 "General Options",全体のオプション
@@ -172,8 +172,8 @@ LocalizedException,LocalizedException
 "Share Options",共有オプション
 "Max Emails Allowed to be Sent","許可された送信された最大のメール数"
 "Email Text Length Limit","Wメールのテキストの長さの最大数"
-"My Wish List Link","自分の欲しい物リストのリンク"
-"Display Wish List Summary","欲しい物リストのサマリーの表示"
+"My Wish List Link","ほしい物リストのリンク"
+"Display Wish List Summary","ほしい物リストのサマリーの表示"
 "No Items Found",商品が見つかりませんでした
 "User Description",ユーザー概要
 "Product Details and Comment",商品の詳細とコメント
@@ -444,11 +444,11 @@ Refunded,返金済
 Canceled,キャンセル済
 "As low as",同じかそれ以下
 "Regular Price","通常価格"
-"Buy %1 with %2 discount each","%1　を　%2 の各ディスカウントで購入"
+"Buy %1 with %2 discount each","%1　を　%2 の各割引で購入"
 "Go back to product details","商品詳細に戻る"
 "Customize and Add to Cart","カスタマイズしてカートに追加"
-"Your Customization","あなたのカスタマイズ"
-Summary,レビュータイトル
+"Your Customization","カスタマイズ"
+Summary,注文概要
 "%1 x %2","%1 x %2"
 Availability:,在庫状況:
 "Customize %1","%1 をカスタマイズ"
@@ -458,7 +458,7 @@ From:,開始:
 To:,終了:
 Message:,メッセージ:
 Subtotal,小計
-"Discount Amount",割引価格
+"Discount Amount",割引額
 "Row Total",小計
 "Qty Invoiced",請求済個数
 "Qty Shipped",配送済数
@@ -566,8 +566,8 @@ Submit,送信
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","お問い合わせありがとうございます。すぐにお返事をさせていただきます。"
 "We can't process your request right now. Sorry, that's all we know.","現在要求にお答えできません。申し訳ありません。"
 "Write Us","ご連絡ください"
-"Jot us a note and we’ll get back to you as quickly as possible.","お問い合わせいただければ、可能な限り早くお返事させていただきます。"
-"What’s on your mind?","お困りでしょうか？"
+"Jot us a note and we’ll get back to you as quickly as possible.","お問い合わせいただければ、速やかにご対応させていただきます。"
+"What’s on your mind?","お問い合わせ内容"
 Contacts,コンタクト
 "Contact Us",お問い合わせ
 "Enable Contact Us",お問い合わせを有効にする
@@ -633,7 +633,7 @@ Preview,プレビュー
 "Are you sure you want to delete this file?","本当にこのファイルを削除しますか?"
 "Images (%1)","画像 (%1)"
 "Storage Root",ストレージルート
-"Please select item(s).","アイテムを選択して下さい。"
+"Please select item(s).","商品を選択して下さい。"
 "The block has been deleted.",ブロックを削除しました。
 "We can't find a block to delete.","削除するブロックが見つかりません。"
 "This block no longer exists.",このブロックは存在していません。
@@ -697,7 +697,7 @@ MM/dd/YYYY,MM/dd/YYYY
 100,100
 200,200
 Published,公開済
-"Delete selected items?","選択したアイテムを削除しますか?"
+"Delete selected items?","選択した商品を削除しますか?"
 "Custom design from","カスタムデザイン元"
 "Custom design to","カスタムデザイン先"
 "Are you sure?",よろしいですか？
@@ -709,8 +709,8 @@ Reset,リセット
 Search,検索
 "Select All",全て選択
 "Add New",新規作成
-"Please select items.",アイテムを選択してください。
-Next,次
+"Please select items.",商品を選択してください。
+Next,次へ
 Images,画像
 "per page",件表示
 "Mass Actions","マスアクション"
@@ -848,7 +848,7 @@ Cross-sells,クロスセル商品
 "Name in %1","%1内での名前"
 "Change status",ステータス変更
 "Update Attributes",属性を更新
-"Click here or drag and drop to add images","ここをクリックするかドラッグ&ドロップで画像を追加してください"
+"Click here or drag and drop to add images","こちらをクリックするかドラッグ&ドロップで画像を追加してください"
 "Delete image","画像削除"
 "Make Base","ベース作成"
 Hidden,隠し
@@ -920,9 +920,9 @@ PM,PM
 "This attribute set no longer exists.",この属性セットが存在していません。
 "You saved the attribute set.","属性セットを保存しました。"
 "An error occurred while saving the attribute set.",属性セットの保存中にエラーが発生しました。
-"You added product %1 to the comparison list.","比較リストに %1 を追加しました"
+"You added product %1 to the comparison list.","比較リストに ""%1"" を追加しました。"
 "You cleared the comparison list.","比較リストをクリアしました。"
-"You removed product %1 from the comparison list.","比較リストより商品 %1 を削除しました。"
+"You removed product %1 from the comparison list.","比較リストより ""%1"" を削除しました。"
 "Invalid attribute %1","無効な属性 %1"
 Grid,表
 List,リスト
@@ -982,8 +982,8 @@ Category,カテゴリ
 "%1 doesn't extend \Magento\Catalog\Model\Layer\Filter\Dynamic\AlgorithmInterface","%1 は \Magento\Catalog\Model\Layer\Filter\Dynamic\AlgorithmInterface　拡張できません"
 "%1 doesn't extends \Magento\Catalog\Model\Layer\Filter\AbstractFilter","%1 は \Magento\Catalog\Model\Layer\Filter\AbstractFilter　拡張しません"
 "The filter must be an object. Please set correct filter.","フィルターはオブジェクトでなければなりません。 正しいフィルターをセットしてください。"
-"Clear Price","クリア価格"
-"%1 and above","%1 と以上"
+"Clear Price","価格をクリアする"
+"%1 and above","%1 以上"
 "The filters must be an array.",フィルタは配列でなければなりません。
 "We found a duplicate website group price customer group.","" duplicate website group price customer group.
 "Group price must be a number greater than 0.","グループ価格は0以上の数字でなければなりません。"
@@ -1131,7 +1131,7 @@ Backorders,バックオーダー
 "Max Characters",最大文字数
 "Customer Group",顧客グループ
 "Delete Group Price",グループ価格の削除
-"Item Price","アイテム価格"
+"Item Price","商品価格"
 "and above",またはそれ以上
 "Delete Tier",階層の削除
 "Product In Websites",ウェブサイト内の商品
@@ -1156,7 +1156,7 @@ Role,ロール
 "Compare Products",商品の比較
 "Print This Page",ページを印刷する
 "Remove Product","商品削除"
-"You have no items to compare.",比較する商品はありません
+"You have no items to compare.",比較する商品はありません。
 Compare,比較する
 "Clear All",すべてクリア
 Prev,前へ
@@ -1164,11 +1164,11 @@ Prev,前へ
 "Learn More",もっと詳しく
 "You may also be interested in the following product(s)",以下の商品にご興味はありませんか？
 "More Choices:","更なる選択:"
-"Check items to add to the cart or",アイテムをクリックしてカートに追加または
+"Check items to add to the cart or",商品をクリックしてカートに追加または
 "select all",全て選択
-"Items %1-%2 of %3","%3の商品%1-%2"
-"%1 Item","%1 注文"
-"%1 Items","%1 注文"
+"Items %1-%2 of %3","%3 件中 %1-%2 件"
+"%1 Item","%1 件"
+"%1 Items","%1 件"
 Show,表示
 "Sort By",並び順
 "Set Ascending Direction",昇順
@@ -1334,8 +1334,8 @@ Confirm,承認
 "Configurable Product Image",コンフィグ商品の画像
 "Shopping Cart",ショッピングカート
 "Invalid method: %1","無効なメソッド: %1"
-"My Cart (1 item)","マイカート (1 アイテム)"
-"My Cart (%1 items)","マイカート (%1 アイテム)"
+"My Cart (1 item)","マイカート (1 商品)"
+"My Cart (%1 items)","マイカート (%1 商品)"
 "My Cart",マイカート
 "Minimum order amount is %1","最低注文額は %1"
 Address,住所
@@ -1376,10 +1376,10 @@ Checkout,レジに進む
 "Address does not exist.","住所が存在しません。"
 "There is already a registered customer using this email address. Please log in using this email address or enter a different email address to register your account.","このメールアドレスを使っている登録済み顧客がおります。このメールアドレスでログインするか別のメールアドレスを入力してアカウント登録してください。"
 "Password and password confirmation are not equal.","パスワードとパスワード確認は同じではありません。"
-"Invalid shipping method","不正な送付方法です"
+"Invalid shipping method","不正な配送方法です"
 "There are more than one shipping address.","1つ以上の送り先住所があります。"
 "Sorry, guest checkout is not enabled.","申し訳ありません、ゲスト購入はできません。"
-"Account confirmation is required. Please, check your e-mail for confirmation link. To resend confirmation email please <a href=""%1"">click here</a>.","アカウント確認が必須です。Eメールで確認リンクをチェックしてください。 確認メールを再送するには<a href=""%1"">ここ</a>を押して下さい。"
+"Account confirmation is required. Please, check your e-mail for confirmation link. To resend confirmation email please <a href=""%1"">click here</a>.","アカウント確認が必須です。Eメールで確認リンクをチェックしてください。 確認メールを再送するには<a href=""%1"">こちら</a>を押して下さい。"
 "Error message!","エラーメッセージ!"
 Error!,エラー!
 "<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">領収書を印刷</a>"
@@ -1389,16 +1389,16 @@ Error!,エラー!
 "Cancel Coupon",クーポンをキャンセルする
 "Shopping Cart Items","ショッピングカートの商品"
 Item,商品
-"Continue Shopping",お買い物を続ける
+"Continue Shopping",買い物を続ける
 "Clear Shopping Cart",ショッピングカートをクリア
 "Update Shopping Cart",ショッピングカートを更新
 "Update Cart",カートを更新
 "See price before order confirmation.",注文確定前に価格を表示する。
 "What's this?",これは何ですか？
-"Move to Wish List","お気に入りに移動"
+"Move to Wish List","ほしい物リストを確認お気に入りに移動"
 "Edit item parameters",商品パラメータを編集
 "You have no items in your shopping cart.",カートの中には何もありません。
-"Click <a href=""%1"">here</a> to continue shopping."," <a href=""%1"">ここ</a>をクリックしてお買い物を続けて下さい"
+"Click <a href=""%1"">here</a> to continue shopping."," <a href=""%1"">こちら</a>をクリックしてお買い物を続けて下さい。"
 "Estimate Shipping and Tax",送料と税金の計算
 "Enter your destination to get a shipping estimate.",配送料の見積もりを表示するには配送先を入力してください。
 "Please select region, state or province",都道府県を選択してください
@@ -1406,7 +1406,7 @@ City,市区町村
 "Zip/Postal Code",郵便番号
 "Get a Quote",見積もる
 "Update Total",合計更新
-"Select a billing address from your address book or enter a new address.",アドレスブックから請求先の住所を選択するか、新しい住所を入力してください。
+"Select a billing address from your address book or enter a new address.",住所録から請求先住所を選択するか、新しい住所を入力してください。
 Company,会社名
 "VAT Number",VAT番号
 "Street Address",番地
@@ -1414,29 +1414,29 @@ Company,会社名
 Telephone,電話番号
 Fax,FAX番号
 "Confirm Password",パスワード再確認
-"Save in address book",アドレス帳に保存
+"Save in address book",住所録に保存
 "Ship to this address",この住所へ送る
 "Ship to different address",別の住所へ送る
-"Order #",ご注文番号
+"Order #",注文番号
 "Proceed to Checkout",レジに進む
 "No Payment Methods",支払方法なし
 "Place Order",注文を確定する
-"Order Review",ご注文の確認
+"Order Review",注文の確認
 "Forgot an Item?",上記の注文でよろしいですか？
 "Edit Your Cart",カートの中身を編集
 "Your credit card will be charged for",クレジットカードでお支払いただく金額
-"Select a shipping address from your address book or enter a new address.",配送先をアドレスブックから選択するか、新しい住所を入力してください。
+"Select a shipping address from your address book or enter a new address.",配送先を住所録から選択するか、新しい住所を入力してください。
 "Use Billing Address",請求先の住所を使う
 "Sorry, no quotes are available for this order at this time.",申し訳ありません、現在この注文でお見積もりはご利用できません。
-"Your order number is: %1.","あなたの注文番号は: %1."
-"Your order # is: <span>%1</span>.","あなたの注文 # は: <span>%1</span>."
+"Your order number is: %1.","注文番号は: %1 です。"
+"Your order # is: <span>%1</span>.","注文番号は: <span>%1</span> です。"
 "You will receive an order confirmation email with details of your order and a link to track its progress.",注文の確認メールをお送りしました。メールには注文状況を確認するURLがあります。
 "Thank you for your purchase!",ご購入ありがとうございました！
 "Please specify a shipping method.",配送方法を指定してください。
 "You can create an account or check out as a guest.","アカウントを作成するかゲスト購入が可能です。"
 "We can't complete your order because you don't have a payment method available.","支払方法が有効でないので注文を完了できません。"
 "Please choose a payment method.","支払方法を選択してください。"
-"We can't ship to this address. Please enter another address or edit this one.","この住所に送付できません。別の住所を入力するか編集してください。"
+"We can't ship to this address. Please enter another address or edit this one.","この住所に配送できません。別の住所を入力するか編集してください。"
 "New address","新規住所"
 "Checkout Options",購入オプション
 "Enable Onepage Checkout",ワンページチェックアウトを有効にする
@@ -1542,7 +1542,7 @@ Results,結果
 "Advanced Search",詳細検索
 "<strong>%1 item</strong> were found using the following search criteria","<strong>%1 アイテム</strong>が以下の検索条件にて見つかりました"
 "<strong>%1 items</strong> were found using the following search criteria","<strong>%1 アイテム</strong>が以下の検索条件にて見つかりました"
-"No items were found using the following search criteria.",次の検索基準を満たしているアイテムは見つかりませんでした。
+"No items were found using the following search criteria.",次の検索基準を満たしている商品は見つかりませんでした。
 "Modify your search",検索を修正
 "Don't see what you're looking for?",お探しの商品が見つかりませんか？
 "Your search returns no results.",検索結果はありません。
@@ -1567,16 +1567,16 @@ Results,結果
 "Password Confirmation",確認用パスワード
 "Interface Locale","インターフェイスロケール"
 "Current User Identity Verification","現在のユーザー証明認証"
-"Your Password","あなたのパスワード"
+"Your Password","パスワード"
 "Are you sure you want to do this?",実行してもよろしいですか？
 "You have entered an invalid password for current user.","現在のユーザーに無効なパスワードが入力されました。"
 "You need more permissions to access this.","これにアクセスするには更に権限が必要です。"
 "Reset Password",パスワード再発行
 "Force Sign-In","強制サインイン"
 "Your password reset link has expired.",パスワード再発行リンクが有効期限切れです。
-"If there is an account associated with %1 you will receive an email with a link to reset your password.","%1と関連するアカウントがあれば、あなたのパスワードをリセットするためのリンクが添付されたEメールが届きます。"
+"If there is an account associated with %1 you will receive an email with a link to reset your password.","%1と関連するアカウントがあれば、パスワードを再設定するためのリンクが添付されたEメールが届きます。"
 "Your password has been updated.",パスワードを更新しました。
-"Confirm New Password",新しいパスワードの確認
+"Confirm New Password",新規パスワードの確認
 "Reset a Password",パスワードリセット
 "Resource Access",リソースアクセス
 Custom,カスタム
@@ -1608,7 +1608,7 @@ Assigned,アサイン済
 "Please specify the correct account and try again.","正しいアカウントを指定して再度お試し下さい。"
 "Please correct this email address:","このEメールアドレスを修正してください:"
 Permissions,権限
-"You cannot delete your own account.",自分のアカウントを削除することはできません。
+"You cannot delete your own account.",アカウントを削除することはできません。
 "You deleted the user.","ユーザーを削除しました。"
 "We can't find a user to delete.","削除するユーザーが見つかりません"
 "This user no longer exists.",このユーザーは存在していません。
@@ -1874,7 +1874,7 @@ ui/grid/filters/elements/select,ui/grid/filters/elements/select
 "There are no grouped products.",グループ商品はありません
 "Default Qty",標準個数
 "Starting at",開始
-"Grouped product items",グループ製品アイテム
+"Grouped product items",グループ製品商品
 "Add Products to Group",商品をグループに追加
 "Grouped Product Image",グループ商品の画像
 "The role associated with the specified user cannot be found.",指定されたユーザーに紐づくロールが見つかりません。
@@ -2005,12 +2005,12 @@ Copy,コピー
 "(ver. %1)","(ver. %1)"
 "Toggle Nav",ナビを呼ぶ
 "JavaScript seems to be disabled in your browser.","JavaScriptがお使いのブラウザで無効になっているようです。"""
-"For the best experience on our site, be sure to turn on Javascript in your browser.",我々のサイトを最善の状態でみるために、ブラウザのjavascriptをオンにしてください
-"Local Storage seems to be disabled in your browser.",ローカルストレージがブラウザで無効になっています
-"For the best experience on our site, be sure to turn on Local Storage in your browser.",我々のサイトを最善の状態でみるために、ローカルストレージをブラウザで有効にしてください
-"This is demo store. No orders will be fulfilled.","これはデモストアです。 注文はできません"
-"Items %1 to %2 of %3 total","%1 から %2 のアイテムの %3 合計"
-"%1 Item(s)","%1 アイテム"
+"For the best experience on our site, be sure to turn on Javascript in your browser.",このサイトを最善の状態でみるために、ブラウザのJavascriptをオンにしてください。
+"Local Storage seems to be disabled in your browser.",ブラウザのローカルストレージが無効になっています。
+"For the best experience on our site, be sure to turn on Local Storage in your browser.",このサイトを最善の状態でみるために、ブラウザのローカルストレージを有効にしてください。
+"This is demo store. No orders will be fulfilled.","これはデモストアです。注文はできません。"
+"Items %1 to %2 of %3 total","%1 から %2 の商品の %3 合計"
+"%1 Item(s)","%1 商品"
 "You're currently reading page",ページを読んでいます
 "We don't recognize this file extension.",拡張子を認識できませんでした
 "Logo Image",ロゴ画像
@@ -2127,13 +2127,13 @@ Rate,レート
 "Items in Cart","点の商品"
 "Products in carts",カート内の商品
 Carts,カート
-"Wish Lists",欲しい物リスト
-"Wish List Purchase",欲しい物リスト購入
-"Wish List vs. Regular Order","欲しい物リスト vs. 通常注文"
+"Wish Lists",ほしい物リスト
+"Wish List Purchase",ほしい物リスト購入
+"Wish List vs. Regular Order","ほしい物リスト vs. 通常注文"
 "Times Deleted",削除された時間
 "Index type is not valid",インデックスタイプが有効ではありません
 Reports,レポート
-"Last updated: %1. To refresh last day\'s <a href=""%2"">statistics</a>, ' 'click<a href=""%3"">here</a>","最終アップデート: %1. 最終日の <a href=""%2"">統計</a>をリフレッシュするには, ' '<a href=""%3"">ここ</a>をクリックしてください"
+"Last updated: %1. To refresh last day\'s <a href=""%2"">statistics</a>, ' 'click<a href=""%3"">here</a>","最終アップデート: %1. 最終日の <a href=""%2"">統計</a>をリフレッシュするには, ' '<a href=""%3"">こちら</a>をクリックしてください"
 "New Accounts Report",新しいアカウントレポート
 "Customers by Number of Orders",顧客ごとの注文件数
 "Order Count Report",注文カウントレポート
@@ -2157,7 +2157,7 @@ Coupons,クーポン
 "Invoice Report",インボイスレポート
 "Refunds Report",返金レポート
 "Sales Report",セールスレポート
-"Shipping Report",発送レポート
+"Shipping Report",配送レポート
 "Tax Report",税レポート
 "Abandoned Carts",無効になったショッピングカート
 "Customer Shopping Carts",ショッピングカート
@@ -2175,12 +2175,12 @@ Statistics,統計
 "Most Viewed Products Report",最も閲覧されている商品レポート
 "Show By",表示先
 "Select Date",日付を選択
-"Customers that have Wish List: %1%","お気に入りリストをお持ちの顧客: %1%"
-"Number of Wish Lists: %1","お気に入りリストの数: %1"
-"Number of items bought from a Wish List: %1","欲しい物リストから買われた商品の数: %1"
-"Number of times Wish Lists have been shared (emailed): %1","お気に入りリストがシェアされた回数 (Eメール): %1"
-"Number of Wish List referrals: %1","お気に入りリストが参照された数: %1"
-"Number of Wish List conversions: %1","お気に入りリストコンバージョン数: %1"
+"Customers that have Wish List: %1%","ほしい物リストをお持ちの顧客: %1%"
+"Number of Wish Lists: %1","ほしい物リストの数: %1"
+"Number of items bought from a Wish List: %1","ほしい物リストから買われた商品の数: %1"
+"Number of times Wish Lists have been shared (emailed): %1","ほしい物リストがシェアされた回数 (Eメール): %1"
+"Number of Wish List referrals: %1","ほしい物リストが参照された数: %1"
+"Number of Wish List conversions: %1","ほしい物リストコンバージョン数: %1"
 "Show Report For:",レポートを表示:
 "Recently Viewed",最近閲覧した商品
 "Recently Compared",最近比較した商品
@@ -2223,7 +2223,7 @@ Statistics,統計
 "Are you sure you want to refresh statistics for last day?",最終日の統計を本当にリフレッシュしますか？
 Report,レポート
 undefined,未定義
-"Invalid discount amount.",不正な割引き額です。
+"Invalid discount amount.",不正な割引額です。
 "End Date must follow Start Date.",エンドの日はスタートの日より後でなければなりません
 "Websites must be specified.",ウェブサイトを指定してください。
 "Customer Groups must be specified.",顧客グループを指定してください。
@@ -2329,7 +2329,7 @@ Layouts,レイアウト
 "Collection data files.",コレクションデータファイル
 "Database DDL operations",データベースDDL作業
 "Results of DDL queries, such as describing tables or indexes.","DDLクエリの結果, 例えばテーブルやインデックスの説明"
-"You did not sign in correctly or your account is temporarily disabled.",正しくサインインしなかったかあなたのアカウントは一時的に無効です
+"You did not sign in correctly or your account is temporarily disabled.",正しくサインインされなかった、もしくはアカウントが一時的に無効です。
 View,表示
 Integrations,インテグレーション
 "Add New Integration",新しいインテグレーションを追加
@@ -2442,7 +2442,7 @@ OAuth,OAuth
 "Something went wrong while saving the search query.",検索クエリを保存中に問題が発生しました
 "You already have an identical search term query.",すでに同じ検索タームクエリがあります
 "Your search query can't be longer than %1, so we had to shorten your query.",検索クエリは%1より長く出来ませんのでクエリを短くしました
-"Search entire store here...",ストア全体から検索....
+"Search entire store here...",ストア全体から検索
 "There are no search terms available.",利用できる検索キーワードがありません
 "Search Engine",検索エンジン
 Hits,ヒット
@@ -2451,7 +2451,7 @@ Synonym,同義語
 yes,yes
 no,no
 "Payment Method",お支払方法
-"Discount (%1)","ディスカウント (%1)"
+"Discount (%1)","割引 (%1)"
 "Store View Specific Labels",ストアビュー固有のラベル
 "Shopping Cart Price Rule",クーポン
 "Shopping Cart Price Rules",クーポン
@@ -2459,9 +2459,9 @@ no,no
 "Percent of product price discount",商品価格値引率
 "Fixed amount discount",定額割引
 "Fixed amount discount for whole cart",カート全体に対する固定値引き量
-"Buy X get Y free (discount amount is Y)","X を買うと Y を無料に (Y の金額だけディスカウントする)"
+"Buy X get Y free (discount amount is Y)","X を買うと Y を無料に (Y の金額だけ割引する)"
 "Maximum Qty Discount is Applied To",値引を適用する最大個数
-"Discount Qty Step (Buy X)","ディスカウント対象個数の段階 (X を買った場合)"
+"Discount Qty Step (Buy X)","割引対象個数の段階 (X を買った場合)"
 "Apply to Shipping Amount",配送料に適用する
 "Apply the rule only to cart items matching the following conditions ' '(leave blank for all items).","以下条件にマッチするカート商品にのみルール適用 ' '(すべての商品のためには空白にしておく)."
 "Apply To",適用終了日
@@ -2493,8 +2493,8 @@ Coupon,クーポン
                     "
 "Usage limit enforced for logged in customers only.","使用可能数はログインしている顧客にのみ適用されます。"
 "Public In RSS Feed",RSSフィードに公開
-"%1 - Discounts and Coupons","%1 - ディスカウントとクーポン"
-Coupons/Discounts,クーポン/ディスカウント
+"%1 - Discounts and Coupons","%1 - 割引とクーポン"
+Coupons/Discounts,クーポン/割引
 "Cart Price Rules",クーポン
 "We can't delete the rule right now. Please review the log and try again.",現在ルールの削除はできません。ログを見なおして再度試して下さい。
 "We can't find a rule to delete.",削除するルールが見つかりません
@@ -2527,7 +2527,7 @@ Auto,自動
 "Quantity in cart",カートの中の個数
 "Price in cart",カートの中の価格
 "Row total in cart",カートの中の行数
-"Cart Item Attribute",カートアイテム属性
+"Cart Item Attribute",カート商品属性
 FOUND,存在する
 "NOT FOUND",存在しない
 "If an item is %1 in the cart with %2 of these conditions true:",もしカートの中に以下の商品が %2 %1 という条件が成立する時:
@@ -2588,13 +2588,13 @@ Synchronize,同期
 "Errors happened while adding products to Google Shopping.",Googleショッピングに商品を追加中にエラーが発生しました
 "Operation of adding products to Google Shopping expired.",Googleショッピングに商品を追加する作業が期限切れになりました
 "Some products may have not been added to Google Shopping bacause of expiration",期限切れのためいくつかの商品はGoogleショッピングに追加されてないかもしれません
-"The item ""%1"" cannot be updated at Google Content. %2","商品""%1""はGoogleコンテンツではアップデートできません%2"
-"The item ""%1"" hasn't been updated.","アイテム""%1""はアップデートしていません"
+"The item ""%1"" cannot be updated at Google Content. %2","商品""%1""はGoogleコンテンツではアップデートできません %2"
+"The item ""%1"" hasn't been updated.","商品""%1""はアップデートされていません。"
 "Product synchronization with Google Shopping completed",Googleショッピングでの商品同期は完了しました
 "A total of %1 items(s) have been deleted; a total of %2 items(s) have been updated.","合計%1商品が削除されました; 合計%2商品がアップデートされました"
-"We cannot update %1 items.",%1アイテムアップデートできません
-"Errors happened during synchronization with Google Shopping",Googleショッピングと同期中にエラーが発生しました
-"The item ""%1"" hasn't been deleted.","商品""%1""は削除されていません"
+"We cannot update %1 items.",%1 個の商品をアップデートできません。
+"Errors happened during synchronization with Google Shopping",Googleショッピングとの同期中にエラーが発生しました。
+"The item ""%1"" hasn't been deleted.","商品""%1""は削除されていません。"
 "Google Shopping item removal process succeded",Googleショッピング商品削除プロセスは成功しました
 "Total of %1 items(s) have been removed from Google Shopping.",Googleショッピングから合計%1商品が削除されました
 "Errors happened while deleting items from Google Shopping",Googleショッピングから商品が削除中にエラーが発生しました
@@ -2659,7 +2659,7 @@ GTIN,GTIN
 "Product Type (Category)",商品タイプ(カテゴリ)
 "Product Review Average",商品レビュー平均
 "Product Review Count",商品レビューカウント
-"Shipping Weight",送付重量
+"Shipping Weight",配送重量
 Material,素材
 Pattern/Graphic,パターン/グラフィック
 Grouping,グループ化
@@ -2815,7 +2815,7 @@ State,都道府県
                                 than a customer might expect. ","Warning tax discount configuration might result in different discounts
                                 than a customer might expect. "
 "Please see <a href=""%1"">documentation</a> for more details. ","Please see <a href=""%1"">documentation</a> for more details. "
-"Click here to go to <a href=""%1"">Tax Configuration</a> and change your settings."," <a href=""%1"">税設定</a>ここを押して設定を変更してください"
+"Click here to go to <a href=""%1"">Tax Configuration</a> and change your settings."," <a href=""%1"">税設定</a>こちらを押して設定を変更してください"
 "Invalid type of tax class ""%1""","無効なタイプの税クラス ""%1"""
 "Updating classType is not allowed.",クラスタイプのアップデートは許可されていません
 "A class with the same name already exists for ClassType %1.","同じ名前のクラスがクラスタイプ %1　に存在します"
@@ -2846,7 +2846,7 @@ Note:,メモ:
 "This sets whether shipping amounts entered from Magento Admin or obtained from gateways include tax.",これは送料がMagento管理画面から入力されたあるいはゲートウェイから入手されたかで税を含みます
 "Apply Customer Tax",小計に対する課税方法
 "Apply Discount On Prices",価格に値引きを適用する
-"Apply discount on price including tax is calculated based on store tax if ""Apply Tax after Discount"" is selected.",もし””ディスカウント後に税を適用””が選択されるとストア税に基づいて計算された税が価格にディスカウントが適用されます
+"Apply discount on price including tax is calculated based on store tax if ""Apply Tax after Discount"" is selected.",もし""割引後に税を適用""が選択されるとストア税に基づいて計算された税が価格に割引が適用されます
 "Apply Tax On",税を適用する価格
 "Enable Cross Border Trade",越境取引課税計算を有効にする
 "When catalog price includes tax, enable this setting to fix the price no matter what the customer's tax rate.","カタログ価格が税を含む時には顧客の税率設定がなんであれ、この設定を有効にして価格を確定してください。"
@@ -2904,7 +2904,7 @@ Order,注文
 "You are currently not subscribed to our newsletter.",ニュースレターをご購読いただいておりません。
 "You have not set a default shipping address.",標準の配送先を指定してください。
 "You have not set a default billing address.",標準のご請求先が指定されていません。
-"Address Book",アドレス帳
+"Address Book",住所録
 "Edit Address",住所の編集
 "Add New Address",住所を追加
 region,地域
@@ -2941,10 +2941,10 @@ Unknown,不明
 "Purchase Date",購入日
 "Bill-to Name",請求先名
 "Ship-to Name",送り先名
-"Order Total",注文合計
+"Order Total",合計金額
 "Purchase Point",購入店舗
 "There are no items in customer's shopping cart at the moment",顧客のショッピングカートに商品がありません
-"Shipped-to Name",送付先名
+"Shipped-to Name",配送先名
 "Grand Total",合計
 Confirmed,確認
 "Confirmation Required",確認が必須です
@@ -2954,7 +2954,7 @@ Indeterminate,未定
 Offline,オフライン
 Online,オンライン
 "Deleted Stores",ストアを削除
-"There are no items in customer's Wish List at the moment.",現在顧客の欲しい物リストには商品がありません
+"There are no items in customer's Wish List at the moment.",現在顧客のほしい物リストには商品がありません
 Download,ダウンロード
 "Delete Image",画像を削除
 "View Full Size",フルサイズで表示
@@ -2983,17 +2983,17 @@ Download,ダウンロード
 "Create New Customer Account",新規顧客アカウントを作成
 "Date of Birth",生年月日
 "Bad request.",不正なリクエスト。
-"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter you shipping address for proper VAT calculation","登録済みのVAT顧客であれば、<a href=""""%1"""">ここ</a>をクリックして正しいVAT計算のために送付先住所を入力してください"
-"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter you billing address for proper VAT calculation","登録済みのVAT顧客であれば、<a href=""""%1"""">ここ</a>をクリックして正しいVAT計算のために請求先住所を入力してください"
-"Thank you for registering with %1."," %1　を登録していただきありがとうございます"
+"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter you shipping address for proper VAT calculation","登録済みのVAT顧客であれば、<a href=""""%1"""">こちら</a>をクリックして正しいVAT計算のために配送先住所を入力してください"
+"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter you billing address for proper VAT calculation","登録済みのVAT顧客であれば、<a href=""""%1"""">こちら</a>をクリックして正しいVAT計算のために請求先住所を入力してください"
+"Thank you for registering with %1."," %1 にご登録いただきありがとうございます。"
 "Please, check your email for confirmation key.",メールの確認キーを入力してください。
 "This email does not require confirmation.",このメールアドレスは確認を必要としません。
 "Wrong email.",間違ったメールアドレス
-"Account confirmation is required. Please, check your email for the confirmation link. To resend the confirmation email please <a href=""%1"">click here</a>.","アカウント確認が必要です。メールにて確認リンクをご確認ください。再度確認メールを送る場合は<a href=""""%1"""">ここクリックしてください</a>"
-"There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","このEメールのアカウントがすでに存在します。もしこのEメールアドレスがあなたのものであるなら、<a href=""""%1"""">ここをクリック</a>してパスワードを入手してアカウントにアクセスしてください。"
+"Account confirmation is required. Please, check your email for the confirmation link. To resend the confirmation email please <a href=""%1"">click here</a>.","アカウント確認が必要です。メールにて確認リンクをご確認ください。再度確認メールを送る場合は<a href=""""%1"""">こちらクリックしてください</a>"
+"There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","このEメールのアカウントがすでに存在します。もしこのEメールアドレスがあなたのものであるなら、<a href=""""%1"""">こちらをクリック</a>してパスワードを入手してアカウントにアクセスしてください。"
 "Cannot save the customer.",顧客データを保存できません。
 "Please make sure your passwords match.",パスワードが合っているか確かめてください
-"A problem was encountered trying to change password.",パスワード変更中に問題が発生しました。
+"A problem was encountered trying to change password.",パスワードの変更中に問題が発生しました。
 "Confirm your new password",新しいパスワードを確認してください。
 "New password field cannot be empty.",新しいパスワードを入力してください。
 "Invalid input",不正な入力
@@ -3001,7 +3001,7 @@ Download,ダウンロード
 "Please correct the email address.",Eメールアドレスを修正してください
 "Unable to send password reset email.",Eメールをリセットするためにパスワードを送信できません
 "Please enter your email.",メールアドレスを入力してください。
-"This account is not confirmed.' ' <a href=""%1"">Click here</a> to resend confirmation email.","このアカウントは確認できませｎ。' ' <a href=""""%1"""">ここをクリック</a>して確認メールを再送してください。"
+"This account is not confirmed.' ' <a href=""%1"">Click here</a> to resend confirmation email.","このアカウントは確認できませｎ。' ' <a href=""""%1"""">こちらをクリック</a>して確認メールを再送してください。"
 "Invalid login or password.",ログイン名かパスワードが違います。
 "There was an error validating the login and password.",ログインとパスワードを確認時にエラーが発生しました。
 "Login and password are required.",ログインとパスワードが必要です。
@@ -3031,8 +3031,8 @@ Download,ダウンロード
 "An error occurred while resetting customer password.",顧客パスワードをリセット中にエラーが発生しました
 "You saved the customer.",顧客を保存しました
 "An error occurred while saving the customer.",顧客を保存中にエラーが発生しました。
-"Please define Wish List item ID.",欲しい物リストのアイテムIDを定義してください
-"Please load Wish List item.",欲しい物リストアイテムをロードしてください
+"Please define Wish List item ID.",ほしい物リストのアイテムIDを定義してください
+"Please load Wish List item.",ほしい物リストアイテムをロードしてください
 "Login successful.",ログインに成功しました
 "There was an error validating the username and password.",ユーザー名とパスワード確認エラーが発生しました
 """%1"" section source is not supported","%1""""セクションソースがサポートされていません"
@@ -3114,7 +3114,7 @@ Visitor,訪問者
 "Set as Default Billing Address",標準の請求先住所に設定する
 "Default Billing Address",標準の請求先住所
 "Set as Default Shipping Address",標準の配送先住所に設定する
-"Default Shipping Address",標準の配送先
+"Default Shipping Address",標準の配送先住所
 "New Customer Address",新規顧客住所
 "No item specified.",アイテムが指定されていません。
 "Personal Information",個人情報
@@ -3128,39 +3128,40 @@ Visitor,訪問者
 "Sales Statistics",売上情報
 "Average Sale",平均売上
 "Manage Addresses",住所の管理
-"Contact Information",ご連絡先
-"Change Password",パスワード変更
+"Contact Information",連絡先
+"Change Password",パスワードを変更する
 Newsletters,ニュースレター
 "You are currently subscribed to 'General Subscription'.",ニュースレターをご購読中です。
 "You are currently not subscribed to any newsletter.",ニュースレターをご購読いただいておりません。
 "Default Addresses",標準の住所
-"Change Billing Address",請求先住所変更
+"Change Billing Address",請求先住所の変更
 "You have no default billing address in your address book.",標準の請求先が住所録にありません。
-"Change Shipping Address",配送先変更
+"Change Shipping Address",配送先住所の変更
 "You have no default shipping address in your address book.",標準の配送先が住所録にありません。
-"Additional Address Entries",追加住所登録
+"Additional Address Entries",その他の住所
 "You have no additional address entries in your address book.",その他の住所データがありません。
 "Use as my default billing address",標準の請求先住所にする
 "Use as my default shipping address",標準の配送先住所にする
 "Save Address",保存
-"Go back","Go back"
-"Please enter your email below and we will send you the confirmation link for it.",下にあるメールアドレスを入力してください、確認リンクをお送りします
-"Send confirmation link",認証リンクを送信
+"Go back","戻る"
+"Please enter your email below and we will send you the confirmation link for it.",メールアドレスを入力してください。メールアドレス確認用のリンクをお送りいたします。
+"Send confirmation link",確認用のリンクを送信
 "Back to Login",ログイン画面に戻る
 "Current Password",現在のパスワード
 "Please enter your email address below. You will receive a link to reset your password.",メールアドレスを入力してください。パスワード再発行メールをお送りいたします。
 "Registered Customers",既にご登録いただいているお客様
-"If you have an account with us, log in using your email address.",アカウントをお持ちであれば、メールアドレスにてログインしてください
+"If you have an account with us, log in using your email address.",アカウントをお持ちであれば、ログインしてください。
 Login,ログイン
-"Forgot Your Password?",パスワードをお忘れですか？
+"Forgot Your Password",パスワードをお忘れですか？
+"Reset My Password",パスワードを再設定する
 "Subscription option",購読オプション
 "General Subscription",ニュースレターを購読する
 "Sign Up for Newsletter",ニュースレターを購読する
 "Address Information",住所情報
 "Login Information",ログイン情報
 "Create account",アカウント作成
-"You have logged out and will be redirected to our homepage in 5 seconds.",ログアウトしました。5秒後にTOPページに移動します。
-"By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.",アカウントを作成いただくと、お買い物がよりスピーディーに行え、複数の配送先を登録できます。また、ご注文の追跡などができます。
+"You have logged out and will be redirected to our homepage in 5 seconds.",ログアウトしました。5秒後にTOPページに遷移します。
+"By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.",アカウントを作成いただくと、お買い物をより簡単に行え、複数の配送先を登録できます。また、ご注文の追跡などができます。
 Register,新規登録
 "Tax/VAT number",税/付加価値税番号
 "Subscribe to Newsletter",ニュースレター購読
@@ -3242,36 +3243,36 @@ Addresses,住所
 "Public content cache lifetime in seconds. If field is empty default value 86400 will be saved. ","パブリックコンテントキャッシュの寿命（秒）。 もしフィールドがからの場合はデフォルト値の86400が保存されます。 "
 "Page Cache",ページキャッシュ
 "Full page caching.",フルページキャッシング
-"Ship to Multiple Addresses",複数の住所へ送る
+"Ship to Multiple Addresses",複数の住所へ届ける
 "Billing Information - %1","請求先情報 - %1"
 "Review Order - %1","注文確認 - %1"
 "Total for this address",このアドレスへの合計
 "Shipping Methods",配送方法
 "Edit Billing Address",請求先住所を編集
 "Edit Shipping Address",配送先を編集
-"Create Billing Address",請求先住所を作成
-"Create Shipping Address",発送先住所を作成
+"Create Billing Address",請求先住所を設定
+"Create Shipping Address",配送先住所を設定
 "Data saving problem",データ保存問題
 "We cannot open the overview page.",概要ページを開けません
 "Please agree to all Terms and Conditions before placing the order.",ご注文前にご一読ください。
 "Order place error",注文エラー
-"Maximum qty allowed for Shipping to multiple addresses is %1","複数住所に送付することができることが可能な最大数量は %1"
+"Maximum qty allowed for Shipping to multiple addresses is %1","複数住所に配送できる最大数量は %1"
 "Please check shipping address information.",お届先住所を確認してください。
 "Please check billing address information.",ご請求先住所を確認してください。
 "Please select shipping methods for all addresses.",すべての住所のための配送方法を選択してください
-"Payment method is not defined",支払方法が定義されていません
-"The requested Payment Method is not available for multishipping.",リクエストされた支払方法はマルチショッピングでは可能ではありません
+"Payment method is not defined",支払方法が選択されていません
+"The requested Payment Method is not available for multishipping.",選択された支払方法では複数の配送方法は利用できません。
 "Item not found or already ordered",商品が見つからないか、ご注文済みです
 "Please specify a payment method.",支払方法を指定してください
-"Please check shipping addresses information.",お届先住所を確認してください。
+"Please check shipping addresses information.",配送先住所を確認してください。
 "Please specify shipping methods for all addresses.",すべての配送先に配送方法を指定してください。
 "Select Addresses",住所選択
-"Order Success",注文成功
+"Order Success",注文完了
 "Default Billing",標準の請求先
 "Default Shipping",標準の配送方法
 "Select Address",住所選択
 "Back to Billing Information",請求先情報に戻る
-"Please select a shipping address for applicable items.",商品のための送付先住所を選択してください
+"Please select a shipping address for applicable items.",商品の配送先住所を選択してください
 "Send To",配送先
 "Shipping selection is not applicable.",送料の選択が正しくありません。
 "Continue to Shipping Information",配送先情報へ
@@ -3280,9 +3281,9 @@ Addresses,住所
 "Back to Shopping Cart",ショッピングカートに戻る
 "Continue to Review Your Order",ご注文内容の確認へ
 "Back to Shipping Information",配送方法の選択に戻る
-"Other items in your order",あなたの注文に他のアイテム
+"Other items in your order",注文内の他の商品
 "Edit Items",アイテムを編集
-"Shipping is not applicable.",送付は可能ではありません
+"Shipping is not applicable.",配送できません。
 "Checkout with Multiple Addresses",複数住所へ配送する
 "Address %1 <span>of %2</span>","住所 %1 <span>の %2</span>"
 "Shipping To",配送先
@@ -3290,9 +3291,9 @@ Addresses,住所
 "Submitting order information...",注文情報を送信しています。。。
 "Continue to Billing Information",ご請求先情報へ
 "Back to Select Addresses",住所選択に戻る
-"Thanks for your order. We'll send you emails with order details and tracking information.",注文ありがとうございます。注文詳細と追跡情報のEメールを送付します
-"Your order number is ",ご注文番号は
-"Multishipping Settings",マルチシッピング設定
+"Thanks for your order. We'll send you emails with order details and tracking information.",ご注文ありがとうございます。注文の詳細と配送情報に関してメールをお送りします。
+"Your order number is ",注文番号は
+"Multishipping Settings",複数配送の設定
 Options,オプション
 "Allow Shipping to Multiple Addresses",複数配送を許可
 "Maximum Qty Allowed for Shipping to Multiple Addresses",複数配送で許可する最大個数
@@ -3402,7 +3403,7 @@ Add/Update,追加/アップデート
 "Invalid block type: %1","無効なブロックタイプ: %1"
 "You are receiving this notification because you subscribed to receive alerts when the prices for the following products changed:",以下の商品の価格が変更された場合に通知されるように設定しているため、この通知を受け取りました。
 Price:,価格:
-"Click here not to receive alerts for this product.",ここクリックしてこの商品のアラートを受け取らないようにしてください
+"Click here not to receive alerts for this product.",こちらクリックしてこの商品のアラートを受け取らないようにしてください
 "Unsubscribe from all price alerts",すべての価格通知を購読解除する
 "You are receiving this notification because you subscribed to receive alerts when the following products are back in stock:",以下の商品が在庫有りになった場合の通知されるように設定しているため、この通知を受け取りました。
 "Unsubscribe from all stock alerts",在庫通知を購読解除する
@@ -3513,7 +3514,7 @@ Warning,警告
 Size(bytes),サイズ(bytes)
 Rollback,ロールバック
 "Billing address is not set",請求書送付先住所が設定されていません
-"Shipping address is not set",商品送付先住所が設定されていません
+"Shipping address is not set",商品配送先住所が設定されていません
 "Unable to save address. Please, check input data.",住所が保存できません。入力データを確認してください。
 "Cart %1 doesn't contain products","カート %1 は商品を含んでいません"
 "Could not apply coupon code",クーポンコードは適用できません
@@ -3522,7 +3523,7 @@ Rollback,ロールバック
 "The requested Payment Method is not available.",指定された決済方法は利用できません。
 "We found an invalid request for adding product to quote.",クオートに商品を追加する不正なリクエストを発見しました
 "This is the wrong quote item id to update configuration.",これは設定をアップデートするには誤ったクオート商品idです
-"This shipping method is not available. To use this shipping method, please contact us.",この発送方法は無効です。この発送方法を使うには我々に連絡をください。
+"This shipping method is not available. To use this shipping method, please contact us.",この配送方法は無効です。この配送方法を使用するには、ご連絡ください。
 "The address model is not defined.",この住所モデルは定義されていません
 "The address total model should be extended from \Magento\Quote\Model\Quote\Address\Total\AbstractTotal.","住所トータルモデルは \Magento\Quote\Model\Quote\Address\Total\AbstractTotal　から展開されるべきです"
 "Shipping & Handling (%1)","配送料と手数料 (%1)"
@@ -3546,16 +3547,16 @@ Rollback,ロールバック
 "Cannot assign customer to the given cart. The cart is not anonymous.",与えられたカートに顧客をアサインできません。カートは匿名ではありません。
 "Cannot assign customer to the given cart. Customer already has active cart.",与えられたカートに顧客をアサインできません。顧客は既にアクティブなカートを持っています
 "This item price or quantity is not valid for checkout.",商品の価格か数量がチェックアウトには有効ではありません
-"Please check the shipping address information. %1","発送住所情報を確認してください %1"
+"Please check the shipping address information. %1","配送先住所情報を確認してください %1"
 "Please check the billing address information. %1","支払住所情報を確認してください %1"
 "Please select a valid payment method.",正しい支払方法を選択してください。
 "Store Credit",店舗クレジット
-"Cart contains virtual product(s) only. Shipping address is not applicable.",カートには仮想商品しかありません。発送住所は適用できません。
-"Shipping address not set.",送付アドレスがセットされていません
-"Shipping method is not applicable for empty cart",空のカートに送付方法は適用できません
-"Cart contains virtual product(s) only. Shipping method is not applicable.",カートには仮想商品しかありません。発送方法は適用できません。
+"Cart contains virtual product(s) only. Shipping address is not applicable.",カートには仮想商品しかありません。配送先住所は適用できません。
+"Shipping address not set.",配送先住所が設定されていません。
+"Shipping method is not applicable for empty cart",空のカートに配送方法は適用できません
+"Cart contains virtual product(s) only. Shipping method is not applicable.",カートには仮想商品しかありません。配送方法は適用できません。
 "Carrier with such method not found: %1, %2","その手法のキャリアが見つかりません: %1, %2"
-"Cannot set shipping method. %1","発送の方法を設定できません %1"
+"Cannot set shipping method. %1","配送の方法を設定できません %1"
 error123,エラー123
 error345,エラー345
 "Gift Messages is not applicable for empty cart",ギフトメッセージは空のカートには適用できません
@@ -3595,7 +3596,7 @@ error345,エラー345
 "Import Tax Rates",税率のインポート
 "Export Tax Rates",税率のエクスポート
 "Not you?",あなたではありませんか?
-"Your shopping cart has been updated with new prices.",あなたのショッピングカートが新しい価格でアップデートされました
+"Your shopping cart has been updated with new prices.",ショッピングカートが新しい価格でアップデートされました。
 "Welcome, %1!","ようこそ, %1!"
 "To check out, please log in using your email address.",チェックアウトするには、Eメールアドレスを使ってログインしてください
 "We cannot load the configuration from file %1.",ファイル%1から設定をロードできません
@@ -3648,8 +3649,8 @@ error345,エラー345
 "Credit card number mismatch with credit card type.",クレジットカード番号がカード会社と一致していません。
 "Invalid Credit Card Number",不正なクレジットカード番号
 "Credit card type is not allowed for this payment method.",クレジットカード会社が支払方法で許可されていません。
-"Please enter a valid credit card verification number.",正しいカード確認番号を入力してください
-"We found an incorrect credit card expiration date.",誤ったクレジットカードの期限切れ日が見つかりました
+"Please enter a valid credit card verification number.",正しいセキュリティコードを入力してください。
+"We found an incorrect credit card expiration date.",クレジットカードの有効期限日が誤っています。
 "%1 class doesn't implement \Magento\Payment\Model\MethodInterface","%1 クラスは \Magento\Payment\Model\MethodInterface　を設定できません"
 "Expiration Date",有効期限
 "Card Verification Number",セキュリティコード
@@ -3658,7 +3659,7 @@ error345,エラー345
 "Start Date",開始日
 "%1 is not available. You still can process offline actions.","%1 は有効ではありません。オフラインのアクションは進められます "
 "You'll be asked for your payment details before placing an order.",注文を入れる前に支払の詳細を尋ねられます
-"Card Verification Number Visual Reference",カード確認番号の参考画像
+"Card Verification Number Visual Reference",セキュリティコードの参考画像
 "Credit Card Information",クレジットカード番号
 "Payment Methods",支払方法
 "<label class=""label""><span>Make Check payable to:</span></label> %1","<label class=""label""><span>チェックを支払可能に:</span></label> %1"
@@ -3671,6 +3672,7 @@ error345,エラー345
 "Send Check to",小切手の宛先
 "New Order Status",新規注文ステータス
 "Check / Money Order","小切手 / 現金支払"
+"Check / Money order","現金支払"
 "Payment from Applicable Countries",許可された国からの支払
 "Payment from Specific Countries",特定の国からの支払
 "Make Check Payable to",小切手の振出先を指定
@@ -3722,7 +3724,7 @@ Administrator,管理者
 "Summary of review: %1 <br/>","レビューのまとめ: %1 <br/>"
 "Review: %1 <br/>","レビュー: %1 <br/>"
 "Store: %1 <br/>","ストア: %1 <br/>"
-"Click <a href=""%1"">here</a> to view the review."," <a href=""%1"">ここ</a>をクリックしてレビューを表示してください"
+"Click <a href=""%1"">here</a> to view the review."," <a href=""%1"">こちら</a>をクリックしてレビューを表示してください"
 "Product: ""%1"" reviewed by: %2","商品: ""%1"" レビューをした人: %2"
 "Pending Reviews RSS",承認待ちレビューRSS
 "Reviews %1","レビュー %1"
@@ -3741,9 +3743,9 @@ Administrator,管理者
 Ratings,レーティング
 "You saved the rating.",レーティングは保存されました
 "My Product Reviews",商品レビュー
-"Your review has been accepted for moderation.",あなたのレビューは受付済みで、承認待ちです。
-"We cannot post the review.",レビューをポストできません
-"Storage key was not set",保管キーはセットされていません
+"Your review has been accepted for moderation.",お客様のレビューは受付済みで、承認待ちです。
+"We cannot post the review.",レビューを投稿できません。
+"Storage key was not set",保管キーは設定されていません
 Approved,承認
 "Not Approved",未承認
 "The review summary field can't be empty.",レビューまとめフィールドは空白にできません
@@ -3763,7 +3765,7 @@ Rating,レーティング
 "Back to My Reviews",レビューに戻る
 "Ratings Review Summary",レーティングレビューまとめ
 "Be the first to review this product",この商品の最初のレビューを書く
-"Write Your Own Review",あなたのレビューを投稿する
+"Write Your Own Review",レビューを投稿する
 "You're reviewing:",レビュー中の商品:
 "Your Rating",あなたのレーティング
 "%1 %2","%1 %2"
@@ -3866,7 +3868,7 @@ Billing,請求書
 "This product is disabled.",この商品は無効です
 "Buy %1 for price %2","%2 の値段で %1が購入できます"
 "Item ordered qty",オーダーされた商品数量
-"%1 with %2 discount each","%1 と %2 で各ディスカウント"
+"%1 with %2 discount each","%1 と %2 で各割引"
 "%1 for %2","%2 のための %1"
 "* - Enter custom price including tax","* - 税込みのカスタム価格を入力"
 "* - Enter custom price excluding tax","* - 税別のカスタム価格を入力"
@@ -3905,7 +3907,7 @@ Print,印刷
 "New Invoice for Order #%1","注文 #%1　のための新しい請求書"
 "Submit Invoice and Shipment",請求書と配送伝票を作成
 "Submit Invoice",請求書作成
-"Are you sure you want to send an Invoice email to customer?",ホントに請求書メールを顧客に送付しますか？
+"Are you sure you want to send an Invoice email to customer?",本当に請求書メールを顧客に送信しますか？
 "Credit Memo",クレジットメモ
 Capture,計上
 "the invoice email was sent",請求書メールは送信済です
@@ -3975,24 +3977,24 @@ Key,キー
 Value,値
 "We found an invalid entity model.",無効なエンティティモデルが見つかりました
 "Order # %1","Order # %1"
-"Back to My Orders",ご注文画面に戻る
+"Back to My Orders",注文履歴に戻る
 "View Another Order",他の注文を表示
-"About Your Refund",あなたのご返金について
-"My Orders",ご注文
+"About Your Refund",返金について
+"My Orders",注文履歴
 "Subscribe to Order Status",注文状態を購読
-"About Your Invoice",あなたのお支払について
+"About Your Invoice",支払について
 "Print Order # %1","注文印刷 # %1"
 "Grand Total to be Charged",お支払合計
 Unassign,未割り当て
-"We sent the message.",メッセージを送付しました
-"This order no longer exists.",この注文は存在しません。
-"Comment text cannot be empty.",コメントテキストは空にできません
-"We cannot add order history.",注文履歴を追加できません
-"You updated the order address.",注文住所のアップデートが行われました
-"Something went wrong updating the order address.",注文住所をアップデート中に問題が発生しました
-"You canceled the order.",注文をキャンセルしました
-"You have not canceled the item.",商品をキャンセルしていません
-"""%1"" coupon code was not applied. Do not apply discount is selected for item(s)","""%1""クーポンコードが適用されませんでした。選択された商品にディスカウントを適用しないでください。 "
+"We sent the message.",メッセージを送信しました。
+"This order no longer exists.",注文が存在しません。
+"Comment text cannot be empty.",コメントテキストは空にできません。
+"We cannot add order history.",注文履歴を追加できません。
+"You updated the order address.",注文住所のアップデートが行われました。
+"Something went wrong updating the order address.",注文先住所をアップデート中に問題が発生しました。
+"You canceled the order.",注文をキャンセルしました。
+"You have not canceled the item.",商品をキャンセルしていません。
+"""%1"" coupon code was not applied. Do not apply discount is selected for item(s)","""%1""クーポンコードが適用されませんでした。選択された商品に割引を適用しないでください。 "
 """%1"" coupon code is not valid.","""%1""クーポンコードは有効ではありません"
 "The coupon code has been accepted.",クーポンコードを適用しました。
 "Quote item id is not received.",商品データが見つかりません。
@@ -4030,11 +4032,11 @@ Unassign,未割り当て
 "Cannot create an invoice without products.",商品のない請求書は作成できません。
 "New Invoice",新しい請求書
 "We can't save the invoice.",領収書を保存できません
-"The invoice and the shipment  have been created. ' 'The shipping label cannot be created now.","領収書と発送が作成されました ' '発送ラベルは現在作れません"
-"You created the invoice and shipment.",領収書と発送を作成しました
+"The invoice and the shipment  have been created. ' 'The shipping label cannot be created now.","領収書と送付書が作成されました。配達ラベルは現在作れません。"
+"You created the invoice and shipment.",領収書と送付書を作成しました
 "The invoice has been created.",請求書を作成しました。
 "We can't send the invoice email.",領収書メールを送れません
-"We can't send the shipment.",発送を送ることができません
+"We can't send the shipment.",送付状を送ることができません
 "Cannot update item quantity.",商品点数を更新できません。
 "The invoice has been voided.",請求書を無効にしました。
 "Invoice voiding error",請求書無効化エラー
@@ -4071,13 +4073,13 @@ Unassign,未割り当て
 "Please correct the transaction ID and try again.",トランザクションIDを修正して再度試して下さい
 "The transaction details have been updated.",トランザクション詳細を更新しました。
 "You entered incorrect data. Please try again.",無効なデータが入力されました。再度お試しください
-"We couldn't find this wish list.",このお気に入りリストは見つかりませんでした
+"We couldn't find this wish list.",このほしい物リストは見つかりませんでした
 "We could not add a product to cart by the ID ""%1"".","ID ""%1"" の商品をカートに追加することができませんでした"
 "There is an error in one of the option rows.",オプション行にエラーがあります。
 "Shipping Address: ",配送先住所:
 "Billing Address: ",配送先住所:
 "You need to specify order items.",注文する商品を指定してください。
-"You need to specify a shipping method.",発送方法を指定しなければなりません
+"You need to specify a shipping method.",配送方法を指定しなければなりません
 "A payment method must be specified.",支払方法が指定しなければなりません
 "This payment method is not available.",この支払方法は有効ではありません
 "Validation is failed.",認証に失敗しました
@@ -4091,7 +4093,7 @@ Unassign,未割り当て
 "We cannot register an existing credit memo.",存在するクレジットメモは登録できません
 "Unknown State",不明な国
 "We found an invalid quantity to refund item ""%1"".","商品""%1""を返金するには無効な数量を発見しました"
-"Maximum shipping amount allowed to refund is: %1","返金が許された最大の発送額は: %1"
+"Maximum shipping amount allowed to refund is: %1","返金が許された最大の配送額は: %1"
 "We cannot register an existing invoice",既に存在する領収書は登録できません
 "Unknown Status",不明なステータス
 Backordered,バックオーダー中
@@ -4138,7 +4140,7 @@ Authorization,認証
 "You can't do this without a transaction object.",トランザクションオブジェクトなしにこの操作は行えません
 "ID required","ID 必須"
 "Requested entity doesn't exist",リクエストされたエンティティは存在しません
-"Order # ","ご注文番号 "
+"Order # ","注文番号 "
 "Order Date: ",注文日:
 "Sold to:",販売先:
 "Ship to:",配送先:
@@ -4152,23 +4154,23 @@ Number,数
 "Total (inc)",合計（税込）
 "Credit Memo # ","クレジットメモ #"
 "Invoice # ",請求書番号
-"The order object is not specified.",注文オブジェクトが指定されていません
-"The source object is not specified.",ソースオブジェクトが指定されていません
-"An item object is not specified.",商品オブジェクトが指定されていません
-"A PDF object is not specified.",PDFオブジェクトが指定されていません
-"A PDF page object is not specified.",PDFページオブジェクトが指定されていません
+"The order object is not specified.",注文オブジェクトが指定されていません。
+"The source object is not specified.",ソースオブジェクトが指定されていません。
+"An item object is not specified.",商品オブジェクトが指定されていません。
+"A PDF object is not specified.",PDFオブジェクトが指定されていません。
+"A PDF page object is not specified.",PDFページオブジェクトが指定されていません。
 "Packing Slip # ","配送伝票 # "
-"The PDF total model %1 must be or extend \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.","PDF トータルモデル %1 でなければならないか \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal　の展開でなければならない"
-"We cannot register an existing shipment",既存の送付は登録できません
-"We found an invalid qty to ship for item ""%1"".","商品 ""%1""の発送には無効な数量を見つけました"
-"The last status can't be unassigned from its current state.",現在のステータスから最後のステータスにアサインを外すことはできません
-"Status can't be unassigned, because it is used by existing order(s).",既存の注文に使われているのでステータスのアサインを外すことはできません
-"The total model should be extended from \Magento\Sales\Model\Order\Total\AbstractTotal.","トータルモデルは \Magento\Sales\Model\Order\Total\AbstractTotal　から展開すべきです"
-"We cannot determine the field name.",フィールドネームを決めることはできません
+"The PDF total model %1 must be or extend \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.","PDF トータルモデル %1 でなければならないか \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal　の展開でなければなりません。"
+"We cannot register an existing shipment",既存の配送方法は登録できません。
+"We found an invalid qty to ship for item ""%1"".","商品 ""%1""の配送にあたって不正な数量です。"
+"The last status can't be unassigned from its current state.",現在のステータスから最後のステータスにアサインを外すことはできません。
+"Status can't be unassigned, because it is used by existing order(s).",既存の注文に使われているのでステータスのアサインを外すことはできません。
+"The total model should be extended from \Magento\Sales\Model\Order\Total\AbstractTotal.","トータルモデルは \Magento\Sales\Model\Order\Total\AbstractTotal　から展開すべきです。"
+"We cannot determine the field name.",フィールドネームを決めることはできません。
 "Cannot save address:%1","住所を保存できません: %1"
 "Cannot save comment:%1","コメントが保存できません: %1"
-"We don't have enough information to save the parent transaction ID.",親トランザクションIDを保存するには充分な情報がありません
-"We cannot create an empty shipment.",空の発送を作成することはできません
+"We don't have enough information to save the parent transaction ID.",親トランザクションIDを保存するには充分な情報がありません。
+"We cannot create an empty shipment.",空の配送を作成することはできません。
 "Cannot save track: %1","トラックを保存できません: %1"
 "Cannot unassign status from state",ステートからステータスのアサインを外すことはできません
 "New Orders",新しい注文
@@ -4178,9 +4180,9 @@ Number,数
 "Comment: %1<br/>","コメント: %1<br/>"
 "Current Status: %1<br/>","現在のステータス: %1<br/>"
 "Total: %1<br/>","合計: %1<br/>"
-"Order # %1 Notification(s)","注文 # %1 お知らせ"
-"We found an invalid quantity to invoice item ""%1"".","領収書商品 ""%1""に無効な数量を見つけました"
-"The Order State ""%1"" must not be set manually.","注文状態 ""%1"" 手動でセットしてはなりません"
+"Order # %1 Notification(s)","注文 # %1 のお知らせ"
+"We found an invalid quantity to invoice item ""%1"".","領収書商品 ""%1""に無効な数量を見つけました。"
+"The Order State ""%1"" must not be set manually.","注文状態 ""%1"" は手動で設定してはいけません。"
 "Pending Payment",未支払
 "On Hold",保留
 Complete,完了
@@ -4199,11 +4201,11 @@ Notified,通知済
 "Order Comments",注文コメント
 "Apply Coupon Code",クーポンコードを適用する
 "Remove Coupon Code",クーポンコードの削除
-"Payment &amp; Shipping Information","支払 &amp; 送付情報"
+"Payment &amp; Shipping Information","支払 &amp; 配送情報"
 "Order Currency:",注文通貨:
 "Same As Billing Address",請求先と同じ
 "Select from existing customer addresses:",登録済の顧客と住所から選択:
-"You don't need to select a shipping address.",送付先住所を選択する必要はありません
+"You don't need to select a shipping address.",配送先住所を選択する必要はありません
 "Gift Message for the Entire Order",この注文のギフトメッセージ
 "Row Subtotal",列小計
 "No ordered items",オーダーされていない商品
@@ -4215,15 +4217,15 @@ Subtotal:,小計:
 "Click to change shipping method",クリックして配送方法を変更
 "Sorry, no quotes are available for this order.",申し訳ありません。この注文に対するクオーツはありません
 "Get shipping methods and rates",配送方法と料金を取得する
-"You don't need to select a shipping method.",発送方法を選択する必要はありません
+"You don't need to select a shipping method.",配送方法を選択する必要はありません
 "Customer's Activities",顧客の動向
-"Add To Order",ご注文にくわえる
+"Add To Order",注文に加える
 "Configure and Add to Order",オプションを選択して追加する
 "No items",商品なし
 "Append Comments",コメントを追加
 "Email Order Confirmation",注文受付メールを送信する
-"Payment &amp; Shipping Method","支払 &amp; 発送方法"
-"The order was placed using %1.","注文は"" %1　を使用しておこなわれた"""
+"Payment &amp; Shipping Method","支払 &amp; 配送方法"
+"The order was placed using %1.","注文は %1 を使用して行われました。"
 "Items to Refund",払戻商品
 "Return to Stock",在庫へ戻す
 "Qty to Refund",払戻数量
@@ -4231,7 +4233,7 @@ Subtotal:,小計:
 "Credit Memo Comments",クレジットメモコメント
 "Refund Totals",返金合計
 "Email Copy of Credit Memo",返金完了済メールを送信する
-"Please enter a positive number in this field.",このフィールドには正の数字を入力してください
+"Please enter a positive number in this field.",このフィールドには正の数字を入力してください。
 "Items Refunded",払戻された商品
 "No Items",商品なし
 "Memo Total",メモ合計
@@ -4241,7 +4243,7 @@ Subtotal:,小計:
 "Purchased From: %1","購入元: %1"
 "Shipping &amp; Handling",配送料と手数料
 "Create Shipment",配送伝票作成
-"Invoice and shipment types do not match for some items on this order. You can create a shipment only after creating the invoice.",請求書と送付タイプの幾つかがこの注文ではマッチしません。送付は請求書を作成後のみに作成することができます
+"Invoice and shipment types do not match for some items on this order. You can create a shipment only after creating the invoice.",この注文のいくつかのアイテムに関して請求書と配送方法がマッチしません。配送方法は請求書を作成した後のみに作成することができます。
 "Qty to Invoice",請求個数
 "Invoice History",請求書履歴
 "Invoice Comments",請求書コメント
@@ -4250,7 +4252,7 @@ Amount,金額
 "Capture Online",オンライン計上
 "Capture Offline",オフライン計上
 "Not Capture",取込無し
-"The invoice will be created offline without the payment gateway.",請求書は決済ゲートウェイなしでオフラインで作成されます
+"The invoice will be created offline without the payment gateway.",請求書は決済ゲートウェイなしでオフラインで作成されます。
 "Email Copy of Invoice",領収済メールを送信する
 "Items Invoiced",請求済個数
 "Total Tax",合計税
@@ -4286,7 +4288,7 @@ Sku,商品番号
 "Gift Message for this Order",この注文のギフトメッセージ
 "Shipped By",配送元
 "Tracking Number",追跡番号
-"Billing Last Name",請求先姓
+"Billing Last Name",名前
 "Find Order By:",この条件で検索:
 "ZIP Code",郵便番号
 "Billing ZIP Code",請求先郵便番号
@@ -4301,11 +4303,11 @@ Sku,商品番号
 "Print All Invoices",全ての請求書を印刷する
 "Invoice #",請求書番号
 "Print Invoice",請求書を印刷する
-"About Your Order",ご注文について
+"About Your Order",注文について
 "<span class=""label"">Order Date:</span> %1","<span class=""label"">注文日:</span> %1"
 "Refund #%1","返金 #%1"
 "Shipment #%1","送料 #%1"
-"Recent Orders",最近のご注文
+"Recent Orders",最近の注文
 "Gift Message for This Order",この注文のギフトメッセージ
 "Shipment Comments",配送コメント
 "Gift Options for ","ギフトオプション "
@@ -4328,10 +4330,10 @@ Sku,商品番号
                         ロゴはHTMLドキュメントのみです。 もし空の場合はデフォルトが使われます<br />(jpeg, gif, png)
                     "
 "Minimum Amount",最小個数
-"Subtotal after discount",ディスカウント後の小計
+"Subtotal after discount",割引後の小計
 "Include Tax to Amount",額に税を含む
 "Description Message",概要メッセージ
-"This message will be shown in the shopping cart when the subtotal (after discount) is lower than the minimum allowed amount.",このメッセージは（ディスカウント後の）小計が最小限度額より低い時にショッピングカートに表示されます
+"This message will be shown in the shopping cart when the subtotal (after discount) is lower than the minimum allowed amount.",このメッセージは（割引後の）小計が最小限度額より低い時にショッピングカートに表示されます
 "Error to Show in Shopping Cart",ショッピングカートに表示するエラーメッセージ
 "Validate Each Address Separately in Multi-address Checkout",複数配送先チェックアウトで個別に配送先を検証する
 "Multi-address Description Message",複数住所概要メッセージ
@@ -4340,7 +4342,7 @@ Sku,商品番号
 "We'll use the default error above if you leave this empty.",これを空にすると上部のデフォルトエラーが使われます
 "Use Aggregated Data (beta)","合計データを使用する (ベータ版)"
 "Sales Emails",セールスメール
-"Asynchronous sending",非同期送付
+"Asynchronous sending",非同期送信
 "New Order Confirmation Email Sender",新規注文確認メール送信者
 "New Order Confirmation Template",新しい注文確認テンプレート
 "New Order Confirmation Template for Guest",ゲスト用の新しい注文確認テンプレート
@@ -4363,15 +4365,15 @@ Comma-separated,カンマ区切り
 "Send Invoice Comment Email Copy To",請求書コメントメールのコピー送信先
 "Send Invoice Comments Email Copy Method",請求書コメントコピーメール送信方法
 Shipment,配送
-"Shipment Email Sender",配送メール送信者
-"Shipment Email Template",配送メールテンプレート
-"Shipment Email Template for Guest",ゲスト用の配送メールテンプレート
-"Send Shipment Email Copy To",配送メールコピー送信先
+"Shipment Email Sender",発送メール送信者
+"Shipment Email Template",発送メールテンプレート
+"Shipment Email Template for Guest",ゲスト用の発送メールテンプレート
+"Send Shipment Email Copy To",発送メールコピー送信先
 "Send Shipment Email Copy Method",配送コピーメール送信方法
 "Shipment Comment Email Sender",配送コメントメール送信者
 "Shipment Comment Email Template",配送コメントメールテンプレート
 "Shipment Comment Email Template for Guest",ゲスト用の配送コメントメールテンプレート
-"Send Shipment Comment Email Copy To",配送メールコピー送信先
+"Send Shipment Comment Email Copy To",発送メールコピー送信先
 "Send Shipment Comments Email Copy Method",配送コメントコピーメール送信方法
 "Credit Memo Email Sender",クレジットメモメール送信者
 "Credit Memo Email Template",クレジットメモメールテンプレート
@@ -4398,10 +4400,10 @@ order-header,order-header
 "Print Packing Slips",配送伝票を印刷
 "Print Credit Memos",クレジットメモ印刷
 "Print All",すべて印刷
-"Print Shipping Labels",配送ラベルを印刷
+"Print Shipping Labels",配達ラベルを印刷
 "Grand Total (Base)","合計 (ベース)"
 "Grand Total (Purchased)","合計 (購入)"
-"Ship Date",発送日
+"Ship Date",出荷日
 "Total Quantity",総数量
 "Default Status",標準ステータス
 "State Code and Title",ステータスコードとタイトル
@@ -4468,21 +4470,21 @@ Subscribers,購読者
 "The newsletter template has been deleted.",ニュースレターテンプレートが削除されました
 "We can't delete this template right now.",現在このテンプレートは削除できません
 "Create Newsletter Template",新しいメールテンプレートを作成
-"The newsletter template has been saved.",ニュースレターテンプレートは保存されました
+"The newsletter template has been saved.",ニュースレターテンプレートは保存されました。
 "An error occurred while saving this template.",テンプレートを保存中にエラーが発生しました。
-"Something went wrong while saving your subscription.",あなたの購読をセーブ中に問題が発生しました
-"We saved the subscription.",購読をセーブしました
-"We removed the subscription.",購読を削除しました
+"Something went wrong while saving your subscription.",購読設定の保存中に問題が発生しました。
+"We saved the subscription.",購読設定を保存しました。
+"We removed the subscription.",購読設定を解除しました。
 "Your subscription has been confirmed.",ニュースレター購読登録を完了しました。
-"This is an invalid subscription confirmation code.",これは無効な購読確認コードです
-"This is an invalid subscription ID.",これは無効な購読確認IDです
+"This is an invalid subscription confirmation code.",これは無効な購読確認コードです。
+"This is an invalid subscription ID.",これは無効な購読確認IDです。
 "This email address is already assigned to another user.",このメールアドレスは既に使用されています。
-"Sorry, but the administrator denied subscription for guests. Please <a href=""%1"">register</a>.","申し訳ありません、アドミニストレーターがゲストの購読を許可しませんでした。こちら <a href=""%1"">登録</a>願います。"
+"Sorry, but the administrator denied subscription for guests. Please <a href=""%1"">register</a>.","申し訳ありません、ゲストアカウントによる購読はできません。<a href=""%1"">登録</a>をお願いします。"
 "Please enter a valid email address.",正しいメールアドレスを入力してください。
-"The confirmation request has been sent.",確認リクエストが送られました
+"The confirmation request has been sent.",確認リクエストが送られました。
 "Thank you for your subscription.",ご購読ありがとうございます。
 "There was a problem with the subscription: %1","購読に問題がありました: %1"
-"Something went wrong with the subscription.",購読に問題が発生しました
+"Something went wrong with the subscription.",購読に問題が発生しました。
 "You have been unsubscribed.",未購読になりました。
 "Something went wrong with the un-subscription.",購読停止中に問題が発生しました
 Cancelled,キャンセル済
@@ -4626,7 +4628,7 @@ Translations,翻訳
 Samples,サンプル
 Links,リンク
 "Something went wrong while getting the requested content.",リクエストされたコンテントを入手中に問題が発生しました
-"My Downloadable Products",ダウンロード可能な商品
+"My Downloadable Products",ダウンロード商品
 "We can't find the link you requested.",リクエストされたリンクが見つかりませんでした
 "Please log in to download your product or purchase <a href=""%1"">%2</a>.","ログインして製品をダウンロードするか <a href=""%1"">%2</a>を購入してください。"
 "Please log in to download your product.",ログインした上で商品をダウンロードしてください。
@@ -4726,7 +4728,7 @@ status,ステータス
 FedEx,FeedEx
 "Please make sure to use only digits here. No dashes are allowed.",数字のみで入力してください。ハイフンは使用できません。
 "Meter Number",メートル番号
-"Sandbox Mode",保護モード
+"Sandbox Mode",サンドボックスモード
 "Web-Services URL (Production)","ウェブサービス URL (開発)"
 "Web-Services URL (Sandbox)","ウェブサービス URL (サンドボックス)"
 Packaging,包装
@@ -4805,7 +4807,7 @@ UPS,UPS
 "Destination Type",対象種別
 "Gateway XML URL","ゲートウェイXML URL"
 "Minimum Package Weight (Please consult your shipping carrier for minimum supported shipping weight)",最小梱包重量（配送業者にお問い合わせください）
-"Origin of the Shipment",発送元
+"Origin of the Shipment",配送元
 "Pickup Method",引き取り方法
 "Tracking XML URL","トラッキングXML URL"
 "UPS Type","UPS タイプ"
@@ -4948,7 +4950,7 @@ password,パスワード
 "Sign in",サインイン
 "Select Range:",範囲を選択してください：
 "No Data Found",データが見つかりませんでした
-"Chart is disabled. To enable the chart, click <a href=""%1"">here</a>.","チャートが無効です。チャートを有効にするには、 <a href=""""%1"""">ここ</a>をクリックしてください。"
+"Chart is disabled. To enable the chart, click <a href=""%1"">here</a>.","チャートが無効です。チャートを有効にするには、 <a href=""""%1"""">こちら</a>をクリックしてください。"
 "Last Orders",前回の注文
 "Last Search Terms",前回の検索
 "Top Search Terms",トップの検索
@@ -5057,7 +5059,7 @@ Host,ホスト
 "Admin Base URL",管理ページベースURL
 "Use Custom Admin URL",カスタム管理者URLを使用する
 "Custom Admin URL",カスタム管理者URL
-"Make sure that base URL ends with '/' (slash), e.g. http://yourdomain/magento/","BaseURLは”/”で終了させてください。 例：http://yourdomain/magento/"
+"Make sure that base URL ends with '/' (slash), e.g. http://yourdomain/magento/","BaseURLは"/"で終了させてください。 例：http://yourdomain/magento/"
 "Use Custom Admin Path",カスタム管理者パスを使用する
 "Custom Admin Path",カスタム管理者パス
 "You will have to log in after you save your custom admin path.",カスタム管理者パスを設定すると再度ログインが必要になります。
@@ -5144,7 +5146,7 @@ n/a,該当無し
 "Last URL",最終URL
 cm,cm
 "No packages for request",依頼のパッケージはありません
-"New Shipment for Order #%1","注文 #%1　の新しい発送"
+"New Shipment for Order #%1","注文 #%1　の新しい配送"
 "Submit Shipment",配送送信
 "You are trying to add a quantity for some products that doesn't match the quantity that was shipped.",送られた数量とマッチしないいくつかの商品に数量を追加しようとしています
 "Products should be added to package(s)",商品を梱包に追加しなければなりません。
@@ -5153,23 +5155,23 @@ cm,cm
 "Custom Value",カスタム値
 "Send Tracking Information",トラッキング情報を送信
 "Are you sure you want to send a Shipment email to customer?",本当に発送メールを顧客に送りますか？
-"the shipment email was sent",配送メールを送信しました。
-"the shipment email is not sent",配送メールは未送信です。
+"the shipment email was sent",発送メールを送信しました。
+"the shipment email is not sent",発送メールは送信されていません。
 "Shipment #%1 | %3 (%2)","発送 #%1 | %3 (%2)"
-"Create Shipping Label...",配送ラベルを作成...
-"Print Shipping Label",配送ラベルを印刷
+"Create Shipping Label...",配達ラベルを作成...
+"Print Shipping Label",配達ラベルを印刷
 "Show Packages",梱包を表示
-"About Your Shipment",あなたのお荷物配送状況について
+"About Your Shipment",配送状況について
 "The comment text field cannot be empty.",コメントテキストフィールドは空白にできません
 "Please specify a carrier.",配送業者を指定してください
 "Please enter a tracking number.",トラッキング番号を入力してください
 "Cannot initialize shipment for adding tracking number.",追跡番号登録のために配送伝票を初期化できませんでした。
 "Cannot add tracking number.",荷物追跡番号を追加できません。
-"You created the shipping label.",配送ラベルを作成しました
-"An error occurred while creating shipping label.",配送ラベルの作成中にエラーが発生しました。
+"You created the shipping label.",配達ラベルを作成しました
+"An error occurred while creating shipping label.",配達ラベルの作成中にエラーが発生しました。
 "You sent the shipment.",荷物を発送しました
-"There are no shipping labels related to selected orders.",選択した注文に紐付く配送ラベルがありません。
-"There are no shipping labels related to selected shipments.",選択した配送伝票に紐付く配送ラベルがありません。
+"There are no shipping labels related to selected orders.",選択した注文に紐付く配達ラベルがありません。
+"There are no shipping labels related to selected shipments.",選択した配送伝票に紐付く配達ラベルがありません。
 "New Shipment",新しい配送
 "We don't recognize or support the file extension in this shipment: %1.","この発送のファイル拡張子を認識できないかサポートしていません: %1."
 "Cannot initialize shipment for delete tracking number.",追跡番号削除のために配送伝票を初期化できませんでした。
@@ -5182,7 +5184,7 @@ cm,cm
 "Tracking Information",荷物追跡情報
 "Sorry, but we can't deliver to the destination country with this shipping module.",申し訳ありません、この配送モジュールでは送り先の国に届けることはできません
 "The shipping module is not available.",配送モジュールは利用できません
-"This shipping method is not available. Please specify the zip code.",この発送方法は有効ではありません。郵便番号を指定してください
+"This shipping method is not available. Please specify the zip code.",この配送方法は有効ではありません。郵便番号を指定してください
 Development,開発
 Live,Live
 "Divide to equal weight (one request)","同じ重さで分割 (1リクエスト)"
@@ -5195,17 +5197,17 @@ Contents,コンテンツ
 "Items in the Package",梱包内の商品
 "Qty Ordered",注文数
 "No detail for number ""%1""","番号 ""%1""　の詳細なし"
-"Shipping labels is not available.",発送ラベルが有効ではありません
+"Shipping labels is not available.",配達ラベルが有効ではありません
 "Response info is not exist.",返答情報が存在しません
 "Invalid carrier: %1","無効な配送業者: %1"
-"We don't have enough information to create shipping labels. Please make sure your store information and settings are complete.",発送ラベルを作成するには情報が不足しています。ストア情報を確認して設定を完成させてください
+"We don't have enough information to create shipping labels. Please make sure your store information and settings are complete.",配達ラベルを作成するには情報が不足しています。ストア情報を確認して設定を完成させてください
 "Per Package",パッケージごと
 "Tracking information is unavailable.",トラッキング情報は無効です
 "Items to Ship",配送する商品
 "Qty to Ship",配送数量
-"Shipment Total",発送合計
-"Shipment Options",発送オプション
-"Create Shipping Label",配送ラベルを作成
+"Shipment Total",配送合計
+"Shipment Options",配送オプション
+"Create Shipping Label",配達ラベルを作成
 "Email Copy of Shipment",配送連絡メールを送信する
 "Invalid value(s) for Qty to Ship",不正な出荷数量です
 Carrier,配送業者
@@ -5252,7 +5254,7 @@ Location,場所
 "There is no tracking available for this shipment.",この配送では追跡できません
 "There is no tracking available.",荷物追跡は利用できません。
 "Shipping Settings",配送設定
-Origin,発送元
+Origin,配送元
 "Please correct the target currency.",ターゲットの通貨を修正してください
 "Undefined rate from ""%1-%2"".","""%1-%2""の未定義のレート"
 "We can't retrieve a rate from %1.",%1からレートを取り出すことができません
@@ -5328,7 +5330,7 @@ Duplicate,複製
 "Available Themes",使用可能なテーマ
 "Themes Not Assigned to Store Views",ストアビューにアサインされてないテーマ
 "Delete %1 Theme"," %1 テーマ削除"
-"My Customizations",自分のカスタマイズ
+"My Customizations",カスタマイズ
 "We can't find this theme.",このテーマは見つかりません
 "We can't load the list of themes.",テーマのリストはロードできません
 "You assigned a new theme to your store view.","新しいテーマがストアビューをアサインしました ""You assigned a theme to your live store.""","本番ストアにテーマがアサインされました ""This theme is not assigned.""","このテーマはアサインされていません ""Sorry"," but you can't edit theme """"%1"""".""","申し訳ありません。テーマ""""%1""""は編集できません ""Copy of [%1]""",[%1]のコピー
@@ -5716,7 +5718,7 @@ msg,msg
 "Layout must be initialized","レイアウトは初期化されなければなりません"
 "Block %1 throws exception and cannot be rendered.","ブロック %1 例外を出しますし描写できません。"
 Redirecting...,描写中...
-"Click <a href=""%1"">here</a> if nothing has happened"," 何も起きなかった場合、<a href=""%1"">ここ</a> をクリックしてください"
+"Click <a href=""%1"">here</a> if nothing has happened"," 何も起きなかった場合、<a href=""%1"">こちら</a> をクリックしてください"
 "Error format ""' . . '"" contains unsupported placeholders.","エラーフォーマット ""' . . '"" サポートされてないプレースホルダーを含んでます"
 "Object DOMDocument should be created.","オブジェクト DOMDocument は作成されなければなりません。"
 "The requested component (""' . . '"") is not found. ' . 'Before using, you must add the implementation.","要求されたコンポーネント (""' . . '"") は見つかりません。 ' . '使用前に実装を追加しなければなりません。"
@@ -5854,14 +5856,14 @@ FTP,FTP
 "There was error deleting the credit card","クレジットカード削除時にエラーが発生しました"
 "Credit card successfully deleted","クレジットカードが削除されました"
 "Edit Credit Card","クレジットカード編集"
-"My Credit Cards","自分のクレジットカード"
+"My Credit Cards","クレジットカード情報"
 "New Credit Card","新規クレジットカード"
 "There was error during saving card data","カードデータ保存の間にエラーが発生しました。"
 "We can't initialize checkout.","チェックアウトを初期化できません。"
 "We can't place the order.","注文を行えません。"
 "Incorrect payment method.","無効な支払方法。"
 "We can't initialize checkout review.","チェックアウトレビューを初期化できません。"
-"We can't update shipping method.","発送方法をアップデートできません。"
+"We can't update shipping method.","配送方法をアップデートできません。"
 "The processor declined your transaction, please re-enter your payment information","プロセッサーがトランザクションを却下しましたので、支払情報を再度入力してください。"
 "Transaction declined by gateway: Check card details or try another card","ゲートウェイによってトランザクションが却下されました: カード詳細をチェックするか別のカードをお試しください"
 "Transaction declined: ","トランザクション却下: "
@@ -5930,7 +5932,7 @@ Quantity:,数量:
 "You saved the rule.","ルールを保存しました。"
 "Something went wrong while saving the rule data. Please review the error log.","ルールデータを保存中に問題が発生しました。 エラーログを確認してください。"
 "Percentage discount should be between 0 and 100.","割引率の値は0から100の間でなければなりません。"
-"Discount value should be 0 or greater.","ディスカウント値は0かそれ以上でなければなりません。"
+"Discount value should be 0 or greater.","割引値は0かそれ以上でなければなりません。"
 "Unknown action.","不明なアクション。"
 "You disabled %1 Catalog Price Rules based on ""%2"" attribute.","""%2""属性が元のカタログプライスルール%1が無効化されました。"
 Relevance,関係性
@@ -5953,7 +5955,7 @@ Relevance,関係性
 "Add Price","価格追加"
 "Change Status","ステータス変更"
 "Images and Videos","画像と動画"
-"Click here or drag and drop to add images.","ここをクリックするかドラッグ&ドロップで画像を追加してください。"
+"Click here or drag and drop to add images.","こちらをクリックするかドラッグ&ドロップで画像を追加してください。"
 "Does this have a weight?","重量がありますか?"
 "Something went wrong while saving the category.","カテゴリの保存中に問題が発生しました。"
 "We can't delete the attribute.","属性を削除できません。"
@@ -5998,7 +6000,7 @@ Relevance,関係性
 "To hide an item in catalog or search results, set the status to ""Disabled"".","カタログか検索結果から商品を隠すためにステータスは ""Disabled""にセットしてください。"
 "We can't save custom-defined options for bundles with dynamic pricing.","変動価格のバンドルのためのカスタム定義オプションは保存できません。"
 "Compatible File Extensions","互換性のあるファイル拡張子"
-"Allow Multiple Boxes for Shipping.","発送のために複数の箱を許可。"
+"Allow Multiple Boxes for Shipping.","配送のために複数の箱を許可。"
 "start typing to search attribute","属性を検索してください"
 "We can't find products matching the selection.","選択にマッチする商品が見つかりません。"
 "We found other products you might like!","こちらの商品はいかがですか？"
@@ -6022,17 +6024,17 @@ Manually,手動
 "Guest checkout is disabled.","ゲスト購入は無効です。"
 "Something went wrong while processing your order. Please try again later.","注文をプロセス中に問題が発生しました。後で再度お試し下さい"
 "We adjusted product quantities to fit the required increments.","要求された数量増に合わせるために商品数量を調節しました。"
-"Unable to save shipping information. Please, check input data.","発送情報を保存できませんでした。入力した情報を確認してください。"
+"Unable to save shipping information. Please, check input data.","配送情報を保存できませんでした。入力した情報を確認してください。"
 "Totals calculation is not applicable to empty cart","空のカートにて合計計算は行えません"
-"There are more than one shipping addresses.","1つ以上の配送住所があります。"
+"There are more than one shipping addresses.","1つ以上の配送先住所があります。"
 "Sorry, guest checkout is not available.","申し訳ありません、ゲスト購入は有効ではありません。"
-"You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","アカウントを確認してください。Eメールにて確認リンクを確認するか<a href=""%1"">ここ</a> を新しいリンクのためにクリックしてください。"
+"You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","アカウントを確認してください。Eメールにて確認リンクを確認するか<a href=""%1"">こちら</a> を新しいリンクのためにクリックしてください。"
 "Wrong minimum amount.","誤った最小数"
-"Apply Discount Code","ディスカウントコード適用"
-"Enter discount code","ディスカウントコード入力"
-"Apply Discount","ディスカウント適用"
+"Apply Discount Code","割引コードを使う"
+"Enter discount code","割引コードを入力してください"
+"Apply Discount","割引を適用する"
 "Estimate Tax","税見積もり"
-"We'll email you an order confirmation with details and tracking info.","ご注文の内容とお届け情報をご指定いただいたメールアドレスにお送りいたしました。"
+"We'll email you an order confirmation with details and tracking info.","ご注文内容と配送情報をメールアドレスにお送りいたしました。"
 "You deleted the block.","ブロックを削除しました。"
 "You saved the block.","ブロックを保存しました。"
 "A total of %1 record(s) have been disabled.","合計 %1 レコードが無効化されました。"
@@ -6077,7 +6079,7 @@ Configurations,設定
 "Apply single set of images to all SKUs","1つのセットの画像を全てのSKUに適用する"
 "Apply unique images by attribute to each SKU","各SKUの属性によるユニーク画像を適用"
 "Skip image uploading at this time","今回の画像アップロードをスキップ"
-"Browse to find or drag image here","ブラウズして探すか画像をここにドラッグしてください"
+"Browse to find or drag image here","ブラウズして探すか画像をこちらにドラッグしてください"
 "Remove image","画像削除"
 "Edit role","ロール編集"
 "Select attribute","属性選択"
@@ -6123,19 +6125,19 @@ Purchased,購入済み
 "Something went wrong while validating the VAT ID.","VAT ID認証中に問題が発生しました。"
 "This confirmation key is invalid or has expired.","確認キーが無効か期限切れです。"
 "There was an error confirming the account","アカウントを確認エラーが発生しました。"
-"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your shipping address for proper VAT calculation.","あなたが登録済みVAT顧客の場合は、 <a href=""%1"">ここ</a>をクリックして正しいVAT計算のために送り先住所を入力してください。"
-"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your billing address for proper VAT calculation.","あ     なたが登録済みVAT顧客の場合は,<a href=""%1"">ここ</a>をクリックして正しいVAT計算のために請求先住所を入力してください。"
+"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your shipping address for proper VAT calculation.","あなたが登録済みVAT顧客の場合は、 <a href=""%1"">こちら</a>をクリックして正しいVAT計算のために送り先住所を入力してください。"
+"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your billing address for proper VAT calculation.","あ     なたが登録済みVAT顧客の場合は,<a href=""%1"">こちら</a>をクリックして正しいVAT計算のために請求先住所を入力してください。"
 "Please check your email for confirmation key.","確認キーのためにEメールをチェックしてください。"
 "We can't save the customer.","顧客を保存できません。"
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your shipping address for proper VAT calculation.","あ
-     なたが登録済みVAT顧客の場合は、 <a href=""%1"">ここをクリック</a>して正しいVAT計算のために送り先住所を入力してください。"
-"If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","あ          なたが登録済みVAT顧客の場合は,<a href=""%1"">ここをクリック</a>して正しいVAT計算のために請求先住所を入力してください。"
+     なたが登録済みVAT顧客の場合は、 <a href=""%1"">こちらをクリック</a>して正しいVAT計算のために送り先住所を入力してください。"
+"If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","あ          なたが登録済みVAT顧客の場合は,<a href=""%1"">こちらをクリック</a>して正しいVAT計算のために請求先住所を入力してください。"
 "You saved the account information.","アカウント情報を保存しました。"
 "Please enter new password.","新しいパスワードを入力してください。"
 "Confirm your new password.","新しいパスワードを確認してください。"
-"Something went wrong while changing the password.","パスワード変更中に問題が発生しました。"
+"Something went wrong while changing the password.","パスワードの変更中に問題が発生しました。"
 "We're unable to send the password reset email.","パスワードリセットEメールが送信できません。"
-"This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","このアカウントは確認できません。 <a href=""%1"">ここをクリック</a>して確認メールを再送してください。"
+"This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","このアカウントは確認できません。 <a href=""%1"">こちらをクリック</a>して確認メールを再送してください。"
 "A login and a password are required.","ログインとパスワードは必須です。"
 "Please enter a new password.","新しいパスワードを入力してください。"
 "You updated your password.","パスワードを更新しました。"
@@ -6176,7 +6178,7 @@ Purchased,購入済み
 "Not Specified","未指定"
 "Thank you for registering with","登録ありがとうございます"
 "enter your billing address for proper VAT calculation","正しいVAT計算のために請求住所を入力してください"
-"enter your shipping address for proper VAT calculation","正しいVAT計算のために送付住所を入力してください"
+"enter your shipping address for proper VAT calculation","正しいVAT計算のために配送先住所を入力してください"
 NoSuchEntityException,NoSuchEntityException
 InputException,InputException
 "Exception message","例外メッセージ"
@@ -6186,15 +6188,15 @@ InputException,InputException
 "You subscribe to ""General Subscription""."," ""全般購読""を購読しました"
 "You have no other address entries in your address book.","住所一覧に他の住所のエントリーがありません。"
 "Please select a region, state or province.","都道府県を選択してください"
-"Please enter your email below and we will send you the confirmation link.","Eメールを下に入力してください。確認リンクを送付します。"
+"Please enter your email below and we will send you the confirmation link.","Eメールアドレスを入力してください。確認用のリンクをお送りします。"
 "Back to Sign In","サインインに戻る"
-"Please enter your email address below to receive a password reset link.","Eメールアドレスを下記に入力してパスワードリセットリンクを受け取ってください。"
+"Please enter your email address below to receive a password reset link.","メールアドレスを下記に入力してください。"
 "If you have an account, sign in with your email address.","アカウントをお持ちならば、Eメールアドレスにてサインインしてください。"
 "Sign-in Information","サインイン情報"
 "Create an Account","新規会員登録"
-"Set a New Password","新規パスワードセット"
+"Set a New Password","新規パスワードの設定"
 "You have signed out and will go to our homepage in 5 seconds.","サインアウトしました。5秒後にTOPページに移動します。"
-"Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","アカウント作成には多くの利点があります: チェックアウトが容易です、 1つ以上の住所情報が保持できます、注文を確認できますなどがあります。"
+"Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","アカウントを作成すると、お会計が簡単にできたり、住所情報の登録や、注文履歴の確認など、多くの利点があります。"
 "Cannot switch into given mode ""%1""","与えられたモード ""%1""　にスイッチできません"
 "Format for IDE '%1' is not supported","IDE'%1'のためのフォーマットはサポートされていません"
 "Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds %1 %2.","もし %1 %2を超えるようであれば、注文を分けることによってこれを選択することで注文を分けることによってDHLは送料を調整します"
@@ -6202,11 +6204,11 @@ kgs,kgs
 "Requested country is not available.","要求された国は有効ではありません。"
 "Add New Link","新しいリンク追加"
 "Please sign in to download your product or purchase <a href=""%1"">%2</a>.","サインインして商品か購入 <a href=""%1"">%2</a>をダウンロードしてください。"
-"Please sign in to download your product.","サインインしてあなたの商品をダウンロードしてください。"
+"Please sign in to download your product.","サインインして商品をダウンロードしてください。"
 "Is this downloadable Product?","これはダウンロード商品ですか？"
-"Add links to your product files here.","ここの製品ファイルへのリンクを追加"
+"Add links to your product files here.","こちらの製品ファイルへのリンクを追加"
 "Attach File or Enter Link","ファイル添付かリンク入力"
-"Add product preview files here.","ここに製品プレビューファイルを追加"
+"Add product preview files here.","こちらに製品プレビューファイルを追加"
 "Default label","デフォルトラベル"
 "An attribute code must not be more than %1 characters.","属性コードは%1文字以上ではなりません。"
 "'Invalid backend model specified: ' .","'不正なバックエンドモデルが指定されました: ' ."
@@ -6266,7 +6268,7 @@ History,履歴
 "Show more","もっと見る"
 "Additional data","追加データ"
 "Following Error(s) has been occurred during importing process:","インポートプロセス中に以下のエラーが発生しました:"
-"Only first 100 errors are displayed here. ","最初の100エラーのみここでは表示されています。"
+"Only first 100 errors are displayed here. ","最初の100エラーのみこちらでは表示されています。"
 "Download full report","完全版レポートをダウンロード"
 "Make sure your file isn't more than %1M.","ファイルが%1Mを超えてないことを確認してください。"
 "We can't provide the upload settings right now.","現在アップロード設定を提供できません。"
@@ -6314,7 +6316,7 @@ Replace,置き換え
 "Request token is not associated with the specified consumer","要求トークンは指定された顧客と関連付けされていません"
 "Token is already being used","トークンはすでに使われている"
 "Use in Search Results Layered Navigation","検索結果の絞込条件で使用"
-"Now Shopping by","現在買い物をしている人"
+"Now Shopping by","現在の絞り込み設定"
 Partners,パートナーズ
 "Magento Marketplace","Magentoマーケットプレイス"
 "Platinum Partners","プラチナパートナーズ"
@@ -6330,16 +6332,16 @@ Partners,パートナーズ
 "No partners were found","パートナーが見つかりません"
 "A payment method is not defined.","支払方法が定義されていません。"
 "The requested payment method is not available for multishipping.","要求された支払方法はマルチシッピングに対応していません。"
-"A shipping selection is not applicable.","発送方法は適用されません。"
+"A shipping selection is not applicable.","配送方法は適用されません。"
 "Go to Shipping Information","配送方法の選択に進む"
-"Go to Review Your Order","ご注文内容の確認"
-"Check Out with Multiple Addresses","複数の住所でチェックアウト"
-"Sorry, no quotes are available for this order right now.","申し訳ありません、現在この注文の見積もりはできません。"
+"Go to Review Your Order","注文内容を確認する"
+"Check Out with Multiple Addresses","複数の住所に届ける"
+"Sorry, no quotes are available for this order right now.","申し訳ありません、現在のところこの注文の見積もりはできません。"
 "Thanks for your order. We'll email you order details and tracking information.","ご注文ありがとうございます。Eメールにて注文詳細と配送情報を送ります。"
-"Your order numbers are: ","あなたの注文番号は: "
+"Your order numbers are: ","注文番号は: "
 "Your order number is: ","注文番号: "
 "No New Relic Application ID configured, cannot continue with Cron Event reporting","RelicアプリケーションIDが設定されていないため, Cronイベントレポートを続けれません"
-"The New Relic integration requires the newrelic-php5 agent, which is not installed. More information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","新しいRelic統合はインストールされていないがnewrelic-php5エージェントが必須です。<a target=""_blank"" href=""%1"">ここ</a>でエージェントに関する更なる情報は見ることができます。"
+"The New Relic integration requires the newrelic-php5 agent, which is not installed. More information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","新しいRelic統合はインストールされていないがnewrelic-php5エージェントが必須です。<a target=""_blank"" href=""%1"">こちら</a>でエージェントに関する更なる情報は見ることができます。"
 "Queue Newsletter","ニュースレターをキューに入れる"
 "You saved the newsletter queue.","ニュースレターのキューを保存しました。"
 "Total of %1 record(s) were deleted.","合計%1レコードが削除されました。"
@@ -6366,6 +6368,8 @@ Partners,パートナーズ
 "Transaction Information","トランザクション情報"
 "PayPal Fee Information","PayPal料金情報"
 "PayPal Settlement Reports","PayPal決済レポート"
+"You can track your order status by creating an account.","アカウントを作成すると注文状況を確認できます。"
+"A letter with further instructions will be sent to your email.","ご登録のEメールアドレスにメールをお送りいたしました。"
 "We are connecting to the PayPal SFTP server to retrieve new reports. Are you sure you want to continue?","新しいレポートを取り出すためにPayPal SFTPサーバーに接続しています。本当に続けますか？"
 "Fetch Updates","Fetchアップデート"
 button_label,button_label
@@ -6373,8 +6377,9 @@ sandbox_button_label,sandbox_button_label
 Help,ヘルプ
 "View Demo","デモ視聴"
 "See terms","規約を見る"
-"You will be redirected to the PayPal website.","PayPalウェブサイトに移動します。"
-"You will be redirected to the PayPal website when you place an order.","注文を行なった時PayPalウェブサイトに移動します。"
+"Continue to PayPal","ペイパルで支払い"
+"You will be redirected to the PayPal website.","PayPalのウェブサイトに移動します。"
+"You will be redirected to the PayPal website when you place an order.","注文の際、PayPalのウェブサイトに移動します。"
 "Would you like to sign a billing agreement to streamline further purchases with PayPal?","PayPalでの購入"
 "Please specify the correct billing agreement ID and try again.","正しい支払契約IDを指定して再度お試しください。"
 "You canceled the billing agreement.","支払契約をキャンセルしました。"
@@ -6646,7 +6651,7 @@ Reversal,破棄
 "Billing Agreement","支払合意"
 "Updated At","アップデート日"
 "Not sure what PayPal payment method to use? Click ","どのPayPal支払手段を使うかわかりません？ クリック"
-here,ここ
+here,こちら
 " to learn more."," 詳細は。"
 "Important: ","重要: "
 "To use PayPal Payments Advanced, you must configure  your PayPal Payments Advanced account on the PayPal website.","PayPal Payments Advanced, PayPal Payments AdvancedのアカウントをPayPalウェブサイト上で設定しなければなりません。"
@@ -6664,7 +6669,7 @@ Updated:,アップデート日:
 "You will be redirected to the payment system website.","支払システムのウェブサイトに転送されます。"
 Create...,作成...
 "Your billing agreement # is: ","あなたの支払合意番号は: "
-"Please select a shipping method...","送付方法を選んで下さい..."
+"Please select a shipping method...","配送方法を選んで下さい..."
 "Update Shipping Method","配送方法をアップデート"
 "Buy now with PayPal","PayPalで購入しましょう"
 "Edit Payment Information","支払情報編集"
@@ -6683,7 +6688,7 @@ Create...,作成...
 "Check &quot;Remember Me&quot; to access your shopping cart on this computer even if you are not signed in."," &quot;覚えておく&quotをチェック; サインインしてなくてもこのコンピューターのショッピングカートにアクセスするには"
 "We can't update the alert subscription right now.","現在アラート購読をアップデートできません。"
 "Price change alert! We wanted you to know that prices have changed for these products:","価格変更アラート! これらの商品の値段が変わったことをお知らせします:"
-"Click here to stop alerts for this product.","この商品のアラートを止めるにはここを押して下さい。"
+"Click here to stop alerts for this product.","この商品のアラートを止めるにはこちらを押して下さい。"
 "In stock alert! We wanted you to know that these products are now available:","在庫アラート！ これらの商品が購入可能であることをお知らせします:"
 Url,Url
 "Preview Image","プレビュー画像"
@@ -6691,7 +6696,7 @@ Url,Url
 "YouTube and Vimeo supported.","YouTubeとビデオはサポートされます"
 "Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","Vimeoがサポートされています。<br />YouTube ビデオを追加するには, まず <a href=""%1"">YouTube API キー入力</a> してください。"
 "Could not get preview image information. Please check your connection and try again.","プレビュー画像情報を得られませんでした。 接続を確認して再度お試し下さい。"
-"Click here to add videos.","ここをクリックしてビデオを追加してください。"
+"Click here to add videos.","こちらをクリックしてビデオを追加してください。"
 "New Video","新規ビデオ"
 "Add Video","ビデオ追加"
 "Add video","ビデオ追加"
@@ -6705,11 +6710,11 @@ Duration:,長さ:
                     \Magento\Quote\Model\Quote\Address\Total\AbstractTotal　からの拡張でなければなりません。"
 "Date Used","期間の指定"
 "We can't find records for this period.","この期間の記録が見つかりません。"
-"Last updated: %1. To refresh last day'ss <a href=""%2"">statistics</a>, click <a href=""%3"">here</a>.","最後の更新: %1.  前回の<a href=""%2"">統計</a>をリフレッシュするには, <a href=""%3"">ここ</a>をクリックしてください。"
+"Last updated: %1. To refresh last day'ss <a href=""%2"">statistics</a>, click <a href=""%3"">here</a>.","最後の更新: %1.  前回の<a href=""%2"">統計</a>をリフレッシュするには, <a href=""%3"">こちら</a>をクリックしてください。"
 "You refreshed lifetime statistics.","統計をリフレッシュしました。"
 "Customers that have Wish List: %1","お気入りリストを持つ顧客: %1"
 Author,作者
-"Click <a href=""%1"">here</a> to see the review.","<a href=""%1"">ここ</a>をクリックしてリビューをみる。"
+"Click <a href=""%1"">here</a> to see the review.","<a href=""%1"">こちら</a>をクリックしてリビューをみる。"
 "Something went wrong  deleting this review.","このリビューを削除中に問題が発生しました。"
 "We can't retrieve the product ID.","製品IDが取得できません。"
 "Something went wrong while deleting these records.","レコードを削除中に問題が発生しました。"
@@ -6718,10 +6723,10 @@ Author,作者
 "We can't post your review right now.","現在リビューを投稿できません。"
 "Please enter a review summary.","リビューサマリーを入力してください。"
 "Please enter a nickname.","ニックネームを入力してください。"
-"Please enter a review.","リビューを入力してください。"
+"Please enter a review.","レビューを入力してください。"
 "See Details","詳細を御覧ください"
 "Only registered users can write reviews. Please, <a href=""%1"">Sign in</a> or <a href=""%2"">create an account</a>","登録済みユーザーのみリビューを書くことができます。 <a href=""%1"">サインイン</a> か <a href=""%2"">アカウントを作成</a>してください。"
-"Please choose a valid discount amount.","有効なディスカウント額を選択してください。"
+"Please choose a valid discount amount.","有効な割引額を選択してください。"
 "Please specify Customer Groups.","顧客グループを指定してください。"
 "Apply the rule only to cart items matching the following conditions (leave blank for all items).","ルールは以下の条件にマッチするカートアイテムに適用して下さい (全ての商品のためには空白のままで)。"
 "Cart Price Rule","カート価格ルール"
@@ -6755,9 +6760,9 @@ Author,作者
 "We can't send the email order right now.","現在Eメール注文が送れません。"
 "You can't create an invoice without products.","商品なしに請求書を作成できません。"
 "We can't save the invoice right now.","現在請求書を保存できません。"
-"The invoice and the shipment  have been created. The shipping label cannot be created now.","請求書と送付書は作成されました。 配送ラベルは現在作成できません。"
-"We can't send the invoice email right now.","現在請求書Eメールを送れません。"
-"We can't send the shipment right now.","現在配送できません。"
+"The invoice and the shipment  have been created. The shipping label cannot be created now.","請求書と送付書は作成されました。配達ラベルは現在作成できません。"
+"We can't send the invoice email right now.","現在、請求書Eメールを送れません。"
+"We can't send the shipment right now.","現在、配送できません。"
 "Transaction has been approved.","トランザクションは承認されました。"
 "Transaction has been voided/declined.","トランザクションは破棄された/却下されました。"
 "There is no update for the transaction.","このトランザクションのためのアップデートはありません。"
@@ -6771,7 +6776,7 @@ Author,作者
 "You saved the gift card message.","ギフトカードメッセージを保存しました。"
 "We can't void the payment right now.","現在支払を破棄できません。"
 "We can't update the transaction details.","トランザクション詳細をアップデートできません。"
-"We can't find this wish list.","このお気に入りリストが見つかりません。"
+"We can't find this wish list.","このほしい物リストが見つかりません。"
 "Please specify order items.","注文商品を指定してください。"
 "Path ""%1"" is not part of allowed directory ""%2""","パス ""%1"" は ""%2""　の許可されたディレクトリの1つではありません"
 "Identifying Fields required","身分証明フィールド必須"
@@ -6783,7 +6788,7 @@ Author,作者
 "This order already has associated customer account","この注文は既に顧客アカウントと紐付いています"
 "Please set a proper payment and order id.","正しい支払と注文idを設定してください。"
 "Please enter a Transaction ID.","トランザクションIDを入力してください。"
-"We found an invalid quantity to ship for item ""%1"".","商品 ""%1""に対して不正な数量の発送を検知しました。"
+"We found an invalid quantity to ship for item ""%1"".","商品 ""%1""に対して不正な数量の配送を検知しました。"
 "Could not delete shipment","配送を削除できませんでした"
 "Could not save shipment","配送を保存できませんでした。"
 "We can't save the address:
@@ -6797,7 +6802,7 @@ Author,作者
 "Update Items and Quantities","商品と数量をアップデート"
 "The order confirmation email was sent","注文確認メールが送られました"
 "The order confirmation email is not sent","注文確認メールが送られていません"
-"Find Order By","注文検索"
+"Find Order By","注文照会方法"
 "Your search query can't be longer than %1, so we shortened your query.","検索クエリは%1より長くできませんのでクエリを短くしました。"
 "No Product Exception.","製品例外なし。"
 "No Category Exception.","カテゴリ例外なし。"
@@ -6880,10 +6885,10 @@ Forced,強制
 "Widget Title","ウィジェットのタイトル"
 "New Widget","新しいウィジェット"
 Widgets,ウィジェット
-"%1 has been moved to your wish list.","%1 はあなたのお気に入りリストに移動されました。"
-"We can't move the item to the wish list.","商品をお気に入りリストに移動することができません。"
+"%1 has been moved to your wish list.","%1 はほしい物リストに移されました。"
+"We can't move the item to the wish list.","商品をほしい物リストに移すことができません。"
 "Product Exception.","商品例外"
-"Move to Wishlist","お気に入りリストに移動"
+"Move to Wishlist","ほしい物リストに移す"
 "Phrase 1","フェーズ 1"
 "Phrase 2 with %a_lot of extra info for the brilliant %customer_name.","フェーズ2 と%customer_nameのための %a_lot 追加情報"
 "Payment Transaction Failed","支払トランザクション失敗"
@@ -6892,68 +6897,68 @@ Reason,理由
 Customer:,顧客:
 Total:,合計:
 "Billing Address:","請求先:"
-"Shipping Address:","送付先:"
+"Shipping Address:","配送先:"
 "Date & Time:","日時:"
 "Name: %name","名前: %name"
 "Email: %email","Eメール: %email"
 "Phone Number: %telephone","電話番号: %telephone"
 "Comment: %comment","コメント: %comment"
-"%name,","%name,"
-"Welcome to %store_name.","ようこそ %store_name　へ"
-"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","サイトにサインインするには、これらの身分証明をチェックアウト時か <a href=""%customer_url"">マイアカウント</a> ページにて使用してください:"
+"%name,","%name 様"
+"Welcome to %store_name.","%store_name にご登録いただきありがとうございます。"
+"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","サインインするには、下記の情報をお会計時や <a href=""%customer_url"">マイアカウント</a> ページで入力してください:"
 Email:,Eメール:
 Password:,パスワード:
 "Password you set when creating account","アカウント作成時に設定したパスワード"
-"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","パスワードをお忘れですか？<a href=""%reset_url"">ここ</a>をクリックしてリセットしてください。"
+"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","パスワードをお忘れの際には、<a href=""%reset_url"">こちら</a>から再設定してください。"
 "When you sign in to your account, you will be able to:","アカウントにサインインすると以下のことができます:"
-"Proceed through checkout faster","チェックアウトを通して早く処理する"
-"Check the status of orders","注文のステータスを確認"
-"View past orders","過去の注文を表示"
+"Proceed through checkout faster","素早いお会計"
+"Check the status of orders","注文ステータスの確認"
+"View past orders","過去の注文履歴の確認"
 "Store alternative addresses (for shipping to multiple family members and friends)","店舗の別住所 (複数の家族メンバーと友達のために)"
-"You must confirm your %customer_email email before you can sign in (link is only valid once):","サインイン前に%customer_emailメールを確認してください。 (リンクは一度きり有効です):"
+"You must confirm your %customer_email email before you can sign in (link is only valid once):","サインイン前に%customer_emailメールを確認してください。 (リンクは一度のみ有効です):"
 "Confirm Your Account","アカウントを確認してください"
-"Thank you for confirming your %store_name account.","%store_name accountをご確認ありがとうございます。"
-"To sign in to our site and set a password, click on the <a href=""%create_password_url"">link</a>:","サイトにサインインしてパスワードを設定するには、 <a href=""%create_password_url"">リンク</a>をクリックしてください:"
-"There was recently a request to change the password for your account.","あなたのアカウントのパスワードを変更する依頼が最近ありました。"
-"If you requested this change, set a new password here:","この変更を要求したら、新しいパスワードをここで設定してください:"
-"If you did not make this request, you can ignore this email and your password will remain the same.","この要求をおこなっていないのならば、 このEメールは無視してくださればパスワードに変更はありません。"
-"The password for your account has been successfully changed.","あなたのアカウントのパスワードは変更されました。"
-"If you did not request this change, please contact us.","この変更を求めていないのであれば、我々に連絡を願います。"
+"Thank you for confirming your %store_name account.","%store_name アカウントをご確認いただきありがとうございます。"
+"To sign in to our site and set a password, click on the <a href=""%create_password_url"">link</a>:","サインインしてパスワードを設定するには、<a href=""%create_password_url"">リンク</a>をクリックしてください:"
+"There was recently a request to change the password for your account.","パスワードの変更依頼を承りました。"
+"If you requested this change, set a new password here:","以下より、新しいパスワードの設定をお願いいたします。"
+"If you did not make this request, you can ignore this email and your password will remain the same.","パスワードの変更をご希望されない場合は、本メールを無視してくださればパスワードに変更はありません。"
+"The password for your account has been successfully changed.","パスワードが変更されました。"
+"If you did not request this change, please contact us.","お心当たりのない場合は、恐れ入りますが破棄いただきますようお願い申し上げます。"
 "Currency Update Warnings","通貨更新警報"
-"Thank you, %store_name","ありがとうございます, %store_name"
+"Thank you, %store_name","%store_name をご利用いただきありがとうございます"
 "Thank you for subscribing to our newsletter.","ニュースレターの購読ありがとうございます。"
 "To begin receiving the newsletter, you must first confirm your subscription by clicking on the following link:","ニュースレターを受け取るには、 以下のリンクをクリックして購読の確認をまず行わなければなりません:"
 "You have been successfully subscribed to our newsletter.","無事にニュースレターの購読手続きが行われました"
 "You have been unsubscribed from the newsletter.","ニュースレターの購読解除を行いました。"
 "Product alerts cron warnings","製品アラートcron警報"
-"Thank you for your order from %store_name.","%store_nameからの注文ありがとうございます。"
-"You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","<a href=""%account_url"">アカウントのログイン</a>することによってあなたの注文のステータスを確認できます。"
-"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>","注文にご質問がある場合は、 <a href=""mailto:%store_email"">%store_email</a>までメールをお送りください"
+"Thank you for your order from %store_name.","%store_name のご利用ありがとうございます。"
+"You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","<a href=""%account_url"">アカウントにログイン</a>することによって注文のステータスを確認できます。"
+"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>","ご注文に関してご質問がある場合は、<a href=""mailto:%store_email"">%store_email</a>までメールでお知らせください"
 "or call us at <a href=""tel:%store_phone"">%store_phone</a>","あるいは<a href=""tel:%store_phone"">%store_phone</a>までお電話ください"
 "Our hours are <span class=""no-link"">%store_hours</span>.","我々の営業時間は<span class=""no-link"">%store_hours</span>."
 "Your Credit Memo #%creditmemo_id for Order #%order_id","注文#%order_idのあなたのクレジットメモ#%creditmemo_id"
 "Billing Info", "請求情報"
-"Shipping Info","送付情報"
+"Shipping Info","配送情報"
 "Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","あなたの注文#%increment_idはステータス<strong>%order_status</strong>で更新されました。"
 "Your Invoice #%invoice_id for Order #%order_id","注文#%order_idのあなたの請求書#%invoice_id"
 "%customer_name,","%customer_name,"
 "Once your package ships we will send you a tracking number.","荷物が配送された後に追跡番号をお送りします。"
 "Your Order <span class=""no-link"">#%increment_id</span>","あなたの注文 <span class=""no-link"">#%increment_id</span>"
-"Placed on <span class=""no-link"">%created_at</span>","手配された日は <span class=""no-link"">%created_at</span>"
+"Placed on <span class=""no-link"">%created_at</span>","ご注文日時は <span class=""no-link"">%created_at</span>"
 "Once your package ships we will send an email with a link to track your order.","あなたの荷物が配送されたのち注文を追跡できるリンクを貼ったメールを送ります。"
 "Your shipping confirmation is below. Thank you again for your business.","配送確認は以下です。お買い上げありがとうございました。"
 "Your Shipment #%shipment_id for Order #%order_id","注文#%order_id"のあなたの配送番号 #%shipment_id"
 "%sender_name wants to share this product with you:","%sender_name はこの商品をあなたとシェアしたがっています:"
 "Message from %sender_name:","%sender_nameからのメッセージ:"
-"Sitemap Generation Warnings","サイトマップ世代警報"
+"Sitemap Generation Warnings","サイトマップ一般警告"
 "Thank you,","ありがとうございます,"
-"If you requested this change, reset your password here:","この変更を希望の場合は、ここでパスワードをリセットしてください:"
-"%customer_name wants to share this Wish List from %store_name with you:","%customer_name は %store_name からのお気に入りリストをあなたとシェアしたがっています:"
+"If you requested this change, reset your password here:","この変更を希望の場合は、こちらでパスワードをリセットしてください:"
+"%customer_name wants to share this Wish List from %store_name with you:","%customer_name は %store_name のほしい物リストをあなたとシェアしたがっています:"
 "Message from %customer_name:","%customer_nameからのメッセージ:"
-"View all Wish List items","すべてのお気に入り商品を見る"
-"Quick Checkout","クイックチェックアウト"
-"Store alternative addresses","別住所を保管"
-"For shipping to multiple family members and friends","複数の家族メンバーと友達のために"
+"View all Wish List items","ほしい物リスト内のすべての商品を見る"
+"Quick Checkout","クイック会計"
+"Store alternative addresses","複数住所の登録"
+"For shipping to multiple family members and friends","家族や友達のための配送"
 "About Us","我々について"
 "Customer Service","顧客サービス"
 "<a href=""tel:%store_phone"">%store_phone</a>","<a href=""tel:%store_phone"">%store_phone</a>"
@@ -7043,7 +7048,7 @@ Vendor,ベンダー
 "
                             Supporting of American Express cards require additional agreement. Learn more at <a href=""http://www.paypal.com/amexupdate"">http://www.paypal.com/amexupdate</a>.
                         ","
-                            アメリカンエクスプレスカードをサポートするには追加の合意が必須です。 ここで <a href=""http://www.paypal.com/amexupdate"">http://www.paypal.com/amexupdate</a>ご確認ください。
+                            アメリカンエクスプレスカードをサポートするには追加の合意が必須です。 こちらで <a href=""http://www.paypal.com/amexupdate"">http://www.paypal.com/amexupdate</a>ご確認ください。
                         "
 "Payment Applicable From","支払申し込みフォーム"
 "Countries Payment Applicable From","国支払申し込みフォーム"
@@ -7103,7 +7108,7 @@ Vendor,ベンダー
 "API Username","API ユーザー名"
 "API Password","API パスワード"
 "Get Credentials from PayPal","PayPalから証明書を受け取る"
-"Sandbox Credentials","Sandbox証明書"
+"Sandbox Credentials","サンドボックス証明書"
 "API Uses Proxy","APIはプロキシーを使用します"
 "Enable PayPal Credit","PayPalクレジットを有効化"
 "PayPal Express Checkout lets you give customers access to financing through PayPal Credit&#174; - at no additional cost to you.
@@ -7128,7 +7133,7 @@ Vendor,ベンダー
 "Also affects mini-shopping cart.","ミニショッピングカートにも影響します。"
 "Transfer Cart Line Items","トランスファーカートラインアイテム"
 "Transfer Shipping Options","トランスファー配送オプション"
-"If this option is enabled, customer can change shipping address and shipping method on PayPal website. In live mode works via HTTPS protocol only.","このオプションが有効化されると、顧客はPayPalのウェブサイトにて配送住所と配送方法を変更できます。実環境ではHTTPSプロトコルを通してのみ可能です。"
+"If this option is enabled, customer can change shipping address and shipping method on PayPal website. In live mode works via HTTPS protocol only.","このオプションが有効化されると、顧客はPayPalのウェブサイトにて配送先住所と配送方法を変更できます。実環境ではHTTPSプロトコルを通してのみ可能です。"
 "Notice that PayPal can handle up to 10 shipping options. That is why Magento will transfer only first 10 cheapest shipping options if there are more than 10 available.","PayPalは10までの配送オプションを取り扱うことができます。そのためMagentoはもし10以上の配送オプションがある場合に最初の最も安い10個のオプションをトランスファーします。"
 "Shortcut Buttons Flavor","ショートカットボタン風"
 "Enable PayPal Guest Checkout","PayPalゲスト購入を有効化"
@@ -7272,8 +7277,8 @@ Schedule,スケジュール
 "No dataType attribute for 'filterable' type field","'filterable'タイプフィールドのためのデータタイプ属性がありません"
 "Invalid field dataType attribute value","不正なフィールドデータ・タイプ属性値"
 "Test Indexer Declaration 1","テストインデクサー宣言1"
-"If empty, we'll use the product name here.","空であれば、ここで商品名を使います。"
-"If empty, we'll use the category name here.","空であれば、ここでカテゴリ名を使います。"
+"If empty, we'll use the product name here.","空であれば、こちらで商品名を使います。"
+"If empty, we'll use the category name here.","空であれば、こちらでカテゴリ名を使います。"
 "Phrase 2","フレーズ2"
 "Phrase 3","フレーズ3"
 "Cache Description","Cache説明"
@@ -7327,7 +7332,7 @@ Environment,環境
 "Country Specific Credit Card Types","国別特定クレジットカードタイプ"
 "PayPal through Braintree","Braintree経由のPayPal決済"
 "Override Merchant Name","マーチャント名を上書き"
-"Allow to Edit Shipping Address Entered During Checkout on PayPal Side","チェックアウト中にPayPal側で入力された配送住所を編集することを許可する"
+"Allow to Edit Shipping Address Entered During Checkout on PayPal Side","チェックアウト中にPayPal側で入力された配送先住所を編集することを許可する"
 "3D Secure Verification Settings","3Dセキュア認証設定"
 "3D Secure Verification","3Dセキュア認証"
 "Edit My Credit Cards","クレジットカード編集"
@@ -7341,7 +7346,7 @@ Storefront,ストア
 "Select Category...","カテゴリ選択..."
 "Delete items","商品削除"
 "Update attributes","属性アップデート"
-"We'll send your order confirmation here.","ここに注文確認を送ります。"
+"We'll send your order confirmation here.","こちらに注文確認を送ります。"
 "For delivery questions.","配送についての質問"
 Payment,支払
 "Cart Subtotal","小計"
@@ -7387,7 +7392,7 @@ Payment,支払
 "Billing Lastname","支払人の姓"
 "If your Magento site has multiple views, you can set the scope to apply to a specific view.","もしあなたのMagentoサイトが複数のビューをもっているのであれば、 特定のビューを適用できるようにスコープを設定できます。"
 "Send Welcome Email From","ウェルカムメールの送信元"
-"Account Dashboard","アカウントダッシュボード"
+"Account Dashboard","マイページ"
 "You are signed out.","サインアウトしました"
 "Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds 70 kg.","Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds 70 kg."
 Emails,Eメール
@@ -7407,7 +7412,7 @@ Emails,Eメール
 "Insights API URL","インサイト API URL"
 "Use %s to replace the account ID in the URL","%sを使用してURL内のアカウントIDを入れ替えてください。"
 "New Relic Account ID","New RelicアカウントID"
-"""Need a New Relic account? <a href=""http://www.newrelic.com/magento"" target=""_blank"">Click here to get one","""New Relicアカウントが必要ですか？ <a href=""http://www.newrelic.com/magento"" target=""_blank"">ここをクリックしてください"
+"""Need a New Relic account? <a href=""http://www.newrelic.com/magento"" target=""_blank"">Click here to get one","""New Relicアカウントが必要ですか？ <a href=""http://www.newrelic.com/magento"" target=""_blank"">こちらをクリックしてください"
 "New Relic Application ID","New RelicアプリケーションID"
 "This can commonly be found at the end of the URL when viewing the APM after ""/applications/"""," ""/applications/"" の後のAPMを閲覧中にURLの最後に通常これは見ることが出来ます。"
 "New Relic API Key","New Relic APIキー"
@@ -7564,7 +7569,7 @@ Refunds,返金
 "Lockout Time (minutes)","ロックアウト時間 (分)"
 "Password Lifetime (days)","パスワード生存期間 (日)"
 "We will disable this feature if the value is empty. ","もし値が空ならばこの機能を無効にします。"
-"Password Change","パスワード変更"
+"Password Change","パスワードの変更"
 Unlock,ロック解除
 "Last login","前回のログイン"
 Failures,失敗
@@ -7592,8 +7597,8 @@ Extensions,エクステンション
 Elements,構成
 "--Please select--","--選択してください--"
 "You can create an account after checkout.","ご購入後にアカウントを作成できます。"
-"Email Address","メールアドレス"
-"Order Summary","ご注文内容"
+"Email Address","Eメールアドレス"
+"Order Summary","注文内容"
 "Shipping","お届け方法"
 "Review & Payments","お支払い方法とご注文の確認"
 "Adding...","追加しています..."
@@ -7611,7 +7616,7 @@ Elements,構成
 "Check out faster","より早くご購入"
 "Create Account","アカウントを作成"
 "Checkout out using your account","ご登録済みのアカウントでご購入"
-"Go to Checkout","ご購入に進む"
+"Go to Checkout","レジに進む"
 "Recently added item(s)","最近カートに入れた商品"
 "Edit item","商品を編集"
 "Translate","翻訳"
@@ -7653,7 +7658,7 @@ Elements,構成
 "Autosettings","自動設定"
 "Special Price From Date","特別価格適用開始日"
 "Special Price To Date","特別価格適用終了日"
-"Tier Price","ボリュームディスカウント"
+"Tier Price","ボリューム割引"
 "Field","フィールド"
 "Area","エリア"
 "Radio Buttons","ラジオボタン"
@@ -7689,7 +7694,7 @@ Elements,構成
 "New Account Confirmation Key","新しいアカウント確認キー"
 "New Account Confirmed","新しいアカウント確認"
 "New Account Without Password","新しいアカウント（パスワードなし）"
-"Remind Password","パスワード変更確認通知"
+"Remind Password","パスワードの変更確認"
 "Subscription Confirmation","ニュースレター購読確認"
 "Subscription Success","ニュースレター購読完了"
 "Unsubscription Success","ニュースレター購読解除"
@@ -7783,7 +7788,7 @@ Elements,構成
 "By IP and Email","IPアドレスとメールアドレス"
 "By IP","IPアドレス"
 "By Email","メールアドレス"
-"Ship Here","この住所にお届け"
+"Ship Here","この住所を使う"
 "Default Theme","標準テーマ"
 "Applied Theme","適用済テーマ"
 "Save and Continue","保存して続ける"
