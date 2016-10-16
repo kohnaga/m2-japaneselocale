@@ -2453,8 +2453,8 @@ no,no
 "Payment Method",お支払方法
 "Discount (%1)","割引 (%1)"
 "Store View Specific Labels",ストアビュー固有のラベル
-"Shopping Cart Price Rule",クーポン
-"Shopping Cart Price Rules",クーポン
+"Shopping Cart Price Rule",ショッピングカート価格ルール
+"Shopping Cart Price Rules",ショッピングカート価格ルール
 "Update prices using the following information",商品の価格を以下の条件で更新する
 "Percent of product price discount",商品価格値引率
 "Fixed amount discount",定額割引
@@ -2495,10 +2495,10 @@ Coupon,クーポン
 "Public In RSS Feed",RSSフィードに公開
 "%1 - Discounts and Coupons","%1 - 割引とクーポン"
 Coupons/Discounts,クーポン/割引
-"Cart Price Rules",クーポン
+"Cart Price Rules",カート価格ルール
 "We can't delete the rule right now. Please review the log and try again.",現在ルールの削除はできません。ログを見なおして再度試して下さい。
 "We can't find a rule to delete.",削除するルールが見つかりません
-"New Cart Price Rule",新しいクーポン
+"New Cart Price Rule",新しいカート価格ルール
 "Rule is not defined",クーポンが未定義です
 "Invalid data provided",無効なデータが提供されました
 "%1 coupon(s) have been generated.","%1 クーポンが作成されました"
@@ -2508,7 +2508,7 @@ Alphanumeric,半角英数字
 Alphabetical,半角英字
 Numeric,数字
 "We cannot create the requested Coupon Qty. Please check your settings and try again.",求められた数量のクーポンを作成出来ませんでした。設定を確認して再度試して下さい
-"%1 Shopping Cart Price Rules based on ""%2"" attribute have been disabled.","""%2""に基づく%1ショッピングクーポンは無効になりました"
+"%1 Shopping Cart Price Rules based on ""%2"" attribute have been disabled.","""%2""に基づく%1ショッピングカート価格ルールは無効になりました"
 "Coupon with the same code",同じコードのクーポンがあります
 "No Coupon",自動適用クーポン
 "Specific Coupon",特定のクーポン
@@ -7809,7 +7809,7 @@ Elements,構成
 "Provided Zip/Postal Code seems to be invalid.","ご入力された郵便番号は正しくないようです。"
 " Example: "," 正しい郵便番号の例: "
 "If you believe it is the right one you can ignore this notice.","ご入力された内容が正しい場合は、このメッセージを無視してください。"
-"Sorry, no quotes are available for this order at this time","申し訳ございません、お届け先が指定されていないため送料のお見積りをお出しすることができません。"
+"Sorry, no quotes are available for this order at this time","始めに配送先住所を入力してください。"
 "Invalid UI Component element name: '%1'","不正なUI Component要素名: '%1'"
 "Your current session has been expired.","セッションが期限切れになりました。"
 "Depends on design theme.","デザインテーマに依存"
