@@ -1572,7 +1572,7 @@ Results,結果
 "You have entered an invalid password for current user.","現在のユーザーに無効なパスワードが入力されました。"
 "You need more permissions to access this.","これにアクセスするには更に権限が必要です。"
 "Reset Password",パスワード再発行
-"Force Sign-In","強制サインイン"
+"Force Sign-In","強制ログイン"
 "Your password reset link has expired.",パスワード再発行リンクが有効期限切れです。
 "If there is an account associated with %1 you will receive an email with a link to reset your password.","%1と関連するアカウントがあれば、パスワードを再設定するためのリンクが添付されたEメールが届きます。"
 "Your password has been updated.",パスワードを更新しました。
@@ -1636,7 +1636,7 @@ Permissions,権限
 "Enter your email address.  You will receive an email with a link to reset your password.","Eメールアドレスを入力してください。パスワードをリセットするリンクを添付したEメールが届きます。"
 "Email address","Eメールアドレス"
 "Retrieve Password",パスワード再発行
-"Back to Sign in","サインインに戻る"
+"Back to Sign in","ログインに戻る"
 "Forgot your password?",パスワードをお忘れですか？
 "Roles Resources",権限リソース
 "Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?","警告!\r\nユーザーが割り当てられているアクションを削除しようとしています。\r\nよろしいですか？"
@@ -2329,7 +2329,7 @@ Layouts,レイアウト
 "Collection data files.",コレクションデータファイル
 "Database DDL operations",データベースDDL作業
 "Results of DDL queries, such as describing tables or indexes.","DDLクエリの結果, 例えばテーブルやインデックスの説明"
-"You did not sign in correctly or your account is temporarily disabled.",正しくサインインされなかった、もしくはアカウントが一時的に無効です。
+"You did not sign in correctly or your account is temporarily disabled.",正しくログインされなかった、もしくはアカウントが一時的に無効です。
 View,表示
 Integrations,インテグレーション
 "Add New Integration",新しいインテグレーションを追加
@@ -2396,7 +2396,7 @@ Reauthorize,再認証
 "No permissions requested",許可がリクエストされていません
 "Are you sure ?",本当によろしいですか？
 "Are you sure you want to delete this integration? You can't undo this action.",本当にこのインテグレーションを削除しますか？この操作はやり直しができません
-"Please setup or sign in into your 3rd party account to complete setup of this integration.",このインテグレーションのセットアップを完了するためにサードパーティのアカウントを設定するかサインインしてください
+"Please setup or sign in into your 3rd party account to complete setup of this integration.",このインテグレーションのセットアップを完了するためにサードパーティのアカウントを設定するかログインしてください
 "Available APIs","有効な APIs"
 "Sorry, something went wrong. Please try again later.",申し訳ありません、問題が発生しました。後で再度お試しください。
 Allow,許可
@@ -4941,13 +4941,13 @@ YTD,1年間
 "Authentication error occurred.",権限エラーが発生しました。
 "Order #%1","Order #%1"
 "Access denied",アクセス拒否
-"Please try to sign out and sign in again.",サインアウトして再度サインインしてください。
+"Please try to sign out and sign in again.",ログアウトして再度ログインしてください。
 "If you continue to receive this message, please contact the store owner.",このメッセージを受け取り続ける場合、ストアオーナーに連絡をしてください。
-"Welcome, please sign in",ようこそ、サインインしてください。
+"Welcome, please sign in",ようこそ、ログインしてください。
 Username,ユーザー名
 "user name",ユーザー名
 password,パスワード
-"Sign in",サインイン
+"Sign in",ログイン
 "Select Range:",範囲を選択してください：
 "No Data Found",データが見つかりませんでした
 "Chart is disabled. To enable the chart, click <a href=""%1"">here</a>.","チャートが無効です。チャートを有効にするには、 <a href=""""%1"""">こちら</a>をクリックしてください。"
@@ -4962,7 +4962,7 @@ Magento,Magento
 "ver. %1","ver. %1"
 "Magento Admin Panel",Magento管理画面
 "Account Setting",アカウント設定
-"Sign Out",サインアウト
+"Sign Out",ログアウト
 "JavaScript may be disabled in your browser.",Javascriptがブラウザで無効になっているかもしれません。
 "To use this website you must first enable JavaScript in your browser.",このウェブサイトを見るにはブラウザのJavascriptを有効にしてください。
 "This is only a demo store. You can browse and place orders, but nothing will be processed.",これはデモストアです。閲覧、注文は可能ですが、注文は処理されません。
@@ -6115,7 +6115,7 @@ You need to create a simple product for each configuration (Ex: a product for ea
 "This email is found more than once in the import file.","このEメールは1度以上インポートファイル内で見つかりました。"
 "We can't find that email and website combination.","Eメールとウェブサイトの組み合わせを見つけることができません。"
 "Please enter a password with a valid length.","パスワードを正しい長さで入力してください。"
-"Sign In","サインイン"
+"Sign In","ログイン"
 "You don't subscribe to our newsletter.","ニュースレターは購読していません。"
 "Are you sure you want to revoke the customer\'s tokens?","顧客のトークンを本当に破棄しますか？"
 Purchased,購入済み
@@ -6189,13 +6189,13 @@ InputException,InputException
 "You have no other address entries in your address book.","住所一覧に他の住所のエントリーがありません。"
 "Please select a region, state or province.","都道府県を選択してください"
 "Please enter your email below and we will send you the confirmation link.","Eメールアドレスを入力してください。確認用のリンクをお送りします。"
-"Back to Sign In","サインインに戻る"
+"Back to Sign In","ログインに戻る"
 "Please enter your email address below to receive a password reset link.","メールアドレスを下記に入力してください。"
-"If you have an account, sign in with your email address.","アカウントをお持ちならば、Eメールアドレスにてサインインしてください。"
-"Sign-in Information","サインイン情報"
+"If you have an account, sign in with your email address.","アカウントをお持ちならば、Eメールアドレスにてログインしてください。"
+"Sign-in Information","ログイン情報"
 "Create an Account","新規会員登録"
 "Set a New Password","新規パスワードの設定"
-"You have signed out and will go to our homepage in 5 seconds.","サインアウトしました。5秒後にTOPページに移動します。"
+"You have signed out and will go to our homepage in 5 seconds.","ログアウトしました。5秒後にTOPページに移動します。"
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","アカウントを作成すると、お会計が簡単にできたり、住所情報の登録や、注文履歴の確認など、多くの利点があります。"
 "Cannot switch into given mode ""%1""","与えられたモード ""%1""　にスイッチできません"
 "Format for IDE '%1' is not supported","IDE'%1'のためのフォーマットはサポートされていません"
@@ -6203,8 +6203,8 @@ InputException,InputException
 kgs,kgs
 "Requested country is not available.","要求された国は有効ではありません。"
 "Add New Link","新しいリンク追加"
-"Please sign in to download your product or purchase <a href=""%1"">%2</a>.","サインインして商品か購入 <a href=""%1"">%2</a>をダウンロードしてください。"
-"Please sign in to download your product.","サインインして商品をダウンロードしてください。"
+"Please sign in to download your product or purchase <a href=""%1"">%2</a>.","商品をダウンロード、もしくは <a href=""%1"">%2</a> を購入するにはログインしてください。"
+"Please sign in to download your product.","ログインして商品をダウンロードしてください。"
 "Is this downloadable Product?","これはダウンロード商品ですか？"
 "Add links to your product files here.","こちらの製品ファイルへのリンクを追加"
 "Attach File or Enter Link","ファイル添付かリンク入力"
@@ -6403,7 +6403,7 @@ Help,ヘルプ
 "Unable to cancel Express Checkout","エクスプレスチェックアウトはキャンセルできません。"
 "We can't process Express Checkout approval.","エクスプレスチェックアウト商品は処理できません。"
 "We can't initialize Express Checkout review.","エクスプレスチェックアウトリビューは初期化できません。"
-"To check out, please sign in with your email address.",チェックアウトするのは、Eメールアドレスでサインインしてください。"
+"To check out, please sign in with your email address.",チェックアウトするのは、Eメールアドレスでログインしてください。"
 "We can't start Express Checkout.","エクスプレスチェックアウトをスタートできません。"
 "Your payment has been declined. Please try again.","支払が拒否されました。再度お試しください。"
 "We can't contact the PayPal gateway.","PayPalゲートウェイにコンタクトできません。"
@@ -6684,8 +6684,8 @@ Create...,作成...
 "Acceptance Mark","許可マーク"
 "What is PayPal?","PayPalとは？"
 "Sign a billing agreement to streamline further purchases  with PayPal.","請求合意にサインして今後のPayPalでの購入を円滑にしましょう。"
-"To check out, please sign in using your email address.","チェックアウトするにはEメールアドレスでサインインしてください。"
-"Check &quot;Remember Me&quot; to access your shopping cart on this computer even if you are not signed in."," &quot;覚えておく&quotをチェック; サインインしてなくてもこのコンピューターのショッピングカートにアクセスするには"
+"To check out, please sign in using your email address.","チェックアウトするにはEメールアドレスでログインしてください。"
+"Check &quot;Remember Me&quot; to access your shopping cart on this computer even if you are not signed in."," &quot;覚えておく&quotをチェック; ログインしてなくてもこのコンピューターのショッピングカートにアクセスするには"
 "We can't update the alert subscription right now.","現在アラート購読をアップデートできません。"
 "Price change alert! We wanted you to know that prices have changed for these products:","価格変更アラート! これらの商品の値段が変わったことをお知らせします:"
 "Click here to stop alerts for this product.","この商品のアラートを止めるにはこちらを押して下さい。"
@@ -6725,7 +6725,7 @@ Author,作者
 "Please enter a nickname.","ニックネームを入力してください。"
 "Please enter a review.","レビューを入力してください。"
 "See Details","詳細を御覧ください"
-"Only registered users can write reviews. Please, <a href=""%1"">Sign in</a> or <a href=""%2"">create an account</a>","登録済みユーザーのみリビューを書くことができます。 <a href=""%1"">サインイン</a> か <a href=""%2"">アカウントを作成</a>してください。"
+"Only registered users can write reviews. Please, <a href=""%1"">Sign in</a> or <a href=""%2"">create an account</a>","登録済みユーザーのみリビューを書くことができます。 <a href=""%1"">ログイン</a> か <a href=""%2"">アカウントを作成</a>してください。"
 "Please choose a valid discount amount.","有効な割引額を選択してください。"
 "Please specify Customer Groups.","顧客グループを指定してください。"
 "Apply the rule only to cart items matching the following conditions (leave blank for all items).","ルールは以下の条件にマッチするカートアイテムに適用して下さい (全ての商品のためには空白のままで)。"
@@ -6905,20 +6905,20 @@ Total:,合計:
 "Comment: %comment","コメント: %comment"
 "%name,","%name 様"
 "Welcome to %store_name.","%store_name にご登録いただきありがとうございます。"
-"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","サインインするには、下記の情報をお会計時や <a href=""%customer_url"">マイアカウント</a> ページで入力してください:"
+"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","ログインするには、下記の情報をお会計時や <a href=""%customer_url"">マイアカウント</a> ページで入力してください:"
 Email:,Eメール:
 Password:,パスワード:
 "Password you set when creating account","アカウント作成時に設定したパスワード"
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","パスワードをお忘れの際には、<a href=""%reset_url"">こちら</a>から再設定してください。"
-"When you sign in to your account, you will be able to:","アカウントにサインインすると以下のことができます:"
+"When you sign in to your account, you will be able to:","アカウントにログインすると以下のことができます:"
 "Proceed through checkout faster","素早いお会計"
 "Check the status of orders","注文ステータスの確認"
 "View past orders","過去の注文履歴の確認"
 "Store alternative addresses (for shipping to multiple family members and friends)","店舗の別住所 (複数の家族メンバーと友達のために)"
-"You must confirm your %customer_email email before you can sign in (link is only valid once):","サインイン前に%customer_emailメールを確認してください。 (リンクは一度のみ有効です):"
+"You must confirm your %customer_email email before you can sign in (link is only valid once):","ログイン前に%customer_emailメールを確認してください。 (リンクは一度のみ有効です):"
 "Confirm Your Account","アカウントを確認してください"
 "Thank you for confirming your %store_name account.","%store_name アカウントをご確認いただきありがとうございます。"
-"To sign in to our site and set a password, click on the <a href=""%create_password_url"">link</a>:","サインインしてパスワードを設定するには、<a href=""%create_password_url"">リンク</a>をクリックしてください:"
+"To sign in to our site and set a password, click on the <a href=""%create_password_url"">link</a>:","ログインしてパスワードを設定するには、<a href=""%create_password_url"">リンク</a>をクリックしてください:"
 "There was recently a request to change the password for your account.","パスワードの変更依頼を承りました。"
 "If you requested this change, set a new password here:","以下より、新しいパスワードの設定をお願いいたします。"
 "If you did not make this request, you can ignore this email and your password will remain the same.","パスワードの変更をご希望されない場合は、本メールを無視してくださればパスワードに変更はありません。"
@@ -7306,7 +7306,7 @@ Two,ツー
 "Top destinations","最もアクセスされる箇所"
 "Store Hours of Operation","営業時間"
 "Email template chosen based on theme fallback when ""Default"" option is selected."," ""デフォルト""オプションが選択された時、Eメールのテンプレートはテーマの代替を元に選ばれます。 "
-"You will have to sign in after you save your custom admin path.","カスタム管理者パスを設定の後にサインインしなければなりません。"
+"You will have to sign in after you save your custom admin path.","カスタム管理者パスを設定の後にログインしなければなりません。"
 "Auto-redirect to Base URL","ベースURLに自動リダイレクト"
 "Use Secure URLs on Storefront","ストアにてセキュアURLを使用"
 "Use SID on Storefront","ストアにてSIDを使用"
@@ -7393,7 +7393,8 @@ Payment,支払
 "If your Magento site has multiple views, you can set the scope to apply to a specific view.","もしあなたのMagentoサイトが複数のビューをもっているのであれば、 特定のビューを適用できるようにスコープを設定できます。"
 "Send Welcome Email From","ウェルカムメールの送信元"
 "Account Dashboard","マイページ"
-"You are signed out.","サインアウトしました"
+"You are signed out.","ログアウトしました。"
+"You are signed out","ログアウトしました"
 "Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds 70 kg.","Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds 70 kg."
 Emails,Eメール
 "Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in width/height fields below.","許可されたファイルタイプ: jpg, jpeg, gif, png. 高画質ディスプレイのためにロゴを最適化するには, u3xノーマルサイズの画像をアップロードしてから1xディメンションを下部の幅/高さのフィールドで指定してください。"
@@ -7531,7 +7532,7 @@ Cron,Cron
                                 The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
                                 or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.
                 "
-"Clear Persistence on Sign Out","サインアウト時にパーシステンスをクリア"
+"Clear Persistence on Sign Out","ログアウト時にパーシステンスをクリア"
 "Product Video","商品ビデオ"
 "YouTube API Key","YouTube API キー"
 "Autostart base video","自動スタートベースビデオ"
@@ -7874,3 +7875,4 @@ Elements,構成
 "When you remove or add an attribute, we automatically update all configurations and you will need to recreate current configurations manually.","属性を追加削除すると、自動的にすべての設定が更新されます。現在の設定を手動で再作成する必要があるのでご注意ください。"
 "Discount amount is applied to subtotal only","値引額は小計にのみ適用されます"
 "Unable to place order. Please try again later.","ご注文を確定できません。ご入力内容をご確認の上、やり直してください。"
+"Delivery Date","お届け日時"
