@@ -1394,7 +1394,7 @@ Item,商品
 "Update Shopping Cart",ショッピングカートを更新
 "Update Cart",カートを更新
 "See price before order confirmation.",注文確定前に価格を表示する。
-"What's this?",これは何ですか？
+"What's this?",お困りごとはありますか？
 "Move to Wish List","ほしい物リストを確認お気に入りに移動"
 "Edit item parameters",商品パラメータを編集
 "You have no items in your shopping cart.",カートの中には何もありません。
@@ -3153,6 +3153,7 @@ Newsletters,ニュースレター
 "If you have an account with us, log in using your email address.",アカウントをお持ちであれば、ログインしてください。
 Login,ログイン
 "Forgot Your Password",パスワードをお忘れですか？
+"Forgot Your Password?",パスワードをお忘れですか？
 "Reset My Password",パスワードを再設定する
 "Subscription option",購読オプション
 "General Subscription",ニュースレターを購読する
@@ -3622,7 +3623,7 @@ error345,エラー345
 "Display Actual Price",実際の価格を表示
 "Default Popup Text Message",標準のポップアップメッセージ
 "Default ""What's This"" Text Message","標準の ""これは何ですか"" メッセージ"
-"What is this?",これは何ですか？
+"What is this?",お困りごとはありますか？
 "--Please Select--",--選択してください--
 "We cannot retrieve the payment method model object.",支払方法モデルオブジェクトを引き出すことができません
 "We cannot retrieve the payment info model object.",支払情報モデルオブジェクトを引き出すことができません
