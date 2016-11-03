@@ -106,7 +106,7 @@ Configure,構成
 "View Details",詳細を表示
 "Wish List","ほしい物リスト"
 Comment,コメント
-"Please enter an email address.","eメールアドレスを入力してください"
+"Please enter an email address.","Eメールアドレスを入力してください"
 "Wish List Sharing","ほしい物リストの共有"
 "My Wish List","ほしい物リスト"
 "%1's Wish List","%1 のほしい物リスト"
@@ -897,7 +897,7 @@ PM,PM
 "Edit Product Attribute",商品属性の編集
 "Attribute Set with name '%1' already exists.","名前が '%1' の属性セットは既に存在します。"
 "Something went wrong saving the attribute.","属性を保存中に問題が発生しました。"
-"Attribute code ""%1"" is invalid. Please use only letters (a-z), ' 'numbers (0-9) or underscore(_) in this field, first character should be a letter.","属性コード ""%1"" は無効です。 文字 (a-z), ' '数字 (0-9) or アンダースコア(_)のみこのフィールドでは使用してください。 , 最初のキャラクターは文字でなければなりません。"
+"Attribute code ""%1"" is invalid. Please use only letters (a-z), ' 'numbers (0-9) or underscore(_) in this field, first character should be a letter.","属性コード ""%1"" は無効です。 アルファベット (a-z), ' '数字 (0-9) or アンダースコア(_)のみこのフィールドでは使用してください。 , 最初の文字はアルファベットでなければなりません。"
 "You can't update your attribute.","属性をアップデートできません。"
 "You saved the product attribute.","商品属性を保存しました。"
 "An attribute with this code already exists.","このコードの属性は既に存在します。"
@@ -993,7 +993,7 @@ Category,カテゴリ
 "We couldn't copy file %1. Please delete media with non-existing images and try again.","ファイル%1はコピーできませんでした。 画像が存在しないメディアを削除して再度試して下さい。"
 "Please enter a number 0 or greater in this field.",0以上の数字を入力してください。
 "The value of attribute ""%1"" must be set","属性 ""%1"" の値はセットされなければなりません。"
-"SKU length should be %1 characters maximum.","SKUの値の長さは最大 %1 キャラクターでなければなりません。"
+"SKU length should be %1 characters maximum.","SKUの値の長さは最大 %1 文字でなければなりません。"
 "Please enter a valid number in this field.",正しい数字で入力してください。
 "We found a duplicate website, tier price, customer group and quantity.","複製ウェブサイト、Tierプライス,カスタムグループと量が見つかりました。"
 "Invalid option id %1","不正なオプション id %1"
@@ -1483,7 +1483,7 @@ Configuration,設定
 "Sorry, we haven't installed the default display currency you selected.","申し訳ありません、あなたが選択したデフォルト表示通貨はインストールされておりません。"
 "Sorry, the default display currency you selected in not available in allowed currencies.","申し訳ありません、あなたが選択したデフォルト表示通貨は許可された通貨内で有効でありません。"
 "Please correct the email address: ""%1"".","Eメールアドレスを修正してください: ""%1""."
-"The sender name ""%1"" is not valid. Please use only visible characters and spaces.","送信者名 ""%1"" は無効です。キャラクターとスペースのみ使用してください。"
+"The sender name ""%1"" is not valid. Please use only visible characters and spaces.","送信者名 ""%1"" は無効です。文字とスペースのみ使用してください。"
 "Maximum sender name length is 255. Please correct your settings.",送信者名の長さは最大255文字です。設定を見なおしてください。
 "The file you're uploading exceeds the server size limit of %1 kilobytes.","アップロードしているファイルはサーバーのサイズ制限 %1 キロバイトを超えています。"
 "The base directory to upload file is not specified.",ファイルをアップロードするディレクトリが未指定です。
@@ -1573,7 +1573,7 @@ Results,結果
 "You need more permissions to access this.","これにアクセスするには更に権限が必要です。"
 "Reset Password",パスワード再発行
 "Force Sign-In","強制ログイン"
-"Your password reset link has expired.",パスワード再発行リンクが有効期限切れです。
+"Your password reset link has expired.",パスワード再発行リンクの有効期限が切れました。
 "If there is an account associated with %1 you will receive an email with a link to reset your password.","%1と関連するアカウントがあれば、パスワードを再設定するためのリンクが添付されたEメールが届きます。"
 "Your password has been updated.",パスワードを更新しました。
 "Confirm New Password",新規パスワードの確認
@@ -1622,16 +1622,16 @@ Permissions,権限
 "This role no longer exists.","この権現は既に存在しません。"
 "You saved the role.","権限が保存されました。"
 "You saved the user.","ユーザーを保存しました。"
-"A user with the same user name or email already exists.","同じユーザーネームかEメールアドレスをお持ちのユーザーが既に存在します。"
+"A user with the same user name or email already exists.","同じユーザー名かEメールアドレスをお持ちのユーザーが既に存在します。"
 "This account is inactive.",このアカウントは無効です。
-"User Name is a required field.","ユーザーネームは必須項目です。"
+"User Name is a required field.","ユーザー名は必須項目です。"
 "First Name is a required field.","名前は必須項目です。"
 "Last Name is a required field.","姓は必須項目です。"
 "Please enter a valid email.",正しいメールアドレスを入力してください。
 "Password is required field.","パスワードは必須項目です。"
-"Your password must be at least %1 characters.","パスワードは少なくとも%1キャラクターでなくてはなりません。"
-"Your password must include both numeric and alphabetic characters.","パスワードは数字とアルファベットのキャラクターを含んでなければなりません。"
-"Your password confirmation must match your password.","パスワード確認は合致しなければなりません。"
+"Your password must be at least %1 characters.","パスワードは%1文字以上でなくてはなりません。"
+"Your password must include both numeric and alphabetic characters.","パスワードは数字とアルファベットを含んでいなければなりません。"
+"Your password confirmation must match your password.","パスワードが合致しません。"
 "Password Help","パスワードヘルプ"
 "Enter your email address.  You will receive an email with a link to reset your password.","Eメールアドレスを入力してください。パスワードをリセットするリンクを添付したEメールが届きます。"
 "Email address","Eメールアドレス"
@@ -1639,8 +1639,8 @@ Permissions,権限
 "Back to Sign in","ログインに戻る"
 "Forgot your password?",パスワードをお忘れですか？
 "Roles Resources",権限リソース
-"Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?","警告!\r\nユーザーが割り当てられているアクションを削除しようとしています。\r\nよろしいですか？"
-"Warning!\r\nThis action will remove those users from already assigned roles\r\nAre you sure?","警告!\r\n以下のユーザーが割り当てられているアクションを削除しようとしています。\r\nよろしいですか？"
+"Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?","警告!\r\n割り当てられている権限からユーザーを削除しようとしています。\r\nよろしいですか？"
+"Warning!\r\nThis action will remove those users from already assigned roles\r\nAre you sure?","警告!\r\n割り当てられている権限から以下のユーザーを削除しようとしています。\r\nよろしいですか？"
 "Reset Password Template","リセットパスワードテンプレート"
 "Minimum Qty",最小個数
 "Add Minimum Qty",最小個数を追加
@@ -1839,8 +1839,8 @@ Severity,重要度
 "Please select an option.",オプションを選択してください。
 "Empty Value.",空の値
 "Please use only letters (a-z or A-Z), numbers (0-9) or spaces only in this field.","このフィールドには(a-z あるいは A-Z), 数字(0-9) あるいは空白のみお使いください"
-"Please use only letters (a-z or A-Z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","このフィールドには文字(a-z あるいは A-Z), 数字(0-9) あるいはアンダースコア (_)のみをお使いください, そして最初のキャラクターは文字でなければなりません"
-"Please use only letters (a-z or A-Z), numbers (0-9), spaces and ""#"" in this field.","このフィールドには文字(a-z あるいは A-Z), 数字(0-9) あるいはアンダースコア (_)と ""#""のみをお使いください"
+"Please use only letters (a-z or A-Z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","このフィールドにはアルファベット(a-z あるいは A-Z), 数字(0-9) あるいはアンダースコア (_)のみをお使いください, そして最初の文字はアルファベットでなければなりません"
+"Please use only letters (a-z or A-Z), numbers (0-9), spaces and ""#"" in this field.","このフィールドにはアルファベット(a-z あるいは A-Z), 数字(0-9) あるいはアンダースコア (_)と ""#""のみをお使いください"
 "Please enter a valid phone number. For example (123) 456-7890 or 123-456-7890.","正しい電話番号の形式で入力してください。（例：(123) 456-7890 or 123-456-7890）"
 "Please enter a valid fax number (Ex: 123-456-7890).","有効なFAX番号を入力してください (Ex: 123-456-7890)."
 "Please enter a valid email address (Ex: johndoe@domain.com).","有効なメールアドレスを入力してください (Ex: johndoe@domain.com)."
@@ -1857,7 +1857,7 @@ Severity,重要度
 "Please input a valid CSS-length (Ex: 100px, 77pt, 20em, .5ex or 50%).","有効なCSS-長さを入力してください (例: 100px, 77pt, 20em, .5ex or 50%)。"
 "The value is not within the specified range.",値が指定された範囲にありません。
 "Please use letters only (a-z or A-Z) in this field.","この入力エリアには (a-z or A-Z) 文字のみが使用できます。"
-"Please use only letters (a-z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","このフィールドには文字(a-z), 数字(0-9) あるいはアンダースコア (_)のみをお使いください, そして最初のキャラクターは文字でなければなりません"
+"Please use only letters (a-z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","このフィールドにはアルファベット(a-z), 数字(0-9) あるいはアンダースコア (_)のみをお使いください, そして最初の文字はアルファベットでなければなりません"
 "Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.","このフィールドには文字(a-z), 数字(0-9) あるいはアンダースコア (_)のみをお使いください。スペースや他の文字は許可されていません"
 "Please enter a valid date.",正しい日付を入力してください。
 "Please enter a valid URL Key (Ex: ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"").","有効なURLキーを入力して下さい (例: ""example-page"", ""example-page.html"" あるいは ""anotherlevel/example-page"")。"
@@ -2305,13 +2305,13 @@ Admin,管理者
 "Invalid scope object",無効なスコープオブジェクト
 "Store with the same code",同じコードの店舗です
 "Website with the same code",同じコードのウェブサイトです
-"Website code may only contain letters (a-z), numbers (0-9) or underscore (_),' ' and the first character must be a letter.","ウェブサイトコードは文字(a-z),数字(0-9)　あるいは　アンダースコア (_)　のみ含んでいなければなりません,' ' そして最初のキャラクターは文字でなければなりません"
+"Website code may only contain letters (a-z), numbers (0-9) or underscore (_),' ' and the first character must be a letter.","ウェブサイトコードはアルファベット(a-z),数字(0-9)　あるいは　アンダースコア (_)　のみ含んでいなければなりません,' ' そして最初の文字はアルファベットでなければなりません"
 "Store Manager has been initialized not properly",ストアマネージャーが正しく初期化されていません
 "Invalid website id/code requested.","不正なウェブサイト id/コードが要求されました"
 "Invalid store group id requested.",不正なストアグループidが要求されました
 "Store Manager has not been initialized properly",ストアマネージャーが正しく初期化されていません
 "Name is required",名前が必須です
-"The store code may contain only letters (a-z), numbers (0-9) or underscore (_),' ' and the first character must be a letter.","ストアコードは文字(a-z),数字(0-9)　あるいは　アンダースコア (_)　のみ含んでいなければなりません,' ' そして最初のキャラクター>は文字でなければなりません"
+"The store code may contain only letters (a-z), numbers (0-9) or underscore (_),' ' and the first character must be a letter.","ストアコードはアルファベット(a-z),数字(0-9)　あるいは　アンダースコア (_)　のみ含んでいなければなりません,' ' そして最初の文字はアルファベットでなければなりません"
 "Your Language:",あなたの言語:
 "Your Language",あなたの言語
 Language,言語
@@ -2994,8 +2994,8 @@ Download,ダウンロード
 "Cannot save the customer.",顧客データを保存できません。
 "Please make sure your passwords match.",パスワードが合っているか確かめてください
 "A problem was encountered trying to change password.",パスワードの変更中に問題が発生しました。
-"Confirm your new password",新しいパスワードを確認してください。
-"New password field cannot be empty.",新しいパスワードを入力してください。
+"Confirm your new password",新規パスワードを確認してください。
+"New password field cannot be empty.",新規パスワードを入力してください。
 "Invalid input",不正な入力
 "The account information has been saved.",お客様の情報を保存しました。
 "Please correct the email address.",Eメールアドレスを修正してください
@@ -3005,8 +3005,8 @@ Download,ダウンロード
 "Invalid login or password.",ログイン名かパスワードが違います。
 "There was an error validating the login and password.",ログインとパスワードを確認時にエラーが発生しました。
 "Login and password are required.",ログインとパスワードが必要です。
-"New Password and Confirm New Password values didn't match.",新しいパスワードと確認パスワードが合致しませんでした
-"There was an error saving the new password.",新しいパスワードの保存中にエラーが発生しました
+"New Password and Confirm New Password values didn't match.",新規パスワードと確認パスワードが合致しませんでした
+"There was an error saving the new password.",新規パスワードの保存中にエラーが発生しました
 "The address has been deleted.",住所を削除しました。
 "We can't delete the address right now.",住所を現在削除できません
 "The address has been saved.",住所を保存しました。
@@ -3071,8 +3071,8 @@ Download,ダウンロード
 """%1"" invalid type entered.","%1""""不正なタイプが入力された"
 """%1"" contains non-alphabetic or non-numeric characters.","%1""""はアルファベットでも数字でもない字を含んでいる"
 """%1"" is an empty string.","%1""""は空の文字列"
-"""%1"" contains non-numeric characters.","%1""""は数字でないキャラクターを含んでいる"
-"""%1"" contains non-alphabetic characters.","%1""""はアルファベットでないキャラクターを含んでいる"
+"""%1"" contains non-numeric characters.","%1""""は数字でない文字を含んでいる"
+"""%1"" contains non-alphabetic characters.","%1""""はアルファベットでない文字を含んでいる"
 """%1"" is not a valid email address.","%1""""は正しいメールアドレスではない"
 """%1"" is not a valid hostname.","%1"""" は有効なホストネームではない"
 """%1"" uses too many characters.","%1"""" は文字数が多すぎです"
@@ -4815,7 +4815,7 @@ UPS,UPS
 "Live account","使用可能なアカウント"
 "Enable Negotiated Rates",ネゴシエイトレートを有効にする
 "Shipper Number",荷主番号
-"Required for negotiated rates; 6-character UPS","ネゴシエイトレートに必須; 6キャラクター UPS"
+"Required for negotiated rates; 6-character UPS","ネゴシエイトレートに必須; 6文字 UPS"
 "This enables or disables SSL verification of the Magento server by UPS.","これはUPSのMagentoサーバーのSSL証明を有効あるいは無効にできます。"
 "Invalid Form Key. Please refresh the page.",不正なフォームキーです。ページを再読み込みしてください。
 "You entered an invalid Secret Key. Please refresh the page.",不正な秘密鍵が入力されました。画面を再読み込みしてください。
@@ -5698,7 +5698,7 @@ msg,msg
 `%1`"
 "Unable to delete the cookie with cookieName = %name","cookie でcookieNameのものは削除できませんでした = %name"
 "Unable to send the cookie with cookieName = %name","名前が以下のcookieを送ることができませんでした = %name"
-"Cookie name cannot be empty and cannot contain these characters: =,; \t\r\n\013\014","Cookie名は空ではならないし以下のキャラクターを含めません:  =,; \t\r\n\013\014"
+"Cookie name cannot be empty and cannot contain these characters: =,; \t\r\n\013\014","Cookie名は空ではならないし以下の文字を含めません:  =,; \t\r\n\013\014"
 "Unable to send the cookie. Maximum number of cookies would be exceeded.","cookieが送れませんでした。 cookiesの最大値が超えてしまいます。"
 "Unable to send the cookie. Size of '%name' is %size bytes.","cookieが送れませんでした。 '%name'のサイズは%sizeバイトです。"
 "Format type is invalid","フォーマットタイプは不明です。"
@@ -6134,15 +6134,15 @@ Purchased,購入済み
      なたが登録済みVAT顧客の場合は、 <a href=""%1"">こちらをクリック</a>して正しいVAT計算のために送り先住所を入力してください。"
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","あ          なたが登録済みVAT顧客の場合は,<a href=""%1"">こちらをクリック</a>して正しいVAT計算のために請求先住所を入力してください。"
 "You saved the account information.","アカウント情報を保存しました。"
-"Please enter new password.","新しいパスワードを入力してください。"
-"Confirm your new password.","新しいパスワードを確認してください。"
+"Please enter new password.","新規パスワードを入力してください。"
+"Confirm your new password.","新規パスワードを確認してください。"
 "Something went wrong while changing the password.","パスワードの変更中に問題が発生しました。"
 "We're unable to send the password reset email.","パスワードリセットEメールが送信できません。"
 "This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","このアカウントは確認できません。 <a href=""%1"">こちらをクリック</a>して確認メールを再送してください。"
 "A login and a password are required.","ログインとパスワードは必須です。"
-"Please enter a new password.","新しいパスワードを入力してください。"
+"Please enter a new password.","新規パスワードを入力してください。"
 "You updated your password.","パスワードを更新しました。"
-"Something went wrong while saving the new password.","新しいパスワードを保存中に問題が発生しました。"
+"Something went wrong while saving the new password.","新規パスワードを保存中に問題が発生しました。"
 "You deleted the address.","住所を削除しました。"
 "You saved the address.","住所を保存しました。"
 "We can't save the address.","住所を保存できませんでした。"
@@ -6823,8 +6823,8 @@ Invitee,送信先
 "Requested store is inactive","要求されたストアは無効です"
 "Requested store is not found","要求されたストアは見つかりませんでした"
 "Environment emulation nesting is not allowed.","環境エミュレーションネスティングは許可されていません。"
-"Website code may only contain letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","ウェブサイトコードは文字 (a-z), 数字 (0-9) かアンダースコア (_)を含んでいなければなりません、そして最初のキャラクターは文字でなければなりません。"
-"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","ストアコードは文字 (a-z), 数字 (0-9) かアンダースコア (_)を含んでいなければなりません、そして最初のキャラクターは文字でなければなりません。"
+"Website code may only contain letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","ウェブサイトコードはアルファベット (a-z), 数字 (0-9) かアンダースコア (_)を含んでいなければなりません、そして最初の文字はアルファベットでなければなりません。"
+"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","ストアコードは文字 (a-z), 数字 (0-9) かアンダースコア (_)を含んでいなければなりません、そして最初の文字はアルファベットでなければなりません。"
 "Store is inactive","ストアは無効です"
 "Default store is inactive","デフォルトストアは無効です"
 "More than one default website is defined","１つ以上のデフォルトウェブサイトが定義されています"
@@ -6874,10 +6874,10 @@ testMessage,テストメッセージ
 "An error occurred while saving this role.","このロールを保存中にエラーが発生しました。"
 Recommended,推奨
 Forced,強制
-"It's time to change your password.","パスワードを変更する時期です。"
-"It's time to <a href=""%1"">change your password</a>."," <a href=""%1"">パスワードを変更</a>する時期です。"
-"Sorry, but this password has already been used. Please create another.","申し訳ありません、しかしこのパスワードは既に使われています。別のパスワードを作成してください。"
-"Your password has expired; please contact your administrator.","パスワードが期限切れ; 管理者に連絡してください。"
+"It's time to change your password.","パスワードを変更しましょう。"
+"It's time to <a href=""%1"">change your password</a>."," <a href=""%1"">パスワードを変更</a>しましょう。"
+"Sorry, but this password has already been used. Please create another.","申し訳ありません、このパスワードは既に使用されています。別のパスワードを入力してください。"
+"Your password has expired; please contact your administrator.","パスワードの有効期限が切れています。管理者に連絡してください。"
 "Cannot perform GET operation with store code 'all'","GETオペレーションがストアコード'all'では実行できませんでした"
 "Excluding FPT. Including FPT description and final price","FPT除外。 FPT詳細と最終価格含む"
 "label_value' 'label_value' 'frontend_label","label_value' 'label_value' 'frontend_label"
@@ -6921,7 +6921,7 @@ Password:,パスワード:
 "Thank you for confirming your %store_name account.","%store_name アカウントをご確認いただきありがとうございます。"
 "To sign in to our site and set a password, click on the <a href=""%create_password_url"">link</a>:","ログインしてパスワードを設定するには、<a href=""%create_password_url"">リンク</a>をクリックしてください:"
 "There was recently a request to change the password for your account.","パスワードの変更依頼を承りました。"
-"If you requested this change, set a new password here:","以下より、新しいパスワードの設定をお願いいたします。"
+"If you requested this change, set a new password here:","以下より、新規パスワードの設定をお願いいたします。"
 "If you did not make this request, you can ignore this email and your password will remain the same.","パスワードの変更をご希望されない場合は、本メールを無視してくださればパスワードに変更はありません。"
 "The password for your account has been successfully changed.","パスワードが変更されました。"
 "If you did not request this change, please contact us.","お心当たりのない場合は、恐れ入りますが破棄いただきますようお願い申し上げます。"
@@ -7877,3 +7877,11 @@ Elements,構成
 "Discount amount is applied to subtotal only","値引額は小計にのみ適用されます"
 "Unable to place order. Please try again later.","ご注文を確定できません。ご入力内容をご確認の上、やり直してください。"
 "Delivery Date","お届け日時"
+"You need more permissions to access this.","You need more permissions to access this."
+"Your account is temporarily disabled.","アカウントが一時的に無効になっています。"
+"Hello,","こんにちは！"
+"We have received a request to change the following information associated with your account at %store_name: %changes.","%changesの変更依頼を承りました。"
+"password",パスワード
+"If you have not authorized this action, please contact us immediately at %store_email","覚えがないようでしたら、恐れ入りますが %store_email にお知らせいただくか、"
+"or call us at %store_phone","あるいは %store_phone までお電話いただけると幸いです。"
+"Thanks,","ご利用ありがとうございます。"
