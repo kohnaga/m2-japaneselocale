@@ -86,6 +86,7 @@ Edit,編集
 message,メッセージ
 Action,アクション
 "Add to Cart",カートに入れる
+"Add To Cart",カートに入れる
 "Add to Wish List","ほしい物リストに追加"
 "Remove This Item",この商品を削除する
 "Add to Compare",比較リストに追加
@@ -6942,7 +6943,7 @@ Password:,パスワード:
 "Shipping Info","配送情報"
 "Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","あなたの注文#%increment_idはステータス<strong>%order_status</strong>で更新されました。"
 "Your Invoice #%invoice_id for Order #%order_id","注文#%order_idのあなたの請求書#%invoice_id"
-"%customer_name,","%customer_name,"
+"%customer_name,","%customer_name 様"
 "Once your package ships we will send you a tracking number.","荷物が配送された後に追跡番号をお送りします。"
 "Your Order <span class=""no-link"">#%increment_id</span>","あなたの注文 <span class=""no-link"">#%increment_id</span>"
 "Placed on <span class=""no-link"">%created_at</span>","ご注文日時は <span class=""no-link"">%created_at</span>"
