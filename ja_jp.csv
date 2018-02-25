@@ -224,7 +224,7 @@ Variable,変数
 "New Custom Variable",新しいカスタム変数
 "Variable Code",変数コード
 "Variable Name",変数名
-"Use Default Variable Values",標準の値を使用
+"Use Default Variable Values",既定の値を使用
 "Variable HTML Value",任意HTMLの値
 "Variable Plain Value",変数のもとの値
 "You deleted the custom variable.","カスタム変数を削除しました。"
@@ -401,7 +401,7 @@ Fixed,固定
 "Please enter search conditions to view products.",商品を表示させるための検索条件を指定してください。
 ID,ID
 SKU,商品番号
-"Use Default Value",標準の値を使用
+"Use Default Value",既定の値を使用
 "There is no defined renderer for ""%1"" option type.","""%1"" オプションタイプに定義されたレンダラーはありません。"
 "Only implemented for bundle product","バンドル商品にのみ設定可能です"
 "Product with specified sku: ""%1"" is not a bundle product","SKUで指定された商品: ""%1""　はバンドル商品ではありません。"
@@ -754,7 +754,7 @@ Year,年
 "Advanced Attribute Properties","拡張属性プロパティ"
 "Attribute Code",属性コード
 "This is used internally. Make sure you don't use spaces or more than %1 symbols.","これは内部用です。スペースまたは%1文字以上を使わないようにしてください。"
-"Default Value",標準の値
+"Default Value",既定の値
 "Unique Value",一意な値
 "Unique Value (not shared with other products)","一意な値 (他の商品と共有しない)"
 "Not shared with other products",他の商品と共有しない
@@ -828,16 +828,16 @@ Change,変更
 Visibility,表示
 "Add New Option",新規オプションの追加
 "Import Options","オプションのインポート"
-"Use Default",標準の値を使用
+"Use Default",既定の値を使用
 Import,インポート
 "Add New Row",新しい行の追加
 "Delete Row",行の削除
 "Tier Pricing",価格層
-"Default Price",標準の価格
+"Default Price",既定の価格
 "Add Group Price",グループ価格を追加
 "ALL GROUPS",全てのグループ
 "Add Tier",階層の追加
-"Default Values",標準の値
+"Default Values",既定の値
 "Related Products",関連商品
 Up-sells,アップセル商品
 Cross-sells,クロスセル商品
@@ -935,7 +935,7 @@ List,リスト
 "We can\'t perform this category move operation because the parent category matches the child' 'category.","親カテゴリが子カテゴリにマッチするのでこのカテゴリ移動作業を実行できません。"
 "Can't delete root category.","ルートカテゴリは削除できません。"
 "The value of attribute ""%1"" must be unique.","属性の値 ""%1"" は特殊でなければなりません。"
-"Default Product Listing Sort by does not exist in Available Product Listing Sort By.",標準の商品リスト表示順は利用できる候補に存在していません。
+"Default Product Listing Sort by does not exist in Available Product Listing Sort By.",既定の商品リスト表示順は利用できる候補に存在していません。
 "No layout updates",更新するレイアウトがありません
 "Products only",商品のみ
 "Static block only",静的ブロックのみ
@@ -1407,7 +1407,7 @@ City,市区町村
 "Zip/Postal Code",郵便番号
 "Get a Quote",見積もる
 "Update Total",合計更新
-"Select a billing address from your address book or enter a new address.",住所録から請求先住所を選択するか、新しい住所を入力してください。
+"Select a billing address from your address book or enter a new address.",アドレス帳から請求先を選択するか、新しい住所を入力してください。
 Company,会社名
 "VAT Number",VAT番号
 "Street Address",番地
@@ -1415,7 +1415,7 @@ Company,会社名
 Telephone,電話番号
 Fax,FAX番号
 "Confirm Password",パスワード再確認
-"Save in address book",住所録に保存
+"Save in address book",アドレス帳に保存
 "Ship to this address",この住所へ送る
 "Ship to different address",別の住所へ送る
 "Order #",注文番号
@@ -1426,7 +1426,7 @@ Fax,FAX番号
 "Forgot an Item?",上記の注文でよろしいですか？
 "Edit Your Cart",カートの中身を編集
 "Your credit card will be charged for",クレジットカードでお支払いただく金額
-"Select a shipping address from your address book or enter a new address.",配送先を住所録から選択するか、新しい住所を入力してください。
+"Select a shipping address from your address book or enter a new address.",配送先をアドレス帳から選択するか、新しい住所を入力してください。
 "Use Billing Address",請求先の住所を使う
 "Sorry, no quotes are available for this order at this time.",申し訳ありません、現在この注文でお見積もりはご利用できません。
 "Your order number is: %1.","注文番号は: %1 です。"
@@ -1462,7 +1462,7 @@ Store,店舗
 Stores,店舗
 System,システム
 "We can't save the Cron expression.","Cron設定を保存できません。"
-"Default Config",標準の設定
+"Default Config",既定の設定
 "Save Config",設定を保存
 "Use Website",ウェブサイトの設定を使用する
 Add,追加
@@ -1489,7 +1489,7 @@ Configuration,設定
 "The file you're uploading exceeds the server size limit of %1 kilobytes.","アップロードしているファイルはサーバーのサイズ制限 %1 キロバイトを超えています。"
 "The base directory to upload file is not specified.",ファイルをアップロードするディレクトリが未指定です。
 "The specified image adapter cannot be used because of: ","以下の理由のため指定された画像アダプターは使用できません: "
-"Default scope",標準のスコープ
+"Default scope",既定のスコープ
 "Base currency",基本通貨
 "Display default currency",標準通貨の表示
 "website(%1) scope","ウェブサイト(%1) スコープ"
@@ -2023,13 +2023,13 @@ Copy,コピー
 "Default Title",標準タイトル
 "Title Prefix",タイトルプレフィックス
 "Title Suffix",タイトルサフィックス
-"Default Description",標準の説明
+"Default Description",既定の説明
 "Default Keywords",初期キーワード
 "Miscellaneous Scripts",各種スクリプト
 "This will be included before head closing tag in page HTML.",ページのHTMLのheadタグ終了前に追記されます。
 "Display Demo Store Notice",デモストア通知の表示
 "Search Engine Robots",検索エンジンロボット
-"Default Robots",標準のrobots.txt
+"Default Robots",既定のrobots.txt
 "Edit custom instruction of robots.txt File",robots.txtファイルのカスタムインストラクション編集
 "Reset to Defaults",デフォルトにリセット
 "This action will delete your custom instructions and reset robots.txt file to system's default settings.",このアクションはカスタムインストラクションを削除しrobot.txtファイルをシステムのデフォルト設定にリセットします
@@ -2040,7 +2040,7 @@ Footer,フッター
 Copyright,コピーライト
 "Miscellaneous HTML","色々な HTML"
 "This will be displayed just before body closing tag.",bodyタグの終了直前に出力されます。
-"Default welcome msg!",標準のウェルカムメッセージ!
+"Default welcome msg!",既定のウェルカムメッセージ!
 "&copy; 2015 Magento Demo Store. All Rights Reserved.","&copy; 2015 Magento Demo Store. All Rights Reserved."
 "Admin empty",アドミンが空です
 "Admin 1column","アドミン 1カラム"
@@ -2189,8 +2189,8 @@ Statistics,統計
 "Recently Viewed Products",最近閲覧した商品
 "Recently Viewed/Compared Products",最近見られた/比較された商品
 "Show for Current",最新を表示
-"Default Recently Viewed Products Count",標準の最近閲覧した商品点数
-"Default Recently Compared Products Count",標準の最近比較された商品点数
+"Default Recently Viewed Products Count",既定の最近閲覧した商品点数
+"Default Recently Compared Products Count",既定の最近比較された商品点数
 "Year-To-Date Starts",開始日
 "Current Month Starts",現在の月から開始
 "Select day of the month.",月の日を選択してください。
@@ -2480,7 +2480,7 @@ no,no
 "Times Used",使用回数
 "Are you sure you want to delete the selected coupon(s)?",選択したクーポンを削除してもよろしいですか？
 Labels,ラベル
-"Default Label",標準のラベル
+"Default Label",既定のラベル
 "Default Rule Label for All Store Views",全てのストアビューに対する標準クーポン名
 Coupon,クーポン
 "Use Auto Generation",自動生成を使用する
@@ -2724,7 +2724,7 @@ Region/State,地域
 "Include Virtual Products in Price Calculation",仮想商品を配送料計算に含める
 "Minimum Order Amount",最小注文金額
 Code,コード
-"Billing Address",請求先住所
+"Billing Address",請求先
 "Shipping Address",配送先
 "Shipping Incl. Tax (%1)","税込み送料 (%1)"
 "Shipping Excl. Tax (%1)","税抜き送料 (%1)"
@@ -2833,7 +2833,7 @@ Note:,メモ:
 "An error occurred",エラーが起きました
 "Do you really want to delete this tax rate?",本当にこの税レートを削除したいですか？
 "Add New Class",新規区分の追加
-"Default Country",標準の国
+"Default Country",既定の国
 "Tax Calculation Based On",税計算基準
 "Tax Classes",税区分
 "Tax Class for Shipping",配送の税区分
@@ -2852,8 +2852,8 @@ Note:,メモ:
 "Enable Cross Border Trade",越境取引課税計算を有効にする
 "When catalog price includes tax, enable this setting to fix the price no matter what the customer's tax rate.","カタログ価格が税を含む時には顧客の税率設定がなんであれ、この設定を有効にして価格を確定してください。"
 "Default Tax Destination Calculation",標準税計算対象地域
-"Default State",標準の都道府県
-"Default Post Code",標準の郵便番号
+"Default State",既定の都道府県
+"Default Post Code",既定の郵便番号
 "Price Display Settings",価格表示設定
 "Display Product Prices In Catalog",カタログに価格を表示する
 "Display Shipping Prices",配送料を表示
@@ -2903,9 +2903,9 @@ Order,注文
 "Log In",ログイン
 "You subscribe to our newsletter.",ニュースレターを購読中です
 "You are currently not subscribed to our newsletter.",ニュースレターをご購読いただいておりません。
-"You have not set a default shipping address.",標準の配送先を指定してください。
-"You have not set a default billing address.",標準のご請求先が指定されていません。
-"Address Book",住所録
+"You have not set a default shipping address.",既定の配送先を指定してください。
+"You have not set a default billing address.",既定のご請求先が指定されていません。
+"Address Book",アドレス帳
 "Edit Address",住所の編集
 "Add New Address",住所を追加
 region,地域
@@ -2951,7 +2951,7 @@ Confirmed,確認
 "Confirmation Required",確認が必須です
 "Confirmation Not Required",確認は不必要です
 Indeterminate,未定
-"The customer does not have default billing address.",この顧客は標準の請求先を登録していません。
+"The customer does not have default billing address.",この顧客は既定の請求先を登録していません。
 Offline,オフライン
 Online,オンライン
 "Deleted Stores",ストアを削除
@@ -2984,8 +2984,8 @@ Download,ダウンロード
 "Create New Customer Account",新規顧客アカウントを作成
 "Date of Birth",生年月日
 "Bad request.",不正なリクエスト。
-"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter you shipping address for proper VAT calculation","登録済みのVAT顧客であれば、<a href=""""%1"""">こちら</a>をクリックして正しいVAT計算のために配送先住所を入力してください"
-"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter you billing address for proper VAT calculation","登録済みのVAT顧客であれば、<a href=""""%1"""">こちら</a>をクリックして正しいVAT計算のために請求先住所を入力してください"
+"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter you shipping address for proper VAT calculation","登録済みのVAT顧客であれば、<a href=""""%1"""">こちら</a>をクリックして正しいVAT計算のために配送先を入力してください"
+"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter you billing address for proper VAT calculation","登録済みのVAT顧客であれば、<a href=""""%1"""">こちら</a>をクリックして正しいVAT計算のために請求先を入力してください"
 "Thank you for registering with %1."," %1 にご登録いただきありがとうございます。"
 "Please, check your email for confirmation key.",メールの確認キーを入力してください。
 "This email does not require confirmation.",このメールアドレスは確認を必要としません。
@@ -3112,10 +3112,10 @@ Visitor,訪問者
 "VAT Number is Valid",VAT番号を確認しました
 "Customer Addresses",顧客住所
 "Are you sure you want to delete this address?",この住所を削除してもよろしいですか？
-"Set as Default Billing Address",標準の請求先住所に設定する
-"Default Billing Address",標準の請求先住所
-"Set as Default Shipping Address",標準の配送先住所に設定する
-"Default Shipping Address",標準の配送先住所
+"Set as Default Billing Address",既定の請求先に設定する
+"Default Billing Address",既定の請求先
+"Set as Default Shipping Address",既定の配送先に設定する
+"Default Shipping Address",既定の配送先
 "New Customer Address",新規顧客住所
 "No item specified.",アイテムが指定されていません。
 "Personal Information",個人情報
@@ -3134,15 +3134,15 @@ Visitor,訪問者
 Newsletters,ニュースレター
 "You are currently subscribed to 'General Subscription'.",ニュースレターをご購読中です。
 "You are currently not subscribed to any newsletter.",ニュースレターをご購読いただいておりません。
-"Default Addresses",標準の住所
-"Change Billing Address",請求先住所の変更
-"You have no default billing address in your address book.",標準の請求先が住所録にありません。
-"Change Shipping Address",配送先住所の変更
-"You have no default shipping address in your address book.",標準の配送先が住所録にありません。
+"Default Addresses",既定の住所
+"Change Billing Address",請求先の変更
+"You have no default billing address in your address book.",既定の請求先がアドレス帳にありません。
+"Change Shipping Address",配送先の変更
+"You have no default shipping address in your address book.",既定の配送先がアドレス帳にありません。
 "Additional Address Entries",その他の住所
 "You have no additional address entries in your address book.",その他の住所データがありません。
-"Use as my default billing address",標準の請求先住所にする
-"Use as my default shipping address",標準の配送先住所にする
+"Use as my default billing address",既定の請求先にする
+"Use as my default shipping address",既定の配送先にする
 "Save Address",保存
 "Go back","戻る"
 "Please enter your email below and we will send you the confirmation link for it.",メールアドレスを入力してください。メールアドレス確認用のリンクをお送りいたします。
@@ -3174,7 +3174,7 @@ Register,新規登録
 "Share Customer Accounts",顧客アカウントを共有
 "Create New Account Options",新規アカウント作成オプション
 "Enable Automatic Assignment to Customer Group",自動グループ割当を有効にする
-"Default Group",標準のグループ
+"Default Group",既定のグループ
 "Group for Valid VAT ID - Domestic","正規VAT番号グループ - 国内"
 "Group for Valid VAT ID - Intra-Union","正規VAT番号グループ - 国際"
 "Group for Invalid VAT ID",不正なVAT番号です
@@ -3182,12 +3182,12 @@ Register,新規登録
 "Validate on Each Transaction",各トランザクションごとに検証する
 "Default Value for Disable Automatic Group Changes Based on VAT ID","VAT IDに基づくグループ自動割り当てを無効にする"
 "Show VAT Number on Frontend",フロントエンドでVAT番号を表示
-"Default Email Domain",標準のメールアドレスドメイン
-"Default Welcome Email",標準のウェルカムメール
+"Default Email Domain",既定のメールアドレスドメイン
+"Default Welcome Email",既定のウェルカムメール
 "Require Emails Confirmation",メールによる確認を行う
 "Confirmation Link Email",確認リンクEメール
 "Welcome Email",ウェルカムメール
-"This email will be sent instead of default welcome email, after account confirmation.",このメールは標準のウェルカムメールの代わりにアカウント確認後に送信されます。
+"This email will be sent instead of default welcome email, after account confirmation.",このメールは既定のウェルカムメールの代わりにアカウント確認後に送信されます。
 "Generate Human-Friendly Customer ID",人間にわかりやすい顧客IDを生成する
 "Password Options",パスワードオプション
 "Forgot Email Template",リマインダーテンプレート
@@ -3250,31 +3250,31 @@ Addresses,住所
 "Review Order - %1","注文確認 - %1"
 "Total for this address",このアドレスへの合計
 "Shipping Methods",配送方法
-"Edit Billing Address",請求先住所を編集
+"Edit Billing Address",請求先を編集
 "Edit Shipping Address",配送先を編集
-"Create Billing Address",請求先住所を設定
-"Create Shipping Address",配送先住所を設定
+"Create Billing Address",請求先を設定
+"Create Shipping Address",配送先を設定
 "Data saving problem",データ保存問題
 "We cannot open the overview page.",概要ページを開けません
 "Please agree to all Terms and Conditions before placing the order.",ご注文前にご一読ください。
 "Order place error",注文エラー
 "Maximum qty allowed for Shipping to multiple addresses is %1","複数住所に配送できる最大数量は %1"
 "Please check shipping address information.",お届先住所を確認してください。
-"Please check billing address information.",ご請求先住所を確認してください。
+"Please check billing address information.",ご請求先を確認してください。
 "Please select shipping methods for all addresses.",すべての住所のための配送方法を選択してください
 "Payment method is not defined",支払方法が選択されていません
 "The requested Payment Method is not available for multishipping.",選択された支払方法では複数の配送方法は利用できません。
 "Item not found or already ordered",商品が見つからないか、ご注文済みです
 "Please specify a payment method.",支払方法を指定してください
-"Please check shipping addresses information.",配送先住所を確認してください。
+"Please check shipping addresses information.",配送先を確認してください。
 "Please specify shipping methods for all addresses.",すべての配送先に配送方法を指定してください。
 "Select Addresses",住所選択
 "Order Success",注文完了
-"Default Billing",標準の請求先
-"Default Shipping",標準の配送方法
+"Default Billing",既定の請求先
+"Default Shipping",既定の配送方法
 "Select Address",住所選択
 "Back to Billing Information",請求先情報に戻る
-"Please select a shipping address for applicable items.",商品の配送先住所を選択してください
+"Please select a shipping address for applicable items.",商品の配送先を選択してください
 "Send To",配送先
 "Shipping selection is not applicable.",送料の選択が正しくありません。
 "Continue to Shipping Information",配送先情報へ
@@ -3516,7 +3516,7 @@ Warning,警告
 Size(bytes),サイズ(bytes)
 Rollback,ロールバック
 "Billing address is not set",請求書送付先住所が設定されていません
-"Shipping address is not set",商品配送先住所が設定されていません
+"Shipping address is not set",商品配送先が設定されていません
 "Unable to save address. Please, check input data.",住所が保存できません。入力データを確認してください。
 "Cart %1 doesn't contain products","カート %1 は商品を含んでいません"
 "Could not apply coupon code",クーポンコードは適用できません
@@ -3549,12 +3549,12 @@ Rollback,ロールバック
 "Cannot assign customer to the given cart. The cart is not anonymous.",与えられたカートに顧客をアサインできません。カートは匿名ではありません。
 "Cannot assign customer to the given cart. Customer already has active cart.",与えられたカートに顧客をアサインできません。顧客は既にアクティブなカートを持っています
 "This item price or quantity is not valid for checkout.",商品の価格か数量がチェックアウトには有効ではありません
-"Please check the shipping address information. %1","配送先住所情報を確認してください %1"
+"Please check the shipping address information. %1","配送先情報を確認してください %1"
 "Please check the billing address information. %1","支払住所情報を確認してください %1"
 "Please select a valid payment method.",正しい支払方法を選択してください。
 "Store Credit",店舗クレジット
-"Cart contains virtual product(s) only. Shipping address is not applicable.",カートには仮想商品しかありません。配送先住所は適用できません。
-"Shipping address not set.",配送先住所が設定されていません。
+"Cart contains virtual product(s) only. Shipping address is not applicable.",カートには仮想商品しかありません。配送先は適用できません。
+"Shipping address not set.",配送先が設定されていません。
 "Shipping method is not applicable for empty cart",空のカートに配送方法は適用できません
 "Cart contains virtual product(s) only. Shipping method is not applicable.",カートには仮想商品しかありません。配送方法は適用できません。
 "Carrier with such method not found: %1, %2","その手法のキャリアが見つかりません: %1, %2"
@@ -3622,8 +3622,8 @@ error345,エラー345
 "Minimum Advertised Price",希望小売価格
 "Enable MAP",MAPを有効にする
 "Display Actual Price",実際の価格を表示
-"Default Popup Text Message",標準のポップアップメッセージ
-"Default ""What's This"" Text Message","標準の ""これは何ですか"" メッセージ"
+"Default Popup Text Message",既定のポップアップメッセージ
+"Default ""What's This"" Text Message","既定の ""これは何ですか"" メッセージ"
 "What is this?",お困りごとはありますか？
 "--Please Select--",--選択してください--
 "We cannot retrieve the payment method model object.",支払方法モデルオブジェクトを引き出すことができません
@@ -3833,7 +3833,7 @@ GLOBAL,グローバル
 "Invalid transactional email code: %1","不正なトランザクション用Emailコード: %1"
 "Requested invalid store ""%1""","不正なストア ""%1""が注文されました　"
 "Invalid sender data",不正な送信者データ
-"Load default template",標準のテンプレートを読み込む
+"Load default template",既定のテンプレートを読み込む
 "Are you sure that you want to strip tags?",タグを除去しても構いませんか？
 "Are you sure that you want to delete this template?",このテンプレートを削除してもよろしいですか？
 "Failed to load template. See error log for details.",",テンプレートのロードに失敗しました。詳細はエラーログを御覧ください。"
@@ -4078,8 +4078,8 @@ Unassign,未割り当て
 "We couldn't find this wish list.",このほしい物リストは見つかりませんでした
 "We could not add a product to cart by the ID ""%1"".","ID ""%1"" の商品をカートに追加することができませんでした"
 "There is an error in one of the option rows.",オプション行にエラーがあります。
-"Shipping Address: ",配送先住所:
-"Billing Address: ",配送先住所:
+"Shipping Address: ",配送先:
+"Billing Address: ",配送先:
 "You need to specify order items.",注文する商品を指定してください。
 "You need to specify a shipping method.",配送方法を指定しなければなりません
 "A payment method must be specified.",支払方法が指定しなければなりません
@@ -4207,7 +4207,7 @@ Notified,通知済
 "Order Currency:",注文通貨:
 "Same As Billing Address",請求先と同じ
 "Select from existing customer addresses:",登録済の顧客と住所から選択:
-"You don't need to select a shipping address.",配送先住所を選択する必要はありません
+"You don't need to select a shipping address.",配送先を選択する必要はありません
 "Gift Message for the Entire Order",この注文のギフトメッセージ
 "Row Subtotal",列小計
 "No ordered items",オーダーされていない商品
@@ -4391,7 +4391,7 @@ Shipment,配送
 "Display Order ID in Header",ヘッダにオーダーIDを表示
 "Customer Order Status Notification",顧客注文状態通知
 "Asynchronous indexing",非同期インデックシング
-"Default Template",標準のテンプレート
+"Default Template",既定のテンプレート
 "PDF Credit Memos",PDFクレジットメモ
 "PDF Invoices",PDF請求書
 "Invoice Date",請求日
@@ -4606,7 +4606,7 @@ Yes/No,Yes/No
 "Invalid EAV attribute",不正なEAV属性です
 "Attribute with the same code",同じコードの属性
 "The storefront label is not defined.",ストアフロントラベルが未定義です
-"Default option value is not defined",標準のオプション値が未定義です
+"Default option value is not defined",既定のオプション値が未定義です
 "Form Element with the same attribute",フォームの要素に同じ属性があります
 "Form Fieldset with the same code",フォームのフィールドセットに同じコードがあります
 "Form Type with the same code",フォームタイプと同じコードです
@@ -4708,7 +4708,7 @@ Ground,陸送
 "Intl Priority Freight",国際速達航空便
 "Priority Overnight",翌日午前配達
 "Smart Post",スマートポスト
-"Standard Overnight",標準の翌日配達
+"Standard Overnight",既定の翌日配達
 Freight,配送
 "National Freight",国際配送
 "Regular Pickup",標準収集サービス
@@ -4870,10 +4870,10 @@ Rebuild,再構築
 "New Store View",新しいストアビュー
 "Store Information",ストア情報
 "Root Category",ルートカテゴリ
-"Default Store View",標準のストアビュー
+"Default Store View",既定のストアビュー
 "Store View Information",ストアビュー情報
 "Web Site Information",ウェブサイト情報
-"Default Store",標準の店舗
+"Default Store",既定の店舗
 "Set as Default",標準にする
 "Create Website",ウェブサイトを作成
 "Create Store",店舗を作成
@@ -5097,9 +5097,9 @@ Auto-redirect to Base URL""",ベースURLに自動リダイレクトする
 "Use Secure URLs in Frontend",フロントエンドでセキュアURLを使う
 "Use Secure URLs in Admin",セキュアURLを管理者ページで使用する
 "Offloader header",オフローダーヘッダー
-"Default Pages",標準のページ
+"Default Pages",既定のページ
 "Default Web URL",標準ウェブURL
-"Default No-route URL",標準の404ページURL
+"Default No-route URL",既定の404ページURL
 "Session Validation Settings",セッション設定確認
 "Validate REMOTE_ADDR","REMOTE_ADDR を検証する"
 "Validate HTTP_VIA","HTTP_VIA を検証する"
@@ -5125,7 +5125,7 @@ items,商品
 "Layered Navigation",絞込検索
 "Display Product Count",商品点数を表示
 "Price Navigation Step Calculation",価格ナビゲーション計算区切り
-"Default Price Navigation Step",標準の価格ナビゲーション区切り
+"Default Price Navigation Step",既定の価格ナビゲーション区切り
 "Maximum Number of Price Intervals",価格ステップの最大数
 "Maximum number of price intervals is 100",価格ステップの最大数は100です
 "Display Price Interval as One Price",価格範囲を1つの価格で表示する
@@ -6028,7 +6028,7 @@ Manually,手動
 "We adjusted product quantities to fit the required increments.","要求された数量増に合わせるために商品数量を調節しました。"
 "Unable to save shipping information. Please, check input data.","配送情報を保存できませんでした。入力した情報を確認してください。"
 "Totals calculation is not applicable to empty cart","空のカートにて合計計算は行えません"
-"There are more than one shipping addresses.","1つ以上の配送先住所があります。"
+"There are more than one shipping addresses.","1つ以上の配送先があります。"
 "Sorry, guest checkout is not available.","申し訳ありません、ゲスト購入は有効ではありません。"
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","アカウントを確認してください。Eメールにて確認リンクを確認するか<a href=""%1"">こちら</a> を新しいリンクのためにクリックしてください。"
 "Wrong minimum amount.","誤った最小数"
@@ -6128,12 +6128,12 @@ Purchased,購入済み
 "This confirmation key is invalid or has expired.","確認キーが無効か期限切れです。"
 "There was an error confirming the account","アカウントを確認エラーが発生しました。"
 "If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your shipping address for proper VAT calculation.","あなたが登録済みVAT顧客の場合は、 <a href=""%1"">こちら</a>をクリックして正しいVAT計算のために送り先住所を入力してください。"
-"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your billing address for proper VAT calculation.","あ     なたが登録済みVAT顧客の場合は,<a href=""%1"">こちら</a>をクリックして正しいVAT計算のために請求先住所を入力してください。"
+"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your billing address for proper VAT calculation.","あ     なたが登録済みVAT顧客の場合は,<a href=""%1"">こちら</a>をクリックして正しいVAT計算のために請求先を入力してください。"
 "Please check your email for confirmation key.","確認キーのためにEメールをチェックしてください。"
 "We can't save the customer.","顧客を保存できません。"
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your shipping address for proper VAT calculation.","あ
      なたが登録済みVAT顧客の場合は、 <a href=""%1"">こちらをクリック</a>して正しいVAT計算のために送り先住所を入力してください。"
-"If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","あ          なたが登録済みVAT顧客の場合は,<a href=""%1"">こちらをクリック</a>して正しいVAT計算のために請求先住所を入力してください。"
+"If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","あ          なたが登録済みVAT顧客の場合は,<a href=""%1"">こちらをクリック</a>して正しいVAT計算のために請求先を入力してください。"
 "You saved the account information.","アカウント情報を保存しました。"
 "Please enter new password.","新規パスワードを入力してください。"
 "Confirm your new password.","新規パスワードを確認してください。"
@@ -6180,7 +6180,7 @@ Purchased,購入済み
 "Not Specified","未指定"
 "Thank you for registering with","登録ありがとうございます"
 "enter your billing address for proper VAT calculation","正しいVAT計算のために請求住所を入力してください"
-"enter your shipping address for proper VAT calculation","正しいVAT計算のために配送先住所を入力してください"
+"enter your shipping address for proper VAT calculation","正しいVAT計算のために配送先を入力してください"
 NoSuchEntityException,NoSuchEntityException
 InputException,InputException
 "Exception message","例外メッセージ"
@@ -7135,7 +7135,7 @@ Vendor,ベンダー
 "Also affects mini-shopping cart.","ミニショッピングカートにも影響します。"
 "Transfer Cart Line Items","トランスファーカートラインアイテム"
 "Transfer Shipping Options","トランスファー配送オプション"
-"If this option is enabled, customer can change shipping address and shipping method on PayPal website. In live mode works via HTTPS protocol only.","このオプションが有効化されると、顧客はPayPalのウェブサイトにて配送先住所と配送方法を変更できます。実環境ではHTTPSプロトコルを通してのみ可能です。"
+"If this option is enabled, customer can change shipping address and shipping method on PayPal website. In live mode works via HTTPS protocol only.","このオプションが有効化されると、顧客はPayPalのウェブサイトにて配送先と配送方法を変更できます。実環境ではHTTPSプロトコルを通してのみ可能です。"
 "Notice that PayPal can handle up to 10 shipping options. That is why Magento will transfer only first 10 cheapest shipping options if there are more than 10 available.","PayPalは10までの配送オプションを取り扱うことができます。そのためMagentoはもし10以上の配送オプションがある場合に最初の最も安い10個のオプションをトランスファーします。"
 "Shortcut Buttons Flavor","ショートカットボタン風"
 "Enable PayPal Guest Checkout","PayPalゲスト購入を有効化"
@@ -7334,7 +7334,7 @@ Environment,環境
 "Country Specific Credit Card Types","国別特定クレジットカードタイプ"
 "PayPal through Braintree","Braintree経由のPayPal決済"
 "Override Merchant Name","マーチャント名を上書き"
-"Allow to Edit Shipping Address Entered During Checkout on PayPal Side","チェックアウト中にPayPal側で入力された配送先住所を編集することを許可する"
+"Allow to Edit Shipping Address Entered During Checkout on PayPal Side","チェックアウト中にPayPal側で入力された配送先を編集することを許可する"
 "3D Secure Verification Settings","3Dセキュア認証設定"
 "3D Secure Verification","3Dセキュア認証"
 "Edit My Credit Cards","クレジットカード編集"
@@ -7754,7 +7754,7 @@ Elements,構成
 "Swatch Image","商品見本画像"
 "Changing can take some time due to processing whole catalog.","変更すると、全てのカタログ処理時間が増す場合があります"
 "Improves dashboard performance but provides non-realtime data.","ダッシュボードのパフォーマンスは向上しますが、データがリアルタイムではなくなります。"
-"Warning! Enabling MAP by default will hide all product prices on Storefront.","警告! MAPを適用すると標準の価格がフロントエンドから隠れてしまいます。"
+"Warning! Enabling MAP by default will hide all product prices on Storefront.","警告! MAPを適用すると既定の価格がフロントエンドから隠れてしまいます。"
 "Taxable Goods","課税品"
 "Retail Customer","小売客"
 "Accept credit/debit cards and PayPal in your Magento store. No setup or monthly fees and your customers never leave your store to complete the purchase.","あなたのMagentoストアで、クレジット/デビットカードとPayPal決済を受け入れましょう。セットアップや月額費用必要なしで、顧客は購入完了のために他のサイトへ行く必要がありません。"
@@ -7766,10 +7766,10 @@ Elements,構成
 "Stop on Error","エラーでストップする"
 "Skip error entries ","エラー箇所をスキップする"
 "Privacy and Cookie Policy","プライバシーポリシー"
-"My billing and shipping address are the same","請求先住所と配送先住所は同じです"
+"My billing and shipping address are the same","請求先と配送先は同じです"
 "Try Demo Customer Access","デモ用"
-"It's a default billing address.","標準の請求先"
-"It's a default shipping address.","標準の配送先"
+"It's a default billing address.","既定の請求先"
+"It's a default shipping address.","既定の配送先"
 "Design Configuration","デザイン設定"
 "Theme Name","テーマ名"
 "Change Email","メールアドレスを変更する"
@@ -7812,7 +7812,7 @@ Elements,構成
 "Provided Zip/Postal Code seems to be invalid.","ご入力された郵便番号は正しくないようです。"
 " Example: "," 正しい郵便番号の例: "
 "If you believe it is the right one you can ignore this notice.","ご入力された内容が正しい場合は、このメッセージを無視してください。"
-"Sorry, no quotes are available for this order at this time","始めに配送先住所を入力してください。"
+"Sorry, no quotes are available for this order at this time","始めに配送先を入力してください。"
 "Invalid UI Component element name: '%1'","不正なUI Component要素名: '%1'"
 "Your current session has been expired.","セッションが期限切れになりました。"
 "Depends on design theme.","デザインテーマに依存"
@@ -7847,7 +7847,7 @@ Elements,構成
 "Display Mode","表示モード"
 "Anchor","アンカーカテゴリ"
 "Available Product Listing Sort By","利用可能なソート方法"
-"Default Product Listing Sort By","標準のソート方法"
+"Default Product Listing Sort By","既定のソート方法"
 "Layered Navigation Price Step","絞込検索での価格区切り"
 "Apply Design to Products","商品ページにも適用する"
 "Use All","全て使用"
